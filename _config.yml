@@ -1,0 +1,31 @@
+# Dependencies
+markdown:         redcarpet
+highlighter:      pygments
+
+# Permalinks
+permalink:        pretty
+relative_permalinks: true
+
+image_path:       https://dl.dropboxusercontent.com/u/16238897/avyfain.io/
+
+# Setup
+title:            'Blog AF'
+initials:         'AF'
+name:             'Avy Faingezicht'
+description:      'Where I try to talk about startups and economics, plus random thoughts. Arguments generally supported by data.'
+url:              http://www.faingezicht.com
+baseurl:          /
+
+author:
+  name:           'Avy Faingezicht'
+  url:            https://twitter.com/avyfain
+
+social:
+  twitter:        https://twitter.com/avyfain
+  github:         https://github.com/avyfain
+  linkedin:       https://www.linkedin.com/in/avyfaingezicht
+  flickr:         https://www.flickr.com/avyfain
+
+paginate:         5
+
+version:          1.0
