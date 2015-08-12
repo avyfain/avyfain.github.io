@@ -12,7 +12,7 @@ title: Projects
       </a>
     </h2>
 
-    <span class="post-date">{{ post.date | date_to_string }}</span>
+    <span class="post-date">{{ post.date | date: "%B %-d, %Y" }}</span>
     {% if post.main_image %}
       <img src="{{ site.image_path}}{{ post.main_image }}" alt="{{post.title}}"/>
     {% endif %}
