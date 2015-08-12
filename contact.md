@@ -3,10 +3,7 @@ layout: page
 title: Contact
 ---
 
-Shoot me an email at avy@this-domain.com, I will try to answer within a day.
-
-Check out my outdated resume [here](https://dl.dropboxusercontent.com/u/16238897/Avy%20Faingezicht.pdf).
-
+Shoot me an email at avy@this-domain.com, and I will try to answer within a day.
 
 Alternatively, you can reach out through social media:
 
