@@ -6,7 +6,7 @@ title: About
 
 ## Hi, I'm Avy!
 
-<img src="{{ site.url }}/images/avy.png" alt="avy" width="150px" height="150px">
+<img src="{{ site.image_path }}avy.png" alt="avy" width="150px" height="150px">
 
 A recent graduate from Northwestern University, with a degree in Integrated Engineering and Economics. I work as a software engineer at [Apple](http://www.apple.com). I've previously worked with [Opternative](http://www.opternative.com), [Enova Financial](http://www.enova.com), [Juntos Global](http://www.juntosglobal.com) and the [Kellogg Research Computing Lab](http://www.kellogg.northwestern.edu/researchcomputing).
 
