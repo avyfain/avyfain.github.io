@@ -69,6 +69,11 @@ html {
     width: 18rem;
     text-align: left;
   }
+
+  .sidebar-nav-item {
+    display: block;
+    line-height: 1.75;
+  }
 }
 
 /* Sidebar links */
@@ -90,8 +95,9 @@ html {
   margin-bottom: 1rem;
 }
 .sidebar-nav-item {
-  display: block;
-  line-height: 1.75;
+  line-height: 2.5;
+  padding-left: 7px;
+  padding-right: 7px;
 }
 a.sidebar-nav-item:hover,
 a.sidebar-nav-item:focus {
