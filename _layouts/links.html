@@ -7,6 +7,9 @@ layout: default
   {% if page.main_image %}
     <img src="{{ site.image_path}}{{ page.main_image }}" alt="{{page.title}}"/>
   {% endif %}
+
+  {{ content }}
+
   {% for article in page.articles %}
     <ul>
       <li>
@@ -16,7 +19,4 @@ layout: default
       </li>
     </ul>
   {% endfor %}
-
-  {{ content }}
-
 </div>
