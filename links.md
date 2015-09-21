@@ -10,15 +10,28 @@ title: Links
         {{ post.title }}
       </a>
     </h2>
-    {% for article in post.articles %}
     <ul>
-      <li>
-        <a href="{{ article.url }}">
-          {{ article.title }}
-        </a>
-      </li>
-    </ul>
-  {% endfor %}
+      {% for article in post.articles %}
+        <li>
+          <a href="{{ article.url }}">
+            {{ article.title }}
+          </a></br>
+        {% if article.author or article.source %}
+        <small>
+          {% if article.author %}
+            {{article.author}}
+          {% endif %}
+          {% if article.author and article.source %}
+          -
+          {% endif %}
+          {% if article.source %}
+            {{article.source}}
+          {% endif %}
+        </small>
+        {% endif %}
+        </li>
+    {% endfor %}
+  </ul>
 </div>
 
 {% endfor %}

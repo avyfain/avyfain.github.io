@@ -21,15 +21,28 @@ title: Home
     {{ post.content }}
 
     {% if post.articles %}
-      {% for article in post.articles %}
-        <ul>
+      <ul> 
+        {% for article in post.articles %}
           <li>
             <a href="{{ article.url }}">
               {{ article.title }}
-            </a>
+            </a></br>
+            {% if article.author or article.source %}
+            <small>
+              {% if article.author %}
+                {{article.author}}
+              {% endif %}
+              {% if article.author and article.source %}
+              -
+              {% endif %}
+              {% if article.source %}
+                {{article.source}}
+              {% endif %}
+            </small>
+            {% endif %}
           </li>
-        </ul>
-      {% endfor %}
+        {% endfor %}
+      </ul>
     {% else %}
       <span class="post-date">{{ post.date | date: "%B %-d, %Y" }}</span>    
       {% if post.main_image %}

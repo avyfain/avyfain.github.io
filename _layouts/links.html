@@ -10,13 +10,27 @@ layout: default
 
   {{ content }}
 
+  <ul>
   {% for article in page.articles %}
-    <ul>
       <li>
         <a href="{{ article.url }}">
           {{ article.title }}
         </a>
+        </br>
+        {% if article.author or article.source %}
+        <small>
+          {% if article.author %}
+            {{article.author}}
+          {% endif %}
+          {% if article.author and article.source %}
+          -
+          {% endif %}
+          {% if article.source %}
+            {{article.source}}
+          {% endif %}
+        </small>
+        {% endif %}
       </li>
-    </ul>
   {% endfor %}
+  </ul>
 </div>
