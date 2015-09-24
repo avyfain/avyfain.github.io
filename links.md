@@ -10,6 +10,7 @@ title: Links
         {{ post.title }}
       </a>
     </h2>
+    {{ post.content }}
     <ul>
       {% for article in post.articles %}
         <li>

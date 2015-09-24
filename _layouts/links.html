@@ -3,13 +3,11 @@ layout: default
 ---
 
 <div class="post">
-  <h1 class="post-title">Links for {{ page.date | date: "%B %-d, %Y" }}</h1>
+  <h1 class="post-title">Links - {{ page.date | date: "%B %-d, %Y" }}</h1>
   {% if page.main_image %}
     <img src="{{ site.image_path}}{{ page.main_image }}" alt="{{page.title}}"/>
   {% endif %}
-
   {{ content }}
-
   <ul>
   {% for article in page.articles %}
       <li>
