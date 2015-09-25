@@ -24,13 +24,13 @@ title: Home
       <ul> 
         {% for article in post.articles %}
           <li>
-            <a href="{{ article.url }}">
+            <a href='{{ article.url }}' onclick="trackOutboundLink('{{ article.url }}'); return false;">
               {{ article.title }}
             </a></br>
             {% if article.author or article.source %}
             <small>
               {% if article.author %}
-                {{article.author}}
+                {{article.author}}  
               {% endif %}
               {% if article.author and article.source %}
               -

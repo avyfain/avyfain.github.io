@@ -8,3 +8,34 @@
   ga('send', 'pageview');
 
 </script>
+<script>
+/**
+* Function that tracks a click on an outbound link in Google Analytics.
+* This function takes a valid URL string as an argument, and uses that URL string
+* as the event label.
+*/
+// ORIGINAL GOOGLE CODE
+// var trackOutboundLink = function(url) {
+//    ga('send', 'event', 'outbound', 'click', url, {'hitCallback':
+//      function () {
+//      document.location = url;
+//      }
+//    });
+// }
+
+// VERSION THAT DOESN'T BREAK WITH GHOSTERY
+// From http://veithen.github.io/2015/01/24/outbound-link-tracking.html
+var trackOutboundLink = function(url) {
+  if (ga.q) {
+    // Google Analytics is blocked
+    document.location = url;
+  } else {
+    ga("send", "event", "outbound", "click", url, {"hitCallback":
+      function () {
+        document.location = url;
+      }
+    });
+  }
+}
+
+</script>
