@@ -30,7 +30,8 @@ var trackOutboundLink = function(url) {
     // Google Analytics is blocked
     document.location = url;
   } else {
-    ga("send", "event", "outbound", "click", url, {"hitCallback":
+    // Third argument is the event label, fifth is url to hit
+    ga("send", "event", url, "click", url, {"hitCallback":
       function () {
         document.location = url;
       }
