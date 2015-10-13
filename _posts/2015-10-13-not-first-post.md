@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: Not my first post
 category: articles
 ---
