@@ -17,8 +17,24 @@ title: Home
         {{ post.title }}
       </a>
     </h2>
+    {% unless post.articles %}
+      <span class="post-date">{{ post.date | date: "%B %-d, %Y" }}</span>    
+    {% endunless %}
 
-    {{ post.content }}
+    {% if post.main_image %}
+      <img src="{{ site.image_path}}{{ post.main_image }}" alt="{{post.title}}"/>
+    {% endif %}
+
+    {% if post.description %}
+      <p>{{ post.description }}</p>
+      <p>
+        <a href="{{ post.url }}">
+          Read more...
+        </a>
+      </p>
+    {% else %}
+      {{ post.content }}
+    {% endif %}
 
     {% if post.articles %}
       <ul> 
@@ -43,15 +59,6 @@ title: Home
           </li>
         {% endfor %}
       </ul>
-    {% else %}
-      <span class="post-date">{{ post.date | date: "%B %-d, %Y" }}</span>    
-      {% if post.main_image %}
-        <img src="{{ site.image_path}}{{ post.main_image }}" alt="{{post.title}}"/>
-      {% endif %}
-      <p>{{ post.description }}</p>
-      <p><a href="{{ post.url }}">
-          Read more...
-        </a></p>
     {% endif %}
   </div>
   {% endfor %}
