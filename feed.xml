@@ -14,7 +14,32 @@ layout: null
     {% for post in site.posts limit:10 %}
       <item>
         <title>{{ post.title | xml_escape }}</title>
-        <description>{{ post.content | xml_escape }}</description>
+        <description>{{ post.content | xml_escape }}
+            {% if post.articles %}
+                <ul> 
+                {% for article in post.articles %}
+                  <li>
+                    <a href='{{ article.url }}' onclick="trackOutboundLink('{{ article.url }}'); return false;">
+                      {{ article.title | xml_escape }}
+                    </a></br>
+                    {% if article.author or article.source %}
+                    <small>
+                      {% if article.author %}
+                        {{article.author | xml_escape}}  
+                      {% endif %}
+                      {% if article.author and article.source %}
+                      -
+                      {% endif %}
+                      {% if article.source %}
+                        {{article.source | xml_escape}}
+                      {% endif %}
+                    </small>
+                    {% endif %}
+                  </li>
+                {% endfor %}
+                </ul>
+                {% endif %}
+        </description>
         <pubDate>{{ post.date | date_to_rfc822 }}</pubDate>
         <link>{{ post.url | prepend: site.baseurl | prepend: site.url }}</link>
         <guid isPermaLink="true">{{ post.url | prepend: site.baseurl | prepend: site.url }}</guid>
