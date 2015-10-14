@@ -19,9 +19,9 @@ layout: null
                 <ul> 
                 {% for article in post.articles %}
                   <li>
-                    <a href='{{ article.url }}' onclick="trackOutboundLink('{{ article.url }}'); return false;">
+                    <link href='{{ article.url }}' onclick="trackOutboundLink('{{ article.url }}'); return false;">
                       {{ article.title | xml_escape }}
-                    </a></br>
+                    </link>
                     {% if article.author or article.source %}
                     <small>
                       {% if article.author %}
