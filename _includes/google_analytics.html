@@ -28,18 +28,15 @@
 var trackOutboundLink = function(url) {
   if (ga.q) {
     // Google Analytics is blocked
-    document.location = url;
+    // document.location = url;
   } else {
     // Third argument is the event label, fifth is url to hit
     ga("send", "event", url, "click", url, {"hitCallback":
       function () {
-        document.location = url;
+        console.log('works!')
       }
     });
   }
 }
 
 </script>
-
-<!--Linked in hack-->
-<iframe src="https://www.linkedin.com/in/avyfaingezicht" height="1" width="1" frameBorder="0"></iframe>

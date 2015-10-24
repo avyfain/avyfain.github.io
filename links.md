@@ -14,7 +14,7 @@ title: Links
     <ul>
       {% for article in post.articles %}
         <li>
-          <a href='{{ article.url }}' onclick="trackOutboundLink('{{ article.url }}'); return false;">
+          <a href='{{ article.url }}' onclick="trackOutboundLink('{{ article.url }}'); return true;">
             {{ article.title }}
           </a></br>
         {% if article.author or article.source %}

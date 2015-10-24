@@ -11,7 +11,7 @@ layout: default
   <ul>
   {% for article in page.articles %}
       <li>
-        <a href='{{ article.url }}' onclick="trackOutboundLink('{{ article.url }}'); return false;">
+        <a href='{{ article.url }}' onclick="trackOutboundLink('{{ article.url }}'); return true;">
           {{ article.title }}
         </a>
         </br>
