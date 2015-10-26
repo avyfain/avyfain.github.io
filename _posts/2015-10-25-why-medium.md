@@ -29,4 +29,4 @@ Everyone else is asking, why publish this at all, and maybe more importantly, wh
 
 All I know is Ev Williams probably had a great day this past Monday.
 
-*This article was [cross-posted on Medium](https://medium.com/@avyfain/why-medium-829bf4e02827#.afugo1yjy)*
+*This article was [cross-posted on Medium](https://medium.com/@avyfain/why-medium-829bf4e02827)*
