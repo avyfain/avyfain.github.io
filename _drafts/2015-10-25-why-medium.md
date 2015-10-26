@@ -1,8 +1,10 @@
 ---
 title: "Why Medium?"
 main_image: medium.png
-description: This week, I was surprised to see a piece by an Amazon SVP on my feed.
 tags: medium, amazon, blogging
+description: This week, I was surprised to see a piece by an Amazon SVP on my feed. What The New York Times Didn’t Tell You showed up months after a "scathing, blistering, brutal and harsh" story about the company appeared on the front page of the New York Times mid August. Other than a leaked internal memo from Jeff Bezos, in which he disowned the Amazon portrayed in the story, there was no official response.
+
+Cue Jay Carney, and his post.
 layout: post
 category: articles
 ---
@@ -29,4 +31,4 @@ Everyone else is asking, why publish this at all, and maybe more importantly, wh
 
 All I know is Ev Williams probably had a great day this past Monday.
 
-*This article was [cross-posted on Medium](https://medium.com/@avyfain/why-medium-829bf4e02827#.afugo1yjy)*
+*This article was [cross-posted on Medium](/)*
