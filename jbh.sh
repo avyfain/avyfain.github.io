@@ -20,9 +20,9 @@ _draftPath="/_drafts/"
 function fnConvertTitleToFilenameFormat {
 	# lowercase, remove non alphanumerics and non spaces, convert spaces to dash
 	local _title=$(echo $1 | tr " _" "-")
-	_title=$(echo -e $_title | tr '[:upper:]' '[:lower:]')
-	_title=$(echo -e $_title | tr -cd '[[:alnum:]]._-')
-	echo -e "$_title"
+	_title=$(echo $_title | tr '[:upper:]' '[:lower:]')
+	_title=$(echo $_title | tr -cd '[[:alnum:]]._-')
+	echo "$_title"
 }
 function fnGetFileName { 
 	local _title=$(fnConvertTitleToFilenameFormat "$1")
@@ -69,9 +69,9 @@ function fnPost {
 		mv .$_draftPath* .$_postPath
 	elif [[ "$_moveFile" != "" ]]; then
 		echo "Moving $1 to post..."
-		if [ -e ".$_draftPath$_moveFile" ]; then
+		if [ ".$_draftPath$_moveFile" ]; then
 			mv -f .$_draftPath$_moveFile .$_postPath$_moveFile
-			echo -e "Now at $_postPath$_moveFile"
+			echo "Now at $_postPath$_moveFile"
 		else
 			echo "ERROR: Unable to find draft '$_moveFile'"
 			exit 1
@@ -110,16 +110,16 @@ function fnNew {
 	if [[ "$_title" == "links" ]]; then
 		echo "layout: links" >> ".$_outputFile"
 		echo "category: links" >> ".$_outputFile"
-		echo -e "articles:" >> ".$_outputFile"
+		echo "articles:" >> ".$_outputFile"
 		local _num_links="$2"
 		if [[ "$_num_links" != "" ]]; then
 			while [ $_num_links -lt 10 ]
 			do
-			   echo -e " - title:\n   author:\n   source:\n   url:" >> ".$_outputFile"
+			   echo " - title:\n   author:\n   source:\n   url:" >> ".$_outputFile"
 			   _num_links=`expr $_num_links + 1`
 			done
 		else 
-			echo -e " - title:\n   author:\n   source:\n   url:" >> ".$_outputFile"
+			echo " - title:\n   author:\n   source:\n   url:" >> ".$_outputFile"
 		fi
 	fi
 
@@ -135,7 +135,7 @@ function fnNew {
 	esac
 
 	echo "---" >> ".$_outputFile"
-	# echo -e "\n\n$_excerptSeparator\n" >> ".$_outputFile"
+	# echo "\n\n$_excerptSeparator\n" >> ".$_outputFile"
 }
 
 
