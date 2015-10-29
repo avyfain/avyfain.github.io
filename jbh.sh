@@ -46,7 +46,6 @@ function fnHelpInfo {
 	echo "Options:"
 	echo ""
 	echo "  -n, --new      creates a new post or draft"
-	echo "  -p, --post     moves a file from _drafts/ to _posts/"
 	echo "  -v, --version  displays version of the script"
 	echo ""
 	echo "Examples:"
@@ -62,33 +61,12 @@ function fnHelpInfo {
 	echo ""
 }
 
-# Move Posts
-function fnPost {
-	local _moveFile="$1"
-	if [[ "$_moveFile" == "." ]]; then
-		mv .$_draftPath* .$_postPath
-	elif [[ "$_moveFile" != "" ]]; then
-		echo "Moving $1 to post..."
-		if [ ".$_draftPath$_moveFile" ]; then
-			mv -f .$_draftPath$_moveFile .$_postPath$_moveFile
-			echo "Now at $_postPath$_moveFile"
-		else
-			echo "ERROR: Unable to find draft '$_moveFile'"
-			exit 1
-		fi
-	else
-		echo "  Error: No file specified to move"
-		echo ""
-		exit 1
-	fi
-}
-
 # New Post
 function fnNew {
 	echo "Creating new post..."
 	local _title="$1"
 	local _kind="$2"
-	local _path="$_draftPath"
+	local _path="$_postPath"
 
 	local _fileName=$(fnGetFileName "$_title")
 	local _outputFile="$_path$_fileName"
@@ -126,11 +104,11 @@ function fnNew {
 	case "$_kind" in
 		"") 
 			echo "layout: post" >> ".$_outputFile"
-			echo "category: articles" >> ".$_outputFile"
+			echo "category: drafts" >> ".$_outputFile"
 	    ;;
 	    "--project") 
 			echo "layout: post" >> ".$_outputFile"
-			echo "category: projects	" >> ".$_outputFile"
+			echo "category: projects" >> ".$_outputFile"
 	    ;;
 	esac
 
@@ -146,12 +124,6 @@ case "$1" in
 		;;
 	--new)
 		fnNew "$2" "$3" "$4"
-		;;
-	-p)
-		fnPost "$2" "$3" "$4"
-		;;
-	--post)
-		fnPost "$2" "$3" "$4"
 		;;
 	-v)
 		fnVersion
