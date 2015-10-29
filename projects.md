@@ -16,10 +16,10 @@ title: Projects
     {% if post.main_image %}
       <img src="{{ site.image_path}}{{ post.main_image }}" alt="{{post.title}}"/>
     {% endif %}
-    <p>{{ post.description }}</p>
-    <p><a href="{{ post.url }}">
-        Read more...
-      </a></p>
+    <p>{{ post.description }} 
+    <a href="{{ post.url }}">
+      ...continue reading.
+    </a></p>
   </div>
 {% endfor %}
 </ul>

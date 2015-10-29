@@ -1,7 +1,7 @@
 ---
 title: "Why Medium?"
 main_image: medium.png
-description: This week, I was surprised to see a piece by an Amazon SVP on my feed.
+description: This week, I was surprised to see a piece by an Amazon SVP on my feed. What The New York Times Didn’t Tell You showed up months after
 tags: medium, amazon, blogging
 layout: post
 category: articles
