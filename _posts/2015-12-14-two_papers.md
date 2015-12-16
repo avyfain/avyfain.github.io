@@ -16,6 +16,6 @@ It is widely accepted that the release of this paper was a watershed moment in c
 
 After reading it, I have been playing with the idea of writing a simulation of the bitcoin network, stay tuned for that...
 
-The two documents could not have less in common, but I am certain that both will heavily impact the businesses and technology in years to come.
+The two documents could not have less in common, but I am certain that both will heavily impact business and technology for years to come.
 
 *Image: An afternoon at the Berlin Stock Exchange. H. Luders - Licensed under Public Domain via [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Die_Gartenlaube_(1875)_b_456.jpg)*
