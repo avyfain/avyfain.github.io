@@ -4,7 +4,6 @@ highlighter:      pygments
 
 # Permalinks
 permalink:        pretty
-relative_permalinks: true
 
 image_path:       https://dl.dropboxusercontent.com/u/16238897/avyfain.io/
 
