@@ -8,8 +8,8 @@ title: About
 
 <img src="{{ site.image_path }}avy.png" alt="avy" width="150px" height="150px">
 
-I'm a recent graduate from Northwestern University, with a degree in Integrated Engineering and Economics. I work as a software engineer at Apple, building data visualization and project management tools. I've previously worked with [Opternative](http://www.opternative.com), [Enova Financial](http://www.enova.com), [Juntos Global](http://www.juntosglobal.com) and the [Kellogg Research Computing Lab](http://www.kellogg.northwestern.edu/researchcomputing).
+I was born and raised in Costa Rica, but I've lived in the US for ~5 years. I recently graduated from Northwestern University with a degree in Integrated Engineering and Economics, and now I work as a software engineer at Apple, building data visualization and project management tools. I've previously worked with [Opternative](http://www.opternative.com), [Enova Financial](http://www.enova.com), [Juntos Global](http://www.juntosglobal.com) and the [Kellogg Research Computing Lab](http://www.kellogg.northwestern.edu/researchcomputing).
 
 Way too much of my free time is spent reading random stuff online. Sometimes, I actually read books, too. Lately, I've been reading about [San Francisco](http://www.amazon.com/Cool-Gray-City-Love-Francisco/dp/1608199606) and the relationship between [atoms and economies](http://www.amazon.com/Why-Information-Grows-Evolution-Economies/dp/0465048994).
 
-A couple of weeks ago I started a [resources](https://github.com/avyfain/resources) repo, and mid-February I started a [TIL](https://github.com/avyfain/til) repo. We'll see how these progress over time.
+A couple of weeks ago I started a [resources](https://github.com/avyfain/resources) repo, and mid-February I started a [TIL](https://github.com/avyfain/til) repo. Check them out!
