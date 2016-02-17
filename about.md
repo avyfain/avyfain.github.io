@@ -10,5 +10,6 @@ title: About
 
 I'm a recent graduate from Northwestern University, with a degree in Integrated Engineering and Economics. I work as a software engineer at Apple, building data visualization and project management tools. I've previously worked with [Opternative](http://www.opternative.com), [Enova Financial](http://www.enova.com), [Juntos Global](http://www.juntosglobal.com) and the [Kellogg Research Computing Lab](http://www.kellogg.northwestern.edu/researchcomputing).
 
-Way too much of my free time is spent reading random stuff online. Sometimes, I actually read books, too. Lately, I've been reading about the [natural history of economic life](http://www.amazon.com/The-Company-Strangers-Natural-Economic/dp/0691146462) and the inner workings of [human cognition](http://www.amazon.com/The-Society-Mind-Marvin-Minsky/dp/0671657135), and have not been able to put down this one [book about baboons](http://www.amazon.com/Primates-Memoir-Neuroscientists-Unconventional-Baboons/dp/0743202414).
+Way too much of my free time is spent reading random stuff online. Sometimes, I actually read books, too. Lately, I've been reading about [San Francisco](http://www.amazon.com/Cool-Gray-City-Love-Francisco/dp/1608199606) and the relationship between [atoms and economies](http://www.amazon.com/Why-Information-Grows-Evolution-Economies/dp/0465048994).
 
+A couple of weeks ago I started a [resources](https://github.com/avyfain/resources) repo, and mid-February I started a [TIL](https://github.com/avyfain/til) repo. We'll see how these progress over time.
