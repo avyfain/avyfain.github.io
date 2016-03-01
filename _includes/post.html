@@ -13,8 +13,10 @@
 
   {% if post.description %}
     {{ post.description }} <a href='{{ post.url }}'>Continue reading...</a>
-  {% else if post.articles %}
+  {% elsif post.articles %}
     {% include links.html page=post %}
+  {% elsif post.photos %}
+    {% include photo.html page=post %}
   {% else %}
     {{ content }}
   {% endif %}
