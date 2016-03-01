@@ -1,6 +1,6 @@
 # Dependencies
-markdown:         redcarpet
-highlighter:      pygments
+markdown:         kramdown
+highlighter:      rouge
 
 # Permalinks
 permalink:        pretty
@@ -24,6 +24,8 @@ social:
   github:         https://github.com/avyfain
   linkedin:       https://www.linkedin.com/in/avyfaingezicht
   flickr:         https://www.flickr.com/avyfain
+
+gems:             [jekyll-paginate]
 
 paginate:         5
 
