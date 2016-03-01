@@ -1,0 +1,21 @@
+{{% post = include.page %}}
+
+<div class="post">
+  <a href='{{ post.url }}'>
+    <h2 class="post-title">{{ post.title }}</h2>
+  </a>
+
+  <span class="post-date">{{ post.date | date: "%B %-d, %Y" }}</span>
+
+  {% if post.main_image %}
+    <img src="{{ site.image_path }}{{ post.main_image }}" alt="{{ post.title }}"/>
+  {% endif %}
+
+  {% if post.description %}
+    {{ post.description }} <a href='{{ post.url }}'>Continue reading...</a>
+  {% else if post.articles %}
+    {% include links.html page=post %}
+  {% else %}
+    {{ content }}
+  {% endif %}
+</div>
