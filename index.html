@@ -4,62 +4,8 @@ title: Home
 ---
 
 <div class="posts">
-  {% if paginator.page == 1 %}
-    <h1>
-      Latest Posts
-    </h1>
-  {% endif %}
-
   {% for post in paginator.posts %}
-  <div class="post">
-    <h2 class="post-title">
-      <a href="{{ post.url }}">
-        {{ post.title }}
-      </a>
-    </h2>
-    {% unless post.articles %}
-      <span class="post-date">{{ post.date | date: "%B %-d, %Y" }}</span>    
-    {% endunless %}
-
-    {% if post.main_image %}
-      <img src="{{ site.image_path}}{{ post.main_image }}" alt="{{post.title}}"/>
-    {% endif %}
-
-    {% if post.description %}
-      <p>{{ post.description }}
-        <a href="{{ post.url }}">
-          ...continue reading.
-        </a>
-      </p>
-    {% else %}
-      {{ post.content }}
-    {% endif %}
-
-    {% if post.articles %}
-      <ul> 
-        {% for article in post.articles %}
-          <li>
-            <a href='{{ article.url }}' onclick="trackOutboundLink('{{ article.url }}'); return true;">
-              {{ article.title }}
-            </a></br>
-            {% if article.author or article.source %}
-            <small>
-              {% if article.author %}
-                {{article.author}}  
-              {% endif %}
-              {% if article.author and article.source %}
-              -
-              {% endif %}
-              {% if article.source %}
-                {{article.source}}
-              {% endif %}
-            </small>
-            {% endif %}
-          </li>
-        {% endfor %}
-      </ul>
-    {% endif %}
-  </div>
+    {% include post.html page=post %}
   {% endfor %}
 </div>
 

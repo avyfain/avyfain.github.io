@@ -3,32 +3,14 @@ layout: default
 ---
 
 <div class="post">
-  <h1 class="post-title">Links - {{ page.date | date: "%B %-d, %Y" }}</h1>
+
+  <a href='{{ page.url }}'>
+    <h1 class="post-title">Links - {{ page.date | date: "%B %-d, %Y" }}</h1>
+  </a>
+
   {% if page.main_image %}
     <img src="{{ site.image_path}}{{ page.main_image }}" alt="{{page.title}}"/>
   {% endif %}
-  {{ content }}
-  <ul>
-  {% for article in page.articles %}
-      <li>
-        <a href='{{ article.url }}' onclick="trackOutboundLink('{{ article.url }}'); return true;">
-          {{ article.title }}
-        </a>
-        </br>
-        {% if article.author or article.source %}
-        <small>
-          {% if article.author %}
-            {{article.author}}
-          {% endif %}
-          {% if article.author and article.source %}
-          -
-          {% endif %}
-          {% if article.source %}
-            {{article.source}}
-          {% endif %}
-        </small>
-        {% endif %}
-      </li>
-  {% endfor %}
-  </ul>
+
+  {% include links.html page=page %}
 </div>

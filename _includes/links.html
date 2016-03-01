@@ -1,0 +1,24 @@
+{{ include.page.content }}
+<ul>
+{% for article in include.page.articles %}
+  <li>
+    <a href='{{ article.url }}' onclick="trackOutboundLink('{{ article.url }}'); return true;">
+      {{ article.title }}
+    </a>
+    {% if article.author or article.source %}
+    </br>
+    <small>
+      {% if article.author %}
+        {{article.author}}
+      {% endif %}
+      {% if article.author and article.source %}
+      -
+      {% endif %}
+      {% if article.source %}
+        {{article.source}}
+      {% endif %}
+    </small>
+    {% endif %}
+  </li>
+{% endfor %}
+</ul>
