@@ -10,7 +10,10 @@ layout: default
   <span class="post-date">{{ page.date | date: "%B %-d, %Y" }}</span>
 
   {% if page.main_image %}
-    <img src="{{ site.image_path }}{{ page.main_image }}" alt="{{ page.title }}"/>
+  <a href='{{ page.url }}'>
+    <img src="{{ site.image_path }}{{ page.main_image }}"
+         alt="{{ page.title }}"/>
+  </a>
   {% endif %}
 
   {{ page.content }}

@@ -2,6 +2,7 @@
 title: Outside Lands
 layout: photos
 category: photos
+main_image: outside_lands/previews/366.jpg
 photos:
   - url: outside_lands/125.jpg
     preview_url: outside_lands/previews/125.jpg
@@ -59,3 +60,5 @@ photos:
     preview_url: outside_lands/previews/373.jpg
     caption: And so ended Outside Lands.
 ---
+
+My second visit to the music festival. It did not disappoint.
