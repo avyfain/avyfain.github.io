@@ -19,6 +19,14 @@
       {% endif %}
     </small>
     {% endif %}
+
+    {% if article.note %}
+      </br>
+      <p>
+        {{ article.note }}
+      </p>
+    {% endif %}
+
   </li>
 {% endfor %}
 </ul>
