@@ -4,7 +4,9 @@
     {% for img in include.page.photos %}
         <div>
             <a href='{{ site.image_path }}{{ img.url }}' onclick="trackOutboundLink('{{ article.url }}'); return true;">
-              <img class='photo' src="{{ site.image_path }}{{ img.preview_url | default: img.url}}" alt="{{ img.title }}"/>
+              <img class="{{img.class | default: 'photo'}}"
+                   src="{{ site.image_path }}{{ img.preview_url | default: img.url}}"
+                   alt="{{ img.title }}"/>
             </a>
             {% if img.caption %}
             <small>{{img.caption}}</small>
@@ -14,6 +16,8 @@
     {% endfor %}
 {% else %}
     {% assign img = include.page.photos[0] %}
-    <img class='photo' src="{{ site.image_path }}{{ img.preview_url | default: img.url}}" alt="{{ include.page.photos.title }}"/>
+    <img class="{{img.class | default: 'photo'}}"
+         src="{{ site.image_path }}{{ img.preview_url | default: img.url}}"
+         alt="{{ include.page.photos.title }}"/>
     <a href='{{include.page.url}}'>More...</a>
 {% endif %}
