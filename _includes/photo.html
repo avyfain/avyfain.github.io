@@ -15,9 +15,5 @@
     </br>
     {% endfor %}
 {% else %}
-    {% assign img = include.page.photos[0] %}
-    <img class="{{img.class | default: 'photo'}}"
-         src="{{ site.image_path }}{{ img.preview_url | default: img.url}}"
-         alt="{{ include.page.photos.title }}"/>
     <a href='{{include.page.url}}'>More...</a>
 {% endif %}

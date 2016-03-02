@@ -7,9 +7,12 @@
 
   <span class="post-date">{{ post.date | date: "%B %-d, %Y" }}</span>
 
-  {% if post.main_image %}
-    <img src="{{ site.image_path }}{{ post.main_image }}" alt="{{ post.title }}"/>
-  {% endif %}
+    {% if post.main_image %}
+    <a href='{{ post.url }}'>
+      <img src="{{ site.image_path }}{{ post.main_image }}"
+           alt="{{ post.title }}">
+    </a>
+    {% endif %}
 
   {% if post.description %}
     {{ post.description }} <a href='{{ post.url }}'>Continue reading...</a>

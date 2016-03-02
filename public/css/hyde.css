@@ -96,8 +96,8 @@ html {
 }
 .sidebar-nav-item {
   line-height: 2.5;
-  padding-left: 7px;
-  padding-right: 7px;
+  padding-left: 6px;
+  padding-right: 6px;
 }
 a.sidebar-nav-item:hover,
 a.sidebar-nav-item:focus {
@@ -151,6 +151,18 @@ a.sidebar-nav-item:focus {
 }
 
 /* Custom stuff */
+@media (max-width: 48em) {
+  p.lead {
+    font-size: .9rem;
+    font-weight: 200;
+  }
+  .sidebar-about h1 {
+    font-size: 2rem;
+  }
+  p {
+    margin-bottom: 0rem;
+  }
+}
 
 .photo {
   max-width: 100%;

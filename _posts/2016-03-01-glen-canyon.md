@@ -2,6 +2,7 @@
 title: Glen Canyon
 layout: photos
 category: photos
+main_image: glen/previews/9.jpg
 photos:
   - caption: We walked uphill from my apartment. It was steep.
     url: glen/1.jpg

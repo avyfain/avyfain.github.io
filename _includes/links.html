@@ -7,7 +7,7 @@
     </a>
     {% if article.author or article.source %}
     </br>
-    <small>
+    <small><em>
       {% if article.author %}
         {{article.author}}
       {% endif %}
@@ -17,14 +17,10 @@
       {% if article.source %}
         {{article.source}}
       {% endif %}
-    </small>
+    </em></small></br>
     {% endif %}
-
     {% if article.note %}
-      </br>
-      <p>
-        {{ article.note }}
-      </p>
+        <div markdown="1">{{ article.note }}</div>
     {% endif %}
 
   </li>
