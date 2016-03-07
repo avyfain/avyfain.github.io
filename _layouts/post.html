@@ -5,7 +5,7 @@ layout: default
 <meta name="twitter:site" content="@avyfain">
 <meta name="twitter:creator" content="@avyfain">
 <meta name="twitter:title" content="{{ page.title }}">
-<meta name="twitter:description" content="{{ page.excerpt | default: page.description }}">
+<meta name="twitter:description" content="{{ page.excerpt | default: page.description | strip_html }}">
 <meta name="twitter:image" content="{{ page.url }}">
 
 <div class="post">
