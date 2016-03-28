@@ -8,6 +8,11 @@ layout: default
 <meta name="twitter:url" content="{{ page.url }}">
 <meta name="twitter:image" content="{{ site.image_path }}{{ page.main_image }}" />
 
+<meta property="og:url"   content='{{ page.url }}'/>
+<meta property="og:type"  content="article" />
+<meta property="og:title" content="Photography - {{ page.title }}">
+<meta property="og:image" content="{{ site.image_path}}{{ page.main_image }}" />
+
 <div class="post">
   <a href='{{ page.url }}'>
     <h1 class="post-title">{{ page.title }}</h1>
