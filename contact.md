@@ -3,7 +3,9 @@ layout: page
 title: Contact
 ---
 
-I like getting feedback. Shoot me an email at avy@faingezicht.com, and I will try to answer within a day.
+I like getting feedback. Shoot me an email at avy@faingezicht.com, and I will try to answer within a day. To receive my posts directly to your inbox, sign up below.
+
+{% include subscribe_form.html %}
 
 Alternatively, you can reach out through social media:
 
