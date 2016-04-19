@@ -4,7 +4,8 @@
 <meta name="twitter:title" content="{{ page.title }}">
 <meta name="twitter:description" content="Round up of links on startups and economics, plus random thoughts. Arguments generally supported by data."/>
 
-<meta property="og:url"         content='{{site.url}}{{ page.url }}'/>
+<meta property="og:url"         content="{{site.url}}{{ page.url | append: '@@@' | replace: '/@@@', '' }}"/>
 <meta property="og:type"        content="article" />
 <meta property="og:title"       content="{{ page.title }}">
 <meta property="og:description" content="Round up of links on startups and economics, plus random thoughts. Arguments generally supported by data."/>
+<meta property="fb:app_id" content="302981936527866" />
