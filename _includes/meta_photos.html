@@ -2,10 +2,11 @@
 <meta name="twitter:site" content="@avyfain">
 <meta name="twitter:creator" content="@avyfain">
 <meta name="twitter:title" content="Photography - {{ page.title }}">
-<meta name="twitter:url" content="{{site.url}}{{ page.url }}">
+<meta name="twitter:url" content="{{site.url}}{{ page.url | append: '@@@' | replace: '/@@@', '' }}">
 <meta name="twitter:image" content="{{ site.image_path }}{{ page.main_image }}" />
 
-<meta property="og:url"   content='{{site.url}}{{ page.url }}'/>
-<meta property="og:type"  content="article" />
-<meta property="og:title" content="Photography - {{ page.title }}">
-<meta property="og:image" content="{{ site.image_path}}{{ page.main_image }}" />
+<meta property="og:url"    content="{{site.url}}{{ page.url | append: '@@@' | replace: '/@@@', '' }}"/>
+<meta property="og:type"   content="article" />
+<meta property="og:title"  content="Photography - {{ page.title }}">
+<meta property="og:image"  content="{{ site.image_path}}{{ page.main_image }}" />
+<meta property="fb:app_id" content="302981936527866" />

@@ -3,4 +3,5 @@
 <meta name="twitter:creator" content="@avyfain">
 <meta name="twitter:title" content="{{ page.title }}">
 <meta name="twitter:description" content="{{ page.excerpt | default: page.description | strip_html }}">
-<meta name="twitter:image" content="{{site.url}}{{ page.url }}">
+<meta name="twitter:image" content="{{site.url}}{{ page.url | append: '@@@' | replace: '/@@@', '' }}">
+<meta property="fb:app_id" content="302981936527866" />
