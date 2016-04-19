@@ -42,6 +42,16 @@
   <meta name="msapplication-config" content="{{ site.image_path }}favicons/browserconfig.xml">
   <meta name="theme-color" content="#000000">
 
+  <!-- Meta Open Graph and Twitter tags -->
+  {% if layout.meta == "links" %}
+    {% include meta_links.html page=page %}
+  {% elsif layout.meta == "photos" %}
+    {% include meta_photos.html page=page %}
+  {% elsif layout.meta == "post" %}
+    {% include meta_posts.html page=page %}
+  {% endif %}
+
+
   <!-- RSS -->
   <link rel="alternate" type="application/rss+xml" title="Avy Faingezicht" href="/atom.xml">
 </head>
