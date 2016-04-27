@@ -2,7 +2,7 @@
 <ul>
 {% for article in include.page.articles %}
   <li>
-    <a href='{{ article.url }}' onclick="trackOutboundLink('{{ article.url }}'); return true;">
+    <a href='{{ article.url }}' onclick="trackOutboundLink('{{ article.url }}'); return true;" target="_blank">
       {{ article.title }}
     </a>
     {% if article.author or article.source %}
