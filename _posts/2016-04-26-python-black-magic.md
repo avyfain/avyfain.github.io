@@ -126,7 +126,8 @@ So, the reason why `A.b is A.b` in Python 3, and not Python 2 is this whole boun
 
 If you have more insight into the inner workings of this, I'd love to [hear about it](/contact/).
 
-
+**Update:**
+Jake VanderPlas replied to my tweet, and pointed to a 2009 <a href="http://python-history.blogspot.in/2009/02/first-class-everything.html">post by Guido</a> describing the behavior. Apparently, the bound/unbound distinction was introduced as a way to achieve "first-class everything," which methods didn't quite fit into. Python 3's undoing of unbound methods is just a further expression of the idea.
 
 <hr>
 *Image: "The Witch No. 1" by Baker, Joseph E. - Licensed under Public Domain, via [Wikimedia Commons](https://commons.wikimedia.org/wiki/File%3ATheWitch-no1.jpg")*
