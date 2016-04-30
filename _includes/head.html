@@ -6,6 +6,10 @@
   <!-- Enable responsiveness on mobile devices-->
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
 
+  {% if page.title == "Home" %}
+    <meta name="google-site-verification" content="Xx0yQS3F0UypEVtHIuI_4NZbCs_MLtogDyWvk2ehycg" />
+  {% endif %}
+
   <title>
     {% if page.title == "Home" %}
       {{ site.initials }} &middot; {{ site.author.name }}
