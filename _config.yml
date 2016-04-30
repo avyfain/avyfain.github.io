@@ -25,7 +25,7 @@ social:
   linkedin:       https://www.linkedin.com/in/avyfaingezicht
   flickr:         https://www.flickr.com/avyfain
 
-gems:             [jekyll-paginate]
+gems:             [jekyll-paginate, jekyll-sitemap]
 
 paginate:         5
 
