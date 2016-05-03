@@ -3,9 +3,9 @@ layout: post
 title: Not My First Post
 category: articles
 ---
-Today, out of curiosity I went back to [the first post](http://avc.com/2003/09/my_first_post/) in the archive of Fred Wilson's AVC. I was surprised by the terseness, and the simplicity. 
+Today, out of curiosity I went back to [the first post](http://avc.com/2003/09/my_first_post/) in the archive of Fred Wilson's AVC. I was surprised by the terseness, and the simplicity.
 
-Maybe that's all I need to start writing more. Lowering the bar I set for myself. If Fred could do it, way back in September 2003, why shouldn't I? 
+Maybe that's all I need to start writing more. Lowering the bar I set for myself. If Fred could do it, way back in September 2003, why shouldn't I?
 
 > I read blogs a lot. And i think they are great. So i am starting a blog. I have no idea if i’ll write a lot in my blog or rarely. I hope its a lot, because i have a lot to say. But we’ll see about that.
 >
