@@ -5,7 +5,7 @@ title: Home
 
 <div class="posts">
   {% for post in paginator.posts %}
-    {% include post.html page=post %}
+    {% include post_preview.html page=post %}
   {% endfor %}
 </div>
 
