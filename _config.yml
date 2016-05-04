@@ -29,4 +29,11 @@ gems:             [jekyll-paginate, jekyll-sitemap]
 
 paginate:         5
 
-version:          1.0
+version:          1.1
+
+compress_html:
+  clippings: [div, p, ul, td, h1, h2]
+  comments: all
+  endings: all
+  blanklines: false
+  profile: false
