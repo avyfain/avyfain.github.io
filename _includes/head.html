@@ -47,12 +47,14 @@
   <meta name="theme-color" content="#000000">
 
   <!-- Meta Open Graph and Twitter tags -->
+  {% include meta/common.html page=page %}
+
   {% if layout.meta == "links" %}
-    {% include meta_links.html page=page %}
+    {% include meta/links.html page=page %}
   {% elsif layout.meta == "photos" %}
-    {% include meta_photos.html page=page %}
+    {% include meta/photos.html page=page %}
   {% elsif layout.meta == "post" %}
-    {% include meta_posts.html page=page %}
+    {% include meta/posts.html page=page %}
   {% endif %}
 
 
