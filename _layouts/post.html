@@ -12,11 +12,14 @@ meta: post
   {% if page.main_image %}
   <a href='{{ page.url }}'>
     <img src="{{ site.image_path }}{{ page.main_image }}"
-         alt="{{ page.title }}"/>
+         alt="{{ page.title }}"
+         id="main_image"/>
   </a>
   {% endif %}
 
   {{ page.content }}
-  Want to see more articles like this? Sign up below:
+
+  <p>Want to see more articles like this? Sign up below:</p>
   {% include subscribe_form.html %}
+
 </div>
