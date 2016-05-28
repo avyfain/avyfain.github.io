@@ -194,3 +194,5 @@ a.sidebar-nav-item:focus {
 #signup .field-group label {display:inline-block; margin-bottom:3px;}
 #signup .field-group input {display:block; width:100%; max-width:250px; padding:8px 0; text-indent:2%;}
 #signup .field-group select {display:inline-block; width:99%; padding:5px 0; margin-bottom:2px;}
+
+.footnotes li {font-size: smaller;}

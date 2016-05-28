@@ -19,6 +19,9 @@ author:
   name:           'Avy Faingezicht'
   url:            https://twitter.com/avyfain
 
+kramdown:
+  footnote_location: 'my_footnotes'
+
 social:
   twitter:        https://twitter.com/avyfain
   github:         https://github.com/avyfain
