@@ -2,14 +2,13 @@
 
 {% if include.full %}
     {% for img in include.page.photos %}
-        <div>
+        <div class="{{img.class | default: 'photo'}}">
             <a href='{{ site.image_path }}{{ img.url }}' onclick="trackOutboundLink('{{ article.url }}'); return true;">
-              <img class="{{img.class | default: 'photo'}}"
-                   src="{{ site.image_path }}{{ img.preview_url | default: img.url}}"
+              <img src="{{ site.image_path }}{{ img.preview_url | default: img.url}}"
                    alt="{{ img.title }}"/>
             </a>
             {% if img.caption %}
-            <small>{{img.caption}}</small>
+                <small>{{img.caption}}</small>
             {% endif %}
         </div>
     </br>
