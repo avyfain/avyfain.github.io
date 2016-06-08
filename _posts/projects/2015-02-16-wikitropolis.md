@@ -28,7 +28,7 @@ For someone who is used to working in the digital medium, building the pillars w
 
 Our artwork, together with the other three teams' pieces, was exhibited at a gallery at SAIC for two weeks at the beginning of December, and this Friday marks the end of its month long stint at the Ford Engineering Design Center at Northwestern. I couldn’t be more proud of my team’s achievement.
 
-<img src="{{ site.image_path}}wikitropolis/team.jpg" />
+<img src="{{site.image_path}}wikitropolis/team.jpg" />
 <small>The team at the SAIC exhibit. From left to rigth: Kevin, Leon, myself, Paola and Ryan.</small>
 
-The projects were covered by the McCormick School of Engineering's magazine, [here](http://www.mccormick.northwestern.edu/news/articles/2014/12/schools-collaborate-to-turn-information-into-art.html').
+The projects were covered by the McCormick School of Engineering's magazine, [here](http://www.mccormick.northwestern.edu/news/articles/2014/12/schools-collaborate-to-turn-information-into-art.html). The high resolution prints can be downloaded [here](https://www.dropbox.com/sh/zaiq6fsl2xpgiw1/AACh95rF_ChOx0scBIb7uhcpa?lst).
