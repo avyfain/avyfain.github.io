@@ -1,0 +1,33 @@
+---
+layout: default
+---
+
+<h1>{{page.title}}</h1>
+<ul>
+{% for post in site.posts %}
+    {% for article in post.articles %}
+        {% if article.tags contains page.title %}
+            <li>
+                <a href='{{ article.url }}' onclick="trackOutboundLink('{{ article.url }}'); return true;" target="_blank">
+                  {{ article.title }}
+                </a>
+                {% if article.author or article.source %}
+                </br>
+                <small><em>
+                  {% if article.author %}
+                    {{article.author}}
+                  {% endif %}
+                  {% if article.author and article.source %}
+                  -
+                  {% endif %}
+                  {% if article.source %}
+                  {{article.source}}
+                  {% endif %}
+                  ({{ post.date | date_to_string }})
+                </em></small></br>
+                {% endif %}
+            </li>
+        {% endif %}
+    {% endfor %}
+{% endfor %}
+</ul>
