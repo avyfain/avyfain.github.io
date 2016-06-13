@@ -1,0 +1,31 @@
+---
+layout: page
+---
+<h1>Link Archive</a>
+{% assign rawtags = "" %}
+{% for post in site.posts %}
+    {% for article in post.articles %}
+        {% for tags in article.tags %}
+            {% assign ttags = tags | join:'|' | append:'|' %}
+            {% assign rawtags = rawtags | append:ttags %}
+        {% endfor %}
+    {% endfor %}
+{% endfor %}
+{% assign rawtags = rawtags | split:'|' | sort %}
+
+{% assign tags = "" %}
+{% for tag in rawtags %}
+    {% if tag != "" %}
+        {% if tags == "" %}
+            {% assign tags = tag | split:'|' %}
+        {% endif %}
+        {% unless tags contains tag %}
+            {% assign tags = tags | join:'|' | append:'|' | append:tag | split:'|' %}
+        {% endunless %}
+    {% endif %}
+{% endfor %}
+
+<h2>By Tag</h2>
+{% for tag in tags %}
+    <a href="/archive/{{ tag | slugify }}"> {{ tag }} </a></br>
+{% endfor %}

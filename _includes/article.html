@@ -1,0 +1,21 @@
+<a href='{{ article.url }}' onclick="trackOutboundLink('{{ article.url }}'); return true;" target="_blank">
+  {{ article.title }}
+</a>
+{% if article.author or article.source %}
+</br>
+<small><em>
+  {% if article.author %}
+  {{article.author}}
+  {% endif %}
+  {% if article.author and article.source %}
+  -
+  {% endif %}
+  {% if article.source %}
+  {{article.source}}
+  {% endif %}
+</em></small></br>
+{% endif %}
+
+{% if article.note %}
+<small>{{ article.note }}</small>
+{% endif %}
