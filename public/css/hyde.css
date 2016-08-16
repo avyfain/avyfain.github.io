@@ -141,9 +141,6 @@ a.sidebar-nav-item:focus {
     margin-left: 20rem;
     margin-right: 2rem;
   }
-  .content p, ul {
-    max-width: 38rem;
-  }
 }
 
 @media (min-width: 64em) {
@@ -175,6 +172,22 @@ a.sidebar-nav-item:focus {
 .photo {
   max-width: 100%;
   max-height: 100vh;
+  margin-bottom: 1%;
+  margin-top: 1%;
+}
+
+.photo-half {
+  max-width: 49.75%;
+  max-height: 100vh;
+  margin-right: .5%;
+  display: inline-block;
+}
+
+.photo-half.end {
+  max-width: 49.75%;
+  margin-right: 0%;
+  max-height: 100vh;
+  display: inline-block;
 }
 
 .photo-vertical {
