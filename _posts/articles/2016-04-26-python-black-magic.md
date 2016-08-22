@@ -133,5 +133,8 @@ Jake VanderPlas replied to my tweet, and pointed to a 2009 <a href="http://pytho
 **Update 2 (4/29/16):**
 Today I received an email from Todd Jennings, who pointed me to [the bug](https://bugs.python.org/issue23702) that tracks the out-of-date documentation for Python 3. Sadly, it is marked as still waiting.
 
+**Update 3 (8/22/16):**
+After attending PyBay, Wesley Chun [pointed out](https://twitter.com/wescpy/status/767588995727437824) that the definition of `A` was that of a classic 2.x class, while the rest of the article used new-style classes. Changing the class definition to inherit from object (as in, `class A(object):`) doesn't change the behavior that I describe above, for either Python 2.x or 3.x. To remain true to the original tweet, I have kept the class definition without explicit inheritance, but [the distinction](https://stackoverflow.com/questions/4015417/python-class-inherits-object/9448136#9448136) is important.
+
 <hr>
 *Image: "The Witch No. 1" by Baker, Joseph E. - Licensed under Public Domain, via [Wikimedia Commons](https://commons.wikimedia.org/wiki/File%3ATheWitch-no1.jpg")*
