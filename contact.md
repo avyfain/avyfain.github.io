@@ -6,6 +6,7 @@ title: Contact
 I like getting feedback.
 
 Shoot me an email at **avy@faingezicht.com**, and I will try to answer within a day.
+
 Alternatively, you can reach out through social media:
 
 [Twitter]({{ site.social.twitter }}) |
