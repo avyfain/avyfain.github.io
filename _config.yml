@@ -22,6 +22,10 @@ author:
 kramdown:
   footnote_location: 'my_footnotes'
 
+sass:
+  sass_dir: _sass
+  style: compressed
+
 social:
   twitter:        https://twitter.com/avyfain
   github:         https://github.com/avyfain
