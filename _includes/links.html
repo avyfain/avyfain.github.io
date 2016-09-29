@@ -1,7 +1,7 @@
 {{ include.page.content }}
 <ul>
 {% for article in include.page.articles %}
-  <li>
+  <li class="article-link">
     <a href='{{ article.url }}' onclick="trackOutboundLink('{{ article.url }}'); return true;" target="_blank">
       {{ article.title }}
     </a>
