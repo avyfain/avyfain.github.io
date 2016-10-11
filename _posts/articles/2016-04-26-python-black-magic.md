@@ -30,7 +30,7 @@ Like any self-respecting programmer, the first thing I did was copy paste that i
 
 Since I graduated last summer, I have been writing lots of both Python 2 and 3. This snippet seemed like something I should understand well. However, I did not, so this post is an attempt to solve that. I was inspired by [Julia Evans](http://jvns.ca), and her campaign to share the things she learns, however incomplete her understanding might be.
 
-This post assumes you have at least a basic understanding of Python and OOP. For a good overview of OOP in Python, I recommend Leonardo Giordani's [series](http://blog.thedigitalcatonline.com/blog/2014/08/20/Python-3-oop-part-1-objects-and-types/) which builds up nicely from simple concepts to the internals of Python classes (he also has one [on Python 2.x](http://blog.thedigitalcatonline.com/blog/2014/03/05/oop-concepts-in-Python-2-dot-x-part-1/), although I haven't read it closely).
+This post assumes you have at least a basic understanding of Python and OOP. For a good overview of OOP in Python, I recommend Leonardo Giordani's [series](http://blog.thedigitalcatonline.com/blog/2014/08/20/python-3-oop-part-1-objects-and-types/) which builds up nicely from simple concepts to the internals of Python classes (he also has one [on Python 2.x](http://blog.thedigitalcatonline.com/blog/2014/03/05/oop-concepts-in-python-2-dot-x-part-1/), although I haven't read it closely).
 
 
 ## So, what is this black magic?
