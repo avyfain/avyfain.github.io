@@ -4,16 +4,17 @@
   <a href='{{ post.url }}'>
     <h2 class="post-title">{{ post.title }}</h2>
   </a>
+  {% if post.articles == null %}
+    <span class="post-date">{{ post.date | date: "%B %-d, %Y" }}</span>
+  {% endif %}
 
-  <span class="post-date">{{ post.date | date: "%B %-d, %Y" }}</span>
-
-    {% if post.main_image %}
-    <a href='{{ post.url }}'>
-      <img class="{{img.class | default: 'photo'}}"
-           src="{{ site.image_path }}{{ post.main_image }}"
-           alt="{{ post.title }}">
-    </a>
-    {% endif %}
+  {% if post.main_image %}
+  <a href='{{ post.url }}'>
+    <img class="{{img.class | default: 'photo'}}"
+         src="{{ site.image_path }}{{ post.main_image }}"
+         alt="{{ post.title }}">
+  </a>
+  {% endif %}
 
   {% if post.description %}
     {{ post.description }} <a href='{{ post.url }}'>Continue reading...</a>
