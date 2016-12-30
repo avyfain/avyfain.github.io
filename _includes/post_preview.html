@@ -4,7 +4,7 @@
   <a href='{{ post.url }}'>
     <h2 class="post-title">{{ post.title }}</h2>
   </a>
-  {% if post.articles == null %}
+  {% if post.articles == null or post.show_date %}
     <span class="post-date">{{ post.date | date: "%B %-d, %Y" }}</span>
   {% endif %}
 
