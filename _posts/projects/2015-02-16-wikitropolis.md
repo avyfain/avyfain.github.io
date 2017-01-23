@@ -3,6 +3,7 @@ layout: post
 title: 'Wikitropolis: The Link Structure of Wikipedia'
 description: Investigating the hyperlink architecture of Wikipedia by displaying the links from five major cities as three-dimensional structures.
 main_image: wikitropolis/main.jpg
+tags: [programming, complexity, visualization, wikipedia, nu project]
 category: projects
 ---
 

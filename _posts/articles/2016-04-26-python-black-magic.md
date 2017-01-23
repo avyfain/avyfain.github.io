@@ -1,7 +1,7 @@
 ---
 title: "The Descriptor Protocol, and Python Black Magic"
 main_image: Witch.jpg
-tags: [programming, Python]
+tags: [programming, python]
 layout: post
 category: articles
 description: Trying to make sense of what is perhaps the most basic behavior of objects and classes in Python.

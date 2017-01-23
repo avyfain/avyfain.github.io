@@ -3,6 +3,7 @@ title: Sausalito
 layout: photos
 category: photos
 main_image: sausalito/previews/10.jpg
+tags: [san francisco, street, water]
 photos:
   - url: sausalito/1.jpg
     preview_url: sausalito/previews/1.jpg

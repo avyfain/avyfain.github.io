@@ -2,6 +2,7 @@
 layout: post
 title: Not My First Post
 category: articles
+tags: [writing, blogging]
 ---
 Today, out of curiosity I went back to [the first post](http://avc.com/2003/09/my_first_post/) in the archive of Fred Wilson's AVC. I was surprised by the terseness, and the simplicity.
 

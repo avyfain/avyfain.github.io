@@ -3,6 +3,7 @@ layout: post
 title: Decision Tree Implementation in Python
 description: A simple implementation of the ID3/C4.5 algorithm in vanilla Python.
 main_image: DT/DT.jpg
+tags: [programming, python, machine learning, nu project]
 category: projects
 ---
 

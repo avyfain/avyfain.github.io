@@ -3,6 +3,7 @@ title: Outside Lands
 layout: photos
 category: photos
 main_image: outside_lands/previews/366.jpg
+tags: [concert, san francisco, outside lands, people]
 photos:
   - url: outside_lands/125.jpg
     preview_url: outside_lands/previews/125.jpg

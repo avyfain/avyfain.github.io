@@ -3,6 +3,7 @@ title: Here and There
 layout: photos
 category: photos
 main_image: here-there/previews/7.jpg
+tags: [san francisco, street]
 photos:
   - url: here-there/1.jpg
     preview_url: here-there/previews/1.jpg

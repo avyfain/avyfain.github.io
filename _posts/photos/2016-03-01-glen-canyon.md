@@ -3,6 +3,7 @@ title: Glen Canyon
 layout: photos
 category: photos
 main_image: glen/previews/9.jpg
+tags: [hike, san francisco, nature]
 photos:
   - caption: We walked uphill from my apartment. It was steep.
     url: glen/1.jpg

@@ -3,6 +3,7 @@ title: Surprise, you're in Costa Rica now!
 layout: photos
 category: photos
 main_image: cr2017/previews/45.jpg
+tags: [costa rica, family, nature, water]
 photos:
   - url: cr2017/13.jpg
     preview_url: cr2017/previews/13.jpg

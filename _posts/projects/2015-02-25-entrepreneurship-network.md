@@ -2,6 +2,7 @@
 layout: post
 title: The Entrepreneurship Network
 description: Modeling startup funding as a network of startups and investors as nodes. What is hiding in the network's topology?
+tags: [programming, complexity, visualization, gephi, nu project]
 main_image: entrep_net/entrep_net.png
 category: projects
 ---
