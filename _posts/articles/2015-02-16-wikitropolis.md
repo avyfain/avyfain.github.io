@@ -4,7 +4,8 @@ title: 'Wikitropolis: The Link Structure of Wikipedia'
 description: Investigating the hyperlink architecture of Wikipedia by displaying the links from five major cities as three-dimensional structures.
 main_image: wikitropolis/main.jpg
 tags: [programming, complexity, visualization, wikipedia, nu project]
-category: projects
+category: articles
+permalink: projects/:year/:month/:day/:title
 ---
 
 This past fall I had the chance to take a course called **Data as Art**, which paired up Northwestern University engineering students with artists from the School of the Art Institute of Chicago (SAIC) to pursue a data-driven art project. I saw the class as an opportunity to work on an interdisciplinary team and tackle a subject generally experienced in the abstract digital world, but expressing it in a physical form instead. The course did not only accomplish this, but in the process it also allowed me to better understand and overcome the obstacles that appear when bringing people from diverse academic backgrounds together for a common goal.
