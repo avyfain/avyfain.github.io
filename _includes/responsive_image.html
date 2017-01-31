@@ -1,0 +1,13 @@
+<img src="{{ site.image_path }}small.png"
+     srcset="/stupid.png 4000w,
+     		 /largest.png 1600w,
+     		 /larger.png 2000w,
+     		 {{ site.image_path }}large.png 1280w,
+             {{ site.image_path }}medium.png 640w,
+             {{ site.image_path }}small.png 320w"
+     sizes="100%"
+     alt="{{ img.title }}"
+     title="{{ img.title }}">>
+
+<img src="{{ site.image_path }}{{ img.preview_url | default: img.url}}"
+                   alt="{{ img.title }}"/>
