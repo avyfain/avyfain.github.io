@@ -2,8 +2,8 @@
 
 {% if include.full %}
     {% for img in include.page.photos %}
-        <div class="{{img.class | default: 'photo'}}">
-            <a href='{{ site.image_path }}{{ img.url }}' onclick="trackOutboundLink('{{ article.url }}'); return true;">
+        <div class="{{img.class | default: 'photo'}}" id="{{ img.url | split: '/' | last }}">
+            <a href='{{ site.image_path }}{{ img.url }}' onclick="trackOutboundLink('{{ page.url }}'); return true;">
               <img src="{{ site.image_path }}{{ img.preview_url | default: img.url}}"
                    alt="{{ img.title }}"/>
             </a>
