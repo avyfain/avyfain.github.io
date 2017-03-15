@@ -198,7 +198,7 @@ photos:
       preview_url: OL16/previews/93.jpg
     - url: OL16/94.jpg
       preview_url: OL16/previews/94.jpg
-      caption: Zach again, and <a href= "https://dl.dropboxusercontent.com/u/16238897/avyfain.io/OL16/95.jpg">again</a>.
+      caption: Zach again, and <a href= "http://cdn.faingezicht.com/OL16/95.jpg">again</a>.
     - url: OL16/96.jpg
       preview_url: OL16/previews/96.jpg
     - url: OL16/97.jpg
