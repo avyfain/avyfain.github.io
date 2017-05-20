@@ -5,7 +5,7 @@ tags: [programming, python]
 layout: post
 category: articles
 description: Trying to make sense of what is perhaps the most basic behavior of objects and classes in Python.
-permalink: projects/:year/:month/:day/:title
+permalink: projects/:year/:month/:day/:title/
 ---
 
 Late last night, I saw a very confusing tweet:
