@@ -151,12 +151,6 @@ articles:
         - Technology
         - Startups
         - BUsiness
-  - title: When Pixels Collide
-    source: sudoscript
-    url: http://sudoscript.com/reddit-place/
-    tags:
-        - Technology
-        - Culture
   - title: Jason Barr on Building the Skyline and the Economics of Skyscrapers
     source: EconTalk
     url: http://www.econtalk.org/archives/2017/03/jason_barr_on_b.html
