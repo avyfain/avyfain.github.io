@@ -2,6 +2,7 @@
 title: Another Great (Podcast) Link Dump - June 2017
 layout: links
 category: links
+show_date: True
 articles:
   - title: The Quiet Master of Cryptocurrency — Nick Szabo
     source: Tim Ferriss Podcast

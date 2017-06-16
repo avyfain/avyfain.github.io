@@ -2,6 +2,7 @@
 title: Another Great Link Dump - June 2017
 layout: links
 category: links
+show_date: True
 articles:
   - title: A Brief History of the UUID
     author: Rick Branson
