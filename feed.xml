@@ -16,7 +16,7 @@ layout: null
         <title>{{ post.title | xml_escape }}</title>
         <description>{{ post.content | xml_escape }}
             {% if post.articles %}
-                <ul> 
+                <ul>
                 {% for article in post.articles %}
                   <li>
                     <link href='{{ article.url }}' onclick="trackOutboundLink('{{ article.url }}'); return false;">
@@ -25,7 +25,7 @@ layout: null
                     {% if article.author or article.source %}
                     <small>
                       {% if article.author %}
-                        {{article.author | xml_escape}}  
+                        {{article.author | xml_escape}}
                       {% endif %}
                       {% if article.author and article.source %}
                       -
