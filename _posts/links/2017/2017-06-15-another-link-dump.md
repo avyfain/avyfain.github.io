@@ -66,7 +66,7 @@ articles:
         - Technology
   - title: The consequences of allowing a cryptocurrency takeover, or trying to head one off
     author: Tony Yates
-    source: FT Alphaville
+    source: FT Alphaville (Paywall)
     url: https://ftalphaville.ft.com/2017/06/07/2189849/guest-post-the-consequences-of-allowing-a-cryptocurrency-takeover-or-trying-to-head-one-off/
     note: What are the implications of crypto for central banking? The written-in-stone aspect of the blockchain makes monetary policy way more credible, which is a good thing, but at the same time crypto knows no borders, making adjustments by one group of users spill over to others quite easily. A more in depth look <a href="https://longandvariable.wordpress.com/2017/06/09/more-on-bitcoin-and-the-conditions-for-a-takeover-of-fiat-money/">here</a>.
     tags:
