@@ -1,6 +1,6 @@
 ---
 title: "Two Papers"
-main_image: berlin.jpg
+main_image: Berlin.jpg
 tags: [economics, technology, bitcoin, cloud]
 layout: post
 category: articles
