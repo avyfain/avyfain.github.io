@@ -13,4 +13,6 @@ This site is hosted and served on [Github Pages](https://pages.github.com/), wit
 
 My [photos](/photos) are shot on a hand-me-down Canon XSi that I got from my sister in law Einat, usually with a Canon EF-S 24mm f/2.8 STM pancake lens (my favorite), but ocassionally with a Canon EF 50mm f/1.4 USM. The light editing I do happens on Photos.app.
 
+Hannah almost always proof-reads my posts, and corrects my broken English.
+
 I stole this domain from my brother Max.
