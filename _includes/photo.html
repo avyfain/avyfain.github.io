@@ -8,7 +8,7 @@
                    alt="{{ img.title }}"/>
             </a>
             {% if img.caption %}
-                <small>{{img.caption}}</small>
+                <small>{{img.caption | markdownify }}</small>
                 </br></br>
             {% endif %}
         </div>

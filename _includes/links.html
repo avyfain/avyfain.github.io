@@ -20,7 +20,7 @@
     </em></small></br>
     {% endif %}
     {% if article.note %}
-        <div class="note"><small>{{ article.note }}</small></div>
+        <div class="note"><small>{{ article.note | markdownify }}</small></div>
     {% endif %}
 
   </li>

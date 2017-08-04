@@ -2,6 +2,7 @@
 
 osascript get_urls.scpt
 TODAY=`date '+%Y-%m-%d'`;
-FNAME="_posts/links/$TODAY-links.md"
+YEAR=`date +"%Y"`
+FNAME="_posts/links/$YEAR/$TODAY-links.md"
 pbpaste > $FNAME
 echo $FNAME
