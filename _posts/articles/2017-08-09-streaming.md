@@ -1,7 +1,7 @@
 ---
 title: "Half-Baked: Streaming and Public Commons"
 layout: post
-tags: [social media, twitter]
+tags: [technology, books]
 category: articles
 ---
 
@@ -13,4 +13,4 @@ In a future where these assets are not physical, but bits on a server to be stre
 
 These streaming services rely on economies of scale and centralization in ways that the government administered library probably can't come close to.
 
-<small>_The "Half-Baked" series is my effort to write more, and put my thoughts out there on the internet, a brain dump, unedited. Just a few minutes of writing. If you find typos, or grammatical errors, will be corrected as I notice them, but otherwise the content will remain as published._</small>
+<small>_The "Half-Baked" series is my effort to write more, and put my thoughts out there on the internet, a brain dump, unedited. Just a few minutes of writing. If you find typos, or grammatical errors, let me know. They will be corrected as I notice them, but otherwise the content will remain as published._</small>

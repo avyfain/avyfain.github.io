@@ -3,6 +3,14 @@ layout: default
 title: Home
 ---
 
+{% if paginator.page == 1 %}
+  <div class="centered temp-banner">
+    <h2>Looking for Outside Lands photos?</h2>
+    <p>I still need to edit them, but, for now, take a look at my shots from <a href="/photos/2016/08/15/outside-lands-v2/">2016</a>, or <a href="/photos/2015/08/09/outside-lands/">2015</a>. I think you'll enjoy them ✌️</p>
+  </div>
+{% endif %}
+
+
 <div class="posts">
   {% for post in paginator.posts %}
     {% include post_preview.html page=post %}
