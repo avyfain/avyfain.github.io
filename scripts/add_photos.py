@@ -1,3 +1,5 @@
+# usage: add_photos.py [-h] -f FNAME [-n NUM_PHOTOS] [-y YEAR] [-m MONTH] [-d DAY]
+# python scripts/add_photos.py -f OL17 -n 130
 import os
 import argparse
 import random
