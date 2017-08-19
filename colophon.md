@@ -11,7 +11,7 @@ This site is hosted and served on [Github Pages](https://pages.github.com/), wit
   * [Compress](http://jch.penibelst.de/) is the tool that makes all my html small.
   * [Open Sans](https://fonts.google.com/specimen/Open+Sans?selection.family=Open+Sans) and [Varela Round](https://fonts.google.com/specimen/Varela+Round?selection.family=Varela+Round) are the fonts you're reading.
 
-My [photos](/photos) are shot on a hand-me-down Canon XSi that I got from my sister in law Einat, usually with a Canon EF-S 24mm f/2.8 STM pancake lens (my favorite), but ocassionally with a Canon EF 50mm f/1.4 USM. The light editing I do happens on Photos.app.
+My [photos](/photos) are shot on a Canon 6D paired with a Canon EF 50mm f/1.4 USM. Until very recently, though, I was using a hand-me-down Canon XSi that I got from my sister in law Einat, usually with a Canon EF-S 24mm f/2.8 STM pancake lens. The light editing I do happens on Photos.app.
 
 Hannah almost always proof-reads my posts, and corrects my broken English.
 

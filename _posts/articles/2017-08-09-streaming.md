@@ -1,7 +1,7 @@
 ---
 title: "Half-Baked: Streaming and Public Commons"
 layout: post
-tags: [technology, books]
+tags: [technology, books, half-baked]
 category: articles
 ---
 
