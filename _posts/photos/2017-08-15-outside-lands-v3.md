@@ -3,7 +3,7 @@ title: Outside Lands, again (again)
 layout: photos
 category: photos
 main_image: OL17/previews/51.jpg
-tags: [concert, san francisco, outside lands, people]
+tags: [outside lands, concert, san francisco, people]
 photos:
   - url: OL17/1.jpg
     preview_url: OL17/previews/1.jpg

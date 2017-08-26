@@ -3,7 +3,7 @@ title: Outside Lands, take two
 layout: photos
 category: photos
 main_image: OL16/previews/76.jpg
-tags: [concert, san francisco, outside lands, people]
+tags: [outside lands, concert, san francisco, people]
 photos:
     - url: OL16/1.jpg
       preview_url: OL16/previews/1.jpg
