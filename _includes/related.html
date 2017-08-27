@@ -3,6 +3,10 @@
 {% assign max_related_counter = 0 %}
 {% assign related_posts = '' %}
 
+{% if page.related != '' %}
+    {% assign max_related = max_related | minus: 1 %}
+{% endif %}
+
 {% for post in site.posts %}
     {% assign same_tag_count = 0 %}
     {% for tag in post.tags %}
@@ -15,7 +19,8 @@
     {% endif %}
     {% endfor %}
 
-    {% if same_tag_count >= min_common_tags %}
+    {% if (same_tag_count >= min_common_tags and max_related_counter < max_related)
+       or post.url contains page.related %}
         {% capture related_post %}
         <li>
         <a href="{{ post.url }}">
@@ -26,7 +31,7 @@
         {% endcapture %}
         {% assign related_posts = related_posts | append: related_post %}
         {% assign max_related_counter = max_related_counter | plus: 1 %}
-        {% if max_related_counter >= max_related %}
+        {% if max_related_counter >= max_related and related_posts contains page.related %}
             {% break %}
         {% endif %}
     {% endif %}

@@ -4,6 +4,7 @@ layout: photos
 category: photos
 main_image: OL17/previews/51.jpg
 tags: [outside lands, concert, san francisco, people]
+related: outside-lands-v2
 photos:
   - url: OL17/1.jpg
     preview_url: OL17/previews/1.jpg
