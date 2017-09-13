@@ -13,7 +13,7 @@ show: 0
         {% endfor %}
     {% endfor %}
 {% endfor %}
-{% assign rawtags = rawtags | split:'|' | sort %}
+{% assign rawtags = rawtags | downcase | split:'|' | sort %}
 
 {% assign tags = "" %}
 {% for tag in rawtags %}

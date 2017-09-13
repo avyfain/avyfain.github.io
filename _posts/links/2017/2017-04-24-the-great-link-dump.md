@@ -150,7 +150,7 @@ articles:
     tags:
         - Technology
         - Startups
-        - BUsiness
+        - Business
   - title: Jason Barr on Building the Skyline and the Economics of Skyscrapers
     source: EconTalk
     url: http://www.econtalk.org/archives/2017/03/jason_barr_on_b.html
