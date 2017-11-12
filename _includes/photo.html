@@ -4,9 +4,24 @@
     {% for img in include.page.photos %}
         <div class="{{img.class | default: 'photo'}}" id="{{ img.url | split: '/' | last }}">
             <a href='{{ site.image_path }}{{ img.url }}' onclick="trackOutboundLink('{{ page.url }}'); return true;">
-              <img src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs="
-                   data-src="{{ site.image_path }}{{ img.preview_url | default: img.url}}"
-                   alt="{{ img.title }}"/>
+              {% if img.sizes %}
+                  <img srcset="{{ site.image_path }}{{ img.bucket_dir}}/{{img.sizes[0]}}.xs{{img.sizes[1]}} 600w,
+                               {{ site.image_path }}{{ img.bucket_dir}}/{{img.sizes[0]}}.s{{img.sizes[1]}} 800w,
+                               {{ site.image_path }}{{ img.bucket_dir}}/{{img.sizes[0]}}{{img.sizes[1]}} 1280w,
+                               {{ site.image_path }}{{ img.bucket_dir}}/{{img.sizes[0]}}.m{{img.sizes[1]}} 2000w,
+                               {{ site.image_path }}{{ img.bucket_dir}}/{{img.sizes[0]}}.l{{img.sizes[1]}} 3000w"
+                       sizes="(max-width: 800px) 600px,
+                              (max-width: 1064px) 800px,
+                              (max-width: 1700px) 1280px,
+                              (max-width: 3000px) 2000px,
+                              3000px"
+                       src="{{ site.image_path }}{{ img.preview_url | default: img.url}}"
+                       alt="{{ img.title }}">
+              {% else %}
+                  <img src="data:image/png;base64,R0lGODlhAQABAAD/ACwAAAAAAQABAAACADs="
+                       data-src="{{ site.image_path }}{{ img.preview_url | default: img.url}}"
+                       alt="{{ img.title }}"/>
+              {% endif %}
             </a>
             {% if img.caption %}
                 <small>{{img.caption | markdownify }}</small>
