@@ -10,6 +10,23 @@
     <meta name="google-site-verification" content="Xx0yQS3F0UypEVtHIuI_4NZbCs_MLtogDyWvk2ehycg" />
   {% endif %}
 
+  <meta name="msapplication-TileColor" content="#000000">
+  <meta name="msapplication-TileImage" content="{{ site.image_path }}favicons/mstile-144x144.png">
+  <meta name="msapplication-config" content="{{ site.image_path }}favicons/browserconfig.xml">
+  <meta name="theme-color" content="#000000">
+
+  <!-- Meta Open Graph and Twitter tags -->
+  {% include meta/common.html page=page %}
+
+  {% if layout.meta == "links" %}
+    {% include meta/links.html page=page %}
+  {% elsif layout.meta == "photos" %}
+    {% include meta/photos.html page=page %}
+  {% elsif layout.meta == "post" %}
+    {% include meta/posts.html page=page %}
+  {% endif %}
+
+
   <title>
     {% if page.title == "Home" %}
       {{ site.initials }} &middot; {{ site.author.name }}
@@ -34,22 +51,6 @@
   <link rel="icon" type="image/png" href="{{ site.image_path }}favicons/favicon-16x16.png" sizes="16x16">
   <link rel="manifest" href="{{ site.image_path }}favicons/manifest.json">
   <link rel="shortcut icon" href="{{ site.image_path }}favicons/favicon.ico">
-  <meta name="msapplication-TileColor" content="#000000">
-  <meta name="msapplication-TileImage" content="{{ site.image_path }}favicons/mstile-144x144.png">
-  <meta name="msapplication-config" content="{{ site.image_path }}favicons/browserconfig.xml">
-  <meta name="theme-color" content="#000000">
-
-  <!-- Meta Open Graph and Twitter tags -->
-  {% include meta/common.html page=page %}
-
-  {% if layout.meta == "links" %}
-    {% include meta/links.html page=page %}
-  {% elsif layout.meta == "photos" %}
-    {% include meta/photos.html page=page %}
-  {% elsif layout.meta == "post" %}
-    {% include meta/posts.html page=page %}
-  {% endif %}
-
 
   <!-- RSS -->
   <link rel="alternate" type="application/rss+xml" title="Avy Faingezicht" href="/atom.xml">
