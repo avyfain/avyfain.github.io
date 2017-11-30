@@ -31,7 +31,7 @@ def file_yielder(root_path):
         for file in filenames:
             if not file.endswith(IMAGE_FORMATS):
                 continue
-            full_path = os.path.join(root_path, dirpath, file)
+            full_path = os.path.join(dirpath, file)
             key_id = bucket_dir.joinpath(file)
             yield full_path, str(key_id)
 

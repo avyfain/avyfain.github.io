@@ -3,11 +3,11 @@ from time import sleep
 
 import logging
 
-
+MAXTRIES = 5
 logger = logging.getLogger(__name__)
 
 
-def retry(exception_to_check, tries=5, delay=1, backoff=5):
+def retry(exception_to_check, tries=5, delay=1, backoff=MAXTRIES):
     """Decorator layer for arguments.
 
     Args:
@@ -43,7 +43,7 @@ def retry(exception_to_check, tries=5, delay=1, backoff=5):
             while mtries > 1:
                 try:
                     return_val = func(*args, **kwargs)
-                    logger.info('successful on try %s', mtries)
+                    logger.info('successful on try %s', MAXTRIES - mtries)
                     return return_val
                 except exception_to_check as error:
                     logger.info("%s, Retrying in %d seconds...", str(error), mdelay)
