@@ -4,9 +4,7 @@ meta: links
 ---
 
 <div class="post">
-  <a href='{{ page.url }}'>
-    <h1 class="post-title">Links - {{ page.date | date: "%B %-d, %Y" }}</h1>
-  </a>
+  <h1 class="post-title">Links - {{ page.date | date: "%B %-d, %Y" }}</h1>
 
   {% if page.main_image %}
     <img src="{{ site.image_path}}{{ page.main_image }}" alt="{{page.title}}"/>
