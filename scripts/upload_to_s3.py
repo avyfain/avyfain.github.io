@@ -51,8 +51,7 @@ def main():
 
     returns = pool.starmap(upload_file, file_yielder(path))
     for f in returns:
-        print(f)
-        print()
+        pass
 
 
 if __name__ == '__main__':

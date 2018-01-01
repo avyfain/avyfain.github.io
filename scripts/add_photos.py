@@ -29,7 +29,10 @@ def check_dir():
 
 def parse_args():
     parser = argparse.ArgumentParser()
-    parser.add_argument('-f', '--fname', action='store', dest='fname', required=True)
+
+    group = parser.add_mutually_exclusive_group(required=True)
+    group.add_argument('-f', '--fname', action='store', dest='fname')
+    group.add_argument('-i', '--inputdir', action='store', dest='inputdir')
     parser.add_argument('-n', '--num_photos', action='store', dest='num_photos', type=int, default=20)
     parser.add_argument("-y", "--year", action="store", dest="year")
     parser.add_argument("-m", "--month", action="store", dest="month")
@@ -44,8 +47,13 @@ def main():
     y = args.year if args.year else yesterday.strftime("%Y")
     m = args.month if args.month else yesterday.strftime("%m")
     d = args.day if args.day else yesterday.strftime("%d")
-    n = args.num_photos + 1
-    fname = args.fname
+
+    if args.fname:
+        n = args.num_photos + 1
+        fname = args.fname
+    else:
+        n = len(os.listdir(args.inputdir))
+        fname = os.path.split(args.inputdir)[-1]
     thumbnail_idx = random.randint(1, n)
 
     photo_gen = (PHOTO_STRING.format(fname, i, fname, i) for i in range(1, n))
