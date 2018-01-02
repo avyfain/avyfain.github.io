@@ -1,3 +1,5 @@
 <meta name="twitter:card"  content="photo">
 <meta name="twitter:title" content="Photography - {{ page.title }}">
 <meta property="og:title"  content="Photography - {{ page.title }}">
+<meta property="og:description"  content="{{ page.excerpt | default: page.description | strip_html }}"/>
+<meta name="twitter:description" content="{{ page.excerpt | default: page.description | strip_html }}">
