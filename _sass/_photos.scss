@@ -43,8 +43,18 @@
   margin-right: auto ;
 }
 
+.book-review {
+  display: inline-block;
+}
+
 .book-cover {
-  display: block;
   width: 16rem;
+  max-width: 40%;
+  float: left;
   margin-bottom: 1%;
+  margin-right: 1%;
+}
+
+.book-border {
+  border: solid 1px #ddd;
 }
