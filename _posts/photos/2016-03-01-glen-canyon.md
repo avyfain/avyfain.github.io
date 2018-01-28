@@ -43,7 +43,7 @@ photos:
     preview_url: glen/previews/11.jpg
   - caption: For example, they give you kale chip recipes on the street.
     url: glen/12.jpg
-    preview_url: glen/previews/12.jpg
+    preview_url: glen/previews/15.jpg
 ---
 As you know, I am reading Gary Kamiya's [Cool City of Gray Love](http://www.amazon.com/Cool-Gray-City-Love-Francisco/dp/1608199606), which talks about all sorts of amazing places in the city. One of the first few he describes, in chapter 6, was Glen Canyon:
 
