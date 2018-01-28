@@ -32,7 +32,7 @@ social:
   linkedin:       https://www.linkedin.com/in/avyfaingezicht
   flickr:         https://www.flickr.com/avyfain
 
-gems:             [jekyll-paginate, jekyll-sitemap]
+plugins:             [jekyll-paginate, jekyll-sitemap]
 
 paginate:         5
 
