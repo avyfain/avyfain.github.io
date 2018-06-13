@@ -52,8 +52,11 @@ def main():
     m = args.month if args.month else yesterday.strftime("%m")
     d = args.day if args.day else yesterday.strftime("%d")
 
-    n = len(os.listdir(args.inputdir))
-    fname = os.path.split(args.inputdir)[-1]
+    if args.inputdir.endswith('/'):
+        in_dir = args.inputdir[:-1]
+
+    n = len(os.listdir(in_dir))
+    fname = os.path.split(in_dir)[-1]
 
     if args.fname:
         fname = args.fname
