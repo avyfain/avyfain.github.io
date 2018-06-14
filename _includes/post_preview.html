@@ -17,12 +17,12 @@
   {% endif %}
 
   {% if post.description %}
-    {{ post.description }} <a href='{{ post.url }}'>Continue reading...</a>
+    {{ post.description | markdownify }} <a href='{{ post.url }}'>Continue reading...</a>
   {% elsif post.articles %}
     {% include links.html page=post %}
   {% elsif post.photos %}
     {% include photo.html page=post %}
-  {% elsif post.excerpt %}
+  {% elsif post.excerpt | markdownify  %}
     {{ post.excerpt}} <a href='{{ post.url }}'>Continue reading...</a>
   {% else %}
     {{ post.content }}

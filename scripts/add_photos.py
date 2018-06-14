@@ -5,6 +5,7 @@
 # python scripts/upload_to_s3.py -i ../fotos/XXX/
 # python scripts/add_photos.py -i ../fotos/XXX/
 
+from __future__ import absolute_import
 import os
 import argparse
 import random
@@ -65,9 +66,10 @@ def main():
 
     photo_gen = (PHOTO_STRING.format(fname, i, fname, i) for i in range(1, n))
 
-    with open('_posts/photos/{}-{}-{}-{}.md'.format(y, m, d, fname), 'w') as f:
+    full_path = '_posts/photos/{}-{}-{}-{}.md'.format(y, m, d, fname)
+    with open(full_path, 'w') as f:
         f.write(FRONT_MATTER.format(fname, thumbnail_idx, '\n'.join(photo_gen)))
-
+    print("Successfully generated a post at", full_path)
 
 if __name__ == '__main__':
     check_dir()
