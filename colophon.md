@@ -17,3 +17,7 @@ My [photos](/photos) are shot on a Canon 6D paired with a Canon EF 50mm f/1.4 or
 Hannah almost always proof-reads my posts, and corrects my broken English.
 
 I stole this domain from my brother Max.
+
+---
+
+Unless otherwise noted, all text and photography I've authored on this site is licensed under a [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/). Essentially, that means you can do what you want with it, as long as you give me credit for the original, and if you want to be nice, link back here. Enjoy!

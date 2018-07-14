@@ -55,6 +55,8 @@ def main():
 
     if args.inputdir.endswith('/'):
         in_dir = args.inputdir[:-1]
+    else:
+        in_dir = args.inputdir
 
     n = len(os.listdir(in_dir))
     fname = os.path.split(in_dir)[-1]
@@ -66,7 +68,7 @@ def main():
 
     photo_gen = (PHOTO_STRING.format(fname, i, fname, i) for i in range(1, n))
 
-    full_path = '_posts/photos/{}-{}-{}-{}.md'.format(y, m, d, fname)
+    full_path = '_posts/photos/{}/{}-{}-{}-{}.md'.format(y, y, m, d, fname)
     with open(full_path, 'w') as f:
         f.write(FRONT_MATTER.format(fname, thumbnail_idx, '\n'.join(photo_gen)))
     print("Successfully generated a post at", full_path)
