@@ -5,14 +5,14 @@ highlighter:      rouge
 # Permalinks
 permalink:        pretty
 
-image_path:       http://cdn.faingezicht.com/
+image_path:       https://cdn.faingezicht.com/
 
 # Setup
 title:            'Blog AF'
 initials:         'AF'
 name:             'Avy Faingezicht'
 description:      'Where I talk about tech and econ, post my photography, and share random thoughts.'
-url:              http://www.faingezicht.com
+url:              https://www.faingezicht.com
 baseurl:          /
 
 author:
