@@ -5,14 +5,14 @@
 
 .photo {
   max-width: 100%;
-  max-height: 100vh;
+  max-height: 80vh;
   margin-bottom: 1%;
   margin-top: 1%;
 }
 
 .photo-half {
   max-width: 49.75%;
-  max-height: 100vh;
+  max-height: 80vh;
   margin-right: .5%;
   display: inline-block;
 }
@@ -20,7 +20,7 @@
 .photo-half.end {
   max-width: 49.75%;
   margin-right: 0%;
-  max-height: 100vh;
+  max-height: 80vh;
   display: inline-block;
 }
 
@@ -30,7 +30,7 @@
 
 .photo-triplet {
   max-width: 33%;
-  max-height: 100vh;
+  max-height: 80vh;
   margin-right: .33%;
   display: inline-block;
 }
