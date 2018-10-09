@@ -162,7 +162,7 @@ photos:
     preview_url: OL17/previews/65.jpg
   - url: OL17/66.jpg
     preview_url: OL17/previews/66.jpg
-    caption: We laughed at this shirt. The [back of it](http://cdn.faingezicht.com/OL17/67.jpg) was [even better](https://www.youtube.com/watch?v=1OjTspCqvk8).
+    caption: We laughed at this shirt. The [back of it](https://cdn.faingezicht.com/OL17/67.jpg) was [even better](https://www.youtube.com/watch?v=1OjTspCqvk8).
   - url: OL17/69.jpg
     preview_url: OL17/previews/69.jpg
   - url: OL17/70.jpg
@@ -282,7 +282,7 @@ photos:
     preview_url: OL17/previews/127.jpg
   - url: OL17/128.jpg
     preview_url: OL17/previews/128.jpg
-    caption: Yup, he still does [that](http://cdn.faingezicht.com/townshend.gif).
+    caption: Yup, he still does [that](https://cdn.faingezicht.com/townshend.gif).
   - url: OL17/129.jpg
     preview_url: OL17/previews/129.jpg
     caption: She didn't believe me when I said I'd post her photo at [itookyourphoto.today](http://www.itookyourphoto.today). Well, I did.

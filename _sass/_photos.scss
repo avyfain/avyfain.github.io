@@ -6,7 +6,7 @@
 .photo {
   max-width: 100%;
   max-height: 80vh;
-  margin-bottom: 1%;
+  margin-bottom: 0%;
   margin-top: 1%;
 }
 
@@ -15,6 +15,7 @@
   max-height: 80vh;
   margin-right: .5%;
   display: inline-block;
+  margin-top: 1%;
 }
 
 .photo-half.end {
@@ -22,6 +23,7 @@
   margin-right: 0%;
   max-height: 80vh;
   display: inline-block;
+  margin-top: 1%;
 }
 
 .photo-half p {

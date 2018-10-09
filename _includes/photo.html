@@ -10,10 +10,10 @@
                   {% include simple_photo.html img=img %}
               {% endif %}
             </a>
-            {% if img.caption %}
-                <small>{{img.caption | markdownify }}</small>
-            {% endif %}
         </div>
+        {% if img.caption %}
+            <small>{{img.caption | markdownify }}</small>
+        {% endif %}
     {% endfor %}
     {% if page.end_comment %}
         <p>{{ page.end_comment | markdownify }}</p>
