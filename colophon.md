@@ -2,6 +2,7 @@
 layout: page
 title: Colophon
 show: 0
+i18n-link: colophon
 ---
 
 This site is hosted and served on [Github Pages](https://pages.github.com/), with some assets coming out of S3, and [Cloudflare](https://www.cloudflare.com/) in front. It is built with the help of a lot of Open Source Software, and free services.

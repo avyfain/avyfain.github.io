@@ -4,11 +4,11 @@ set end of theURLs to "title: Links - " & (do shell script "date \"+%B %d, %Y\""
 set end of theURLs to "layout: links"
 set end of theURLs to "category: links"
 set end of theURLs to "articles:"
-tell application "Google Chrome"
+tell application "Safari"
 	tell window 1
 		set i to 1
 		repeat until i > (count of tabs)
-			set end of theURLs to "  - title: " & (title of tab i)
+			set end of theURLs to "  - title: " & (name of tab i)
 			set end of theURLs to "    author:"
 			set end of theURLs to "    source:"
 			set end of theURLs to "    url: " & (URL of tab i)

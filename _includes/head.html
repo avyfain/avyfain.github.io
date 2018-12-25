@@ -1,7 +1,7 @@
 <head>
   <style type="text/css">
     {% capture include_to_scssify %}
-      {% include main.scss %}
+      {% include_cached main.scss %}
     {% endcapture %}
     {{ include_to_scssify | scssify }}
   </style>
@@ -14,7 +14,7 @@
   <!-- Enable responsiveness on mobile devices-->
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
 
-  {% if page.title == "Home" %}
+  {% if page.title == {{site.data.lang_map[page.lang]['home']}} %}
     <meta name="google-site-verification" content="Xx0yQS3F0UypEVtHIuI_4NZbCs_MLtogDyWvk2ehycg" />
   {% endif %}
 
@@ -24,19 +24,19 @@
   <meta name="theme-color" content="#000000">
 
   <!-- Meta Open Graph and Twitter tags -->
-  {% include meta/common.html page=page %}
+  {% include_cached meta/common.html page=page %}
 
   {% if layout.meta == "links" %}
-    {% include meta/links.html page=page %}
+    {% include_cached meta/links.html page=page %}
   {% elsif layout.meta == "photos" %}
-    {% include meta/photos.html page=page %}
+    {% include_cached meta/photos.html page=page %}
   {% elsif layout.meta == "post" %}
-    {% include meta/posts.html page=page %}
+    {% include_cached meta/posts.html page=page %}
   {% endif %}
 
 
   <title>
-    {% if page.title == "Home" %}
+    {% if page.title == {{site.data.lang_map[page.lang]['home']}} %}
       {{ site.initials }} &middot; {{ site.author.name }}
     {% else %}
       {{ page.title }} &middot; {{ site.initials }}

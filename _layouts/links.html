@@ -10,8 +10,8 @@ meta: links
     <img src="{{ site.image_path}}{{ page.main_image }}" alt="{{page.title}}"/>
   {% endif %}
 
-  {% include links.html page=page %}
+  {% include_cached links.html page=page %}
 
   Like what you see? Sign up below:
-  {% include subscribe_form.html %}
+  {% include_cached subscribe_form.html page=page %}
 </div>

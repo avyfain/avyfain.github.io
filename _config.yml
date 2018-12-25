@@ -11,7 +11,6 @@ image_path:       https://cdn.faingezicht.com/
 title:            'Blog AF'
 initials:         'AF'
 name:             'Avy Faingezicht'
-description:      'Where I talk about tech and econ, post my photography, and share random thoughts.'
 url:              https://www.faingezicht.com
 baseurl:          /
 
@@ -32,7 +31,7 @@ social:
   linkedin:       https://www.linkedin.com/in/avyfaingezicht
   flickr:         https://www.flickr.com/avyfain
 
-plugins:             [jekyll-paginate, jekyll-sitemap]
+plugins:             [jekyll-paginate, jekyll-sitemap, jekyll-include-cache]
 
 paginate:         5
 
@@ -44,3 +43,18 @@ compress_html:
   endings: all
   blanklines: false
   profile: false
+
+
+defaults:
+    -
+     scope:
+         path: ""
+     values:
+         lang: en
+         base-url: "/"
+    -
+     scope:
+         path: es
+     values:
+         lang: es
+         base-url: "/es/"

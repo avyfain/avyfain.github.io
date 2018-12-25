@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Contact
+i18n-link: contact
 ---
 
 I like getting feedback.
@@ -17,4 +18,4 @@ Alternatively, you can reach out through social media:
 
 To receive my posts directly to your inbox, sign up below. If not, there's always [RSS](/atom.xml).
 
-{% include subscribe_form.html %}
+{% include_cached subscribe_form.html page=page%}

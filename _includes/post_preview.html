@@ -19,9 +19,9 @@
   {% if post.description %}
     {{ post.description | markdownify }} <a href='{{ post.url }}'>Continue reading...</a>
   {% elsif post.articles %}
-    {% include links.html page=post %}
+    {% include_cached links.html page=post %}
   {% elsif post.photos %}
-    {% include photo.html page=post %}
+    {% include_cached photo.html page=post %}
   {% elsif post.excerpt | markdownify  %}
     {{ post.excerpt}} <a href='{{ post.url }}'>Continue reading...</a>
   {% else %}
