@@ -1,8 +1,8 @@
 ---
 layout: page
 title: About
+i18n-link: about
 ---
-
 
 ## Hi, I'm Avy!
 

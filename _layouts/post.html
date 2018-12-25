@@ -23,10 +23,26 @@ footnote_location: my_footnotes
   </a>
   {% endif %}
   </br>
+
+  {% assign posts=site.posts | where:"i18n-link", page.i18n-link | sort: 'lang' %}
+  {% if posts.size == 0 %}
+    {% assign posts=site.pages | where:"i18n-link", page.i18n-link | sort: 'lang' %}
+  {% endif %}
+
+  {% if posts.size != 0 %}
+    <div class="lang">
+      <ul>
+        {% for post in posts %}
+          <li><a class="{{ post.lang }}" href="{{ site.base-url }}{{ post.url }}">{{ post.lang }}</a></li>
+        {% endfor %}
+      </ul>
+    </div>
+  {% endif %}
+
+
   {{ page.content }}
 
   {% include related.html %}
   <p>Want to see more articles like this? Sign up below:</p>
-  {% include subscribe_form.html %}
-
+  {% include subscribe_form.html page=page %}
 </div>
