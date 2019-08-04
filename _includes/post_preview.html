@@ -16,14 +16,16 @@
   </a>
   {% endif %}
 
-  {% if post.description %}
+  {% if post.no_preview %}
+    {{ post.content }}
+  {% elsif post.description %}
     {{ post.description | markdownify }} <a href='{{ post.url }}'>Continue reading...</a>
   {% elsif post.articles %}
     {% include links.html page=post %}
   {% elsif post.photos %}
     {% include photo.html page=post %}
   {% elsif post.excerpt | markdownify  %}
-    {{ post.excerpt}} <a href='{{ post.url }}'>Continue reading...</a>
+    {{ post.excerpt }} <a href='{{ post.url }}'>Continue reading...</a>
   {% else %}
     {{ post.content }}
   {% endif %}

@@ -54,6 +54,7 @@ def main():
     pool = multiprocessing.Pool(10)
 
     if args.dryrun:
+        print("Running in dryrun mode")
         for path, key in file_yielder(path):
             print(path, key)
     else:
