@@ -16,7 +16,7 @@ FRONT_MATTER = """
 title: TBD
 layout: photos
 category: photos
-main_image: {}/previews/{}.jpg
+main_image: {}/previews/{}.jpeg
 tags: [TBD]
 photos:
 {}
@@ -24,8 +24,8 @@ photos:
 """
 
 FRONT_MATTER = FRONT_MATTER.strip()
-PHOTO_STRING = ("  - url: {}/{}.jpg\n"
-                "    preview_url: {}/previews/{}.jpg\n"
+PHOTO_STRING = ("  - url: {}/{}.jpeg\n"
+                "    preview_url: {}/previews/{}.jpeg\n"
                 "    caption: TBD")
 
 
