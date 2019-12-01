@@ -19,10 +19,7 @@ IMAGE_FORMATS = ('jpeg', 'jpg', 'png')
 def parse_args():
     parser = argparse.ArgumentParser()
     parser.add_argument('-i', '--input_dir', action='store', dest='input_dir', required=True)
-    group = parser.add_mutually_exclusive_group()
-    group.add_argument('--dryrun', dest='dryrun', action='store_true')
-    group.add_argument('--no-dryrun', dest='dryrun', action='store_false')
-    parser.set_defaults(dryrun=True)
+    parser.add_argument('--no-dryrun', dest='dryrun', action='store_false')
     return parser.parse_args()
 
 

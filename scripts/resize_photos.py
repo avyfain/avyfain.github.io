@@ -16,9 +16,12 @@ class Thumbnailer(object):
              (".xs", 600),
              ]
 
-    def __init__(self, directory):
+    def __init__(self, directory, books=False):
         self.directory = directory
         self.preview_dirpath = os.path.join(directory, 'previews')
+
+        if books:
+            self.SIZES = [("", 500)]
 
         if not os.path.exists(self.preview_dirpath):
             os.makedirs(self.preview_dirpath)
@@ -41,12 +44,17 @@ class Thumbnailer(object):
                 if os.path.exists(previewpath):
                     continue
                 im.thumbnail((size, size))
+
+                # https://github.com/python-pillow/Pillow/issues/2609
+                if im.mode in ('RGBA', 'LA'):
+                    im = im.convert("RGB")
                 im.save(previewpath, "JPEG", optimize=True, quality=95)
 
 
 def parse_args():
     parser = argparse.ArgumentParser()
     parser.add_argument('-i', '--input_dir', action='store', dest='input_dir', required=True)
+    parser.add_argument('-b', '--books', action='store_true')
     return parser.parse_args()
 
 
@@ -54,7 +62,7 @@ def main():
     args = parse_args()
 
     dirpath, dirnames, filenames = next(os.walk(args.input_dir))
-    t = Thumbnailer(args.input_dir)
+    t = Thumbnailer(args.input_dir, args.books)
     t.process_files(filenames)
 
 
