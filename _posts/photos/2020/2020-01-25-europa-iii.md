@@ -141,4 +141,4 @@ photos:
 
 Next up were the Austrian Alps. Initially, I wasn't too excited about this part of the trip, since I wasn't planning to partake in the snow sports, and it felt like we'd end holed up in our cabin without exploring too much. It ended up being one of the best parts of the trip.
 
-_This is the third in a long series I'll be posting in the next few days. Make sure to come back for the next set and, when you're done here, check out parts [zero](/photos/2020/01/20/chindy/), [one](/photos/2020/01/20/europa-i/), and [two](/photos/2020/01/23/europa-ii/) which have already been published._
+_This is the fourth in a long series I'll be posting in the next few days. Make sure to come back for the next set and, when you're done here, check out parts [zero](/photos/2020/01/20/chindy/), [one](/photos/2020/01/20/europa-i/), [two](/photos/2020/01/23/europa-ii/), and [four](/photos/2020/01/29/europa-iv) which have already been published._
