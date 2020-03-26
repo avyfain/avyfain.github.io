@@ -8,7 +8,13 @@
     <span class="post-date">{{ post.date | date: "%B %-d, %Y" }}</span>
   {% endif %}
 
-  {% if post.main_image %}
+  {% if post.main_image and post.main_image contains 'http' %}
+  <a href='{{ post.url }}'>
+    <img class="{{img.class | default: 'photo'}}"
+         src="{{ post.main_image }}"
+         alt="{{ post.title }}">
+  </a>
+  {% elsif post.main_image %}
   <a href='{{ post.url }}'>
     <img class="{{img.class | default: 'photo'}}"
          src="{{ site.image_path }}{{ post.main_image }}"

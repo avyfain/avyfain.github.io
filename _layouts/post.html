@@ -8,7 +8,14 @@ footnote_location: my_footnotes
 
   <span class="post-date">{{ page.date | date: "%B %-d, %Y" }}</span>
 
-  {% if page.main_image %}
+
+  {% if page.main_image and page.main_image contains 'http' %}
+  <a href='{{ page.url }}'>
+    <img src="{{ page.main_image }}"
+         alt="{{ page.title }}"
+         id="main_image"/>
+  </a>
+  {% elsif page.main_image %}
   <a href='{{ page.url }}'>
     <img src="{{ site.image_path }}{{ page.main_image }}"
          alt="{{ page.title }}"
