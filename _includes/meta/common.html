@@ -15,4 +15,6 @@
 <meta property="fb:app_id" content="302981936527866">
 {% if page.description %}
 	<meta property="og:description"   content="{{ page.description }}">
+{% elsif post.excerpt  %}
+    <meta property="og:description"   content="{{ page.excerpt }}">
 {% endif %}
