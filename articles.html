@@ -5,5 +5,9 @@ subscribe_form: 1
 ---
 
 {% for post in site.categories.articles %}
-  {% include post_preview.html page=post %}
+  {% if post.skip_language %}
+    {% continue %}
+  {% else %}
+    {% include post_preview.html page=post %}
+  {% endif %}
 {% endfor %}

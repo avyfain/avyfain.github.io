@@ -5,7 +5,11 @@ title: Home
 
 <div class="posts">
   {% for post in paginator.posts %}
-    {% include post_preview.html page=post %}
+    {% if post.skip_language %}
+      {% continue %}
+    {% else %}
+      {% include post_preview.html page=post %}
+    {% endif %}
   {% endfor %}
 </div>
 
