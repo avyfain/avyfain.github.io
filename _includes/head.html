@@ -30,7 +30,7 @@
     {% include meta/links.html page=page %}
   {% elsif layout.meta == "photos" %}
     {% include meta/photos.html page=page %}
-  {% elsif layout.meta == "post" %}
+  {% else %}
     {% include meta/posts.html page=page %}
   {% endif %}
 
