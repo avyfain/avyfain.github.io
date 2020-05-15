@@ -1,0 +1,38 @@
+{% if include.group_by_genre %}
+  {% assign sorted_genres = (include.collection | group_by: 'genre' | sort: 'name')%}
+  {% for genre in sorted_genres %}
+  <h4>{{genre.name}}</h4>
+  <ul>
+    {% assign sorted = (genre.items | sort: 'author_last')%}
+    {% for item in sorted %}
+    <li>
+      {{ item.title }}<small><em> {{item.author}}
+        {% if item.recommended_by %}
+        - recommended by {{item.recommended_by}}
+        {% endif %}
+        {% if item.note %}
+          ({{item.note | markdownify | remove: '<p>' | remove: '</p>' | strip }})
+        {% endif %}
+        </em></small>
+    </li>
+    {% endfor %}
+  </ul>
+  {% endfor %}
+
+{% else %}
+  <ul>
+    {% assign sorted = (include.collection | sort: 'author_last')%}
+    {% for item in sorted %}
+    <li>
+      {{ item.title }}<small><em> {{item.author}}
+        {% if item.recommended_by %}
+        - recommended by {{item.recommended_by}}
+        {% endif %}
+        {% if item.note %}
+          ({{item.note | markdownify | remove: '<p>' | remove: '</p>' | strip }})
+        {% endif %}
+        </em></small>
+    </li>
+    {% endfor %}
+  </ul>
+{% endif %}
