@@ -150,6 +150,7 @@ my_recommendations:
       author: Italo Calvino
       author_last: Calvino
       genre: Fiction
+      note: "[review](/articles/2018/01/07/books#invisible-cities)"
     - title: Seeing like a State
       author: James C. Scott
       author_last: Scott
