@@ -18,4 +18,4 @@ Alternatively, you can reach out through social media:
 
 To receive my posts directly to your inbox, sign up below. If not, there's always [RSS](/atom.xml).
 
-{% include subscribe_form.html page=page%}
+{% include subscribe_form.html %}
