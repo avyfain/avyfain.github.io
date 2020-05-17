@@ -5,10 +5,10 @@ layout: compress
 <!DOCTYPE html>
 <html lang="{{ page.lang | default: site.lang | default: 'en' }}">
 
-  {% include_cached head.html page=page%}
+  {% include head.html page=page%}
 
   <body>
-    {% include_cached sidebar.html page=page %}
+    {% include sidebar.html page=page %}
     <div class="content container">
       {{ content }}
     </div>
@@ -25,5 +25,5 @@ layout: compress
     </script>
   </body>
 
-  {% include_cached foot.html %}
+  {% include foot.html %}
 </html>

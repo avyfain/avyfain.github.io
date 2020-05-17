@@ -31,7 +31,7 @@ social:
   linkedin:       https://www.linkedin.com/in/avyfaingezicht
   flickr:         https://www.flickr.com/avyfain
 
-plugins:             [jekyll-paginate, jekyll-sitemap, jekyll-include-cache]
+plugins:          [jekyll-paginate, jekyll-sitemap]
 
 paginate:         5
 

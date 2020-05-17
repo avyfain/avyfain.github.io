@@ -17,4 +17,4 @@ Alternativamente, me pueden encontrar en redes sociales:
 
 Para recibir mis artículos directo a su correo, se pueden subscribir abajo, y si no, pues siempre existe [RSS](/atom.xml).
 
-{% include_cached subscribe_form.html page=page%}
+{% include subscribe_form.html page=page%}

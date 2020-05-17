@@ -20,4 +20,4 @@ Way too much of my free time is spent reading, both online and off. This blog is
 To learn about how this site is produced, check out the [colophon](/colophon).
 
 I'd love to [hear from you](/contact). If you'd like to hear from me (not too often!) sign up below:
-{% include_cached subscribe_form.html page=page%}
+{% include subscribe_form.html page=page%}

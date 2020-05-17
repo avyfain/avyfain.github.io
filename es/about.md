@@ -21,4 +21,4 @@ Paso una gran parte de mi tiempo libre leyendo, tanto en línea como a la antigu
 Para aprender un poco sobre como produzco este sitio, ojo el [colofón](/es/colophon).
 
 Me encanta [escuchar de mis lectores](/es/contact). Si te gustaría escuchar de mí (no muy a menudo!) subscríbete acá:
-{% include_cached subscribe_form.html page=page%}
+{% include subscribe_form.html page=page%}

@@ -7,7 +7,7 @@ i18n-link: index
 
 <div class="posts">
   {% for post in paginator.posts %}
-    {% include_cached post_preview.html page=post %}
+    {% include post_preview.html page=post %}
   {% endfor %}
 </div>
 
@@ -39,4 +39,4 @@ i18n-link: index
 </div>
 
 {{ site.data.lang_map[page.lang]['subscribe'] }}
-{% include_cached subscribe_form.html page=page %}
+{% include subscribe_form.html page=page %}
