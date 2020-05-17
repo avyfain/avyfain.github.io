@@ -128,7 +128,7 @@ my_recommendations:
       author: Glen Weyl, Eric Posner
       author_last: Posner
       genre: Economics
-      note: "[review](/articles/2019/02/14/books#radical-markets)"
+      note: "[Twitter thread](https://twitter.com/avyfain/status/1039900790859554817), [review](/articles/2019/02/14/books#radical-markets)"
     - title: Individualism and Economic Order
       author: Friedrich Hayek
       author_last: Hayek
