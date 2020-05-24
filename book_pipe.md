@@ -17,14 +17,6 @@ currently_reading:
       author: Jill Lepore
       author_last: Lepore
       recommended_by: Russ Roberts, Amol Mody
-    - title: Zero To One
-      author: Peter Thiel
-      author_last: Thiel
-      note: "[Twitter thread](https://twitter.com/avyfain/status/1255264172524351490)"
-    - title: The Master and Margarita
-      author: Mikhail Bulgakov
-      author_last: Bulgakov
-      recommended_by: Gustavo Solórzano
 
 on_deck:
     - title: For the Time Being
