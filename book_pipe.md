@@ -10,13 +10,14 @@ currently_reading:
       author: Karl Marx
       author_last: Marx
       note: "[Twitter thread](https://twitter.com/avyfain/status/1248474001434763264)"
-    - title: Man in the High Castle
-      author: Philip K. Dick
-      author_last: Dick
     - title: These Truths
       author: Jill Lepore
       author_last: Lepore
       recommended_by: Russ Roberts, Amol Mody
+    - title: Homage to Catalonia
+      author: George Orwell
+      author_last: Orwell
+      recommended_by: Noah Smith
 
 on_deck:
     - title: For the Time Being
@@ -50,10 +51,6 @@ on_deck:
       author: Lawrence Lessig
       author_last: Lessig
       recommended_by: Felipe Echandi
-    - title: Homage to Catalonia
-      author: George Orwell
-      author_last: Orwell
-      recommended_by: Noah Smith
     - title: Open Society
       author: Karl Popper
       author_last: Popper
@@ -61,6 +58,12 @@ on_deck:
     - title: Triumph of the City
       author: Edward Glaeser
       author_last: Glaeser
+    - title: Payments Systems in the U.S
+      author: Russ Jones, Coye Benson, Loftesness
+      author_last: Jones
+    - title: The Western Canon
+      author: Harold Bloom 
+      author_last: Bloom
 
 my_recommendations:
     - title: In The First Circle
@@ -374,7 +377,7 @@ my_recommendations:
       note: "[review](/articles/2019/02/14/books#founders-at-work)"
 ---
 
-Last updated: May 2020. If this gets too out of date, I'd [appreciate a reminder](/contact).
+Last updated: June 2020. If this gets too out of date, I'd [appreciate a reminder](/contact).
 
 For a full read and to be read list, [click here](https://docs.google.com/spreadsheets/d/1VkbAVV86-HRxxl0PlCTVl_beF2GjvofUYeVyuNAAQTg).
 
