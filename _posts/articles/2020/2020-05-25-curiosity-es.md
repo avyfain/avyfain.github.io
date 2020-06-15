@@ -28,4 +28,4 @@ Al igual que el significado de un libro cambia con el tiempo y depende del lecto
 Como Jason Somers [escribe](https://jsomers.net/blog/book-clubs), "Los buenos libros son casi fractalmente profundos: encontramos mundos enteros donde sea que busquemos, y sin importar que tanto nos acercamos." A veces, si nos acercamos donde nadie nunca había estado antes, encontramos mundos que ni siquiera estaban ahí en primer lugar. Si usted necesitaba una excusa para pasar más tiempo leyendo libros, ahora la tiene. Vaya y busque nuevos mundos. 
 
 <hr>
-<small><em>Photo: Río de reflección, Vienna, Austria, por mí. Anteriormente compartida en [Europa II, Wien MMXIX](/photos/2020/01/23/europa-ii/).</em></small>
+<small><em>Foto: Río de reflección, Vienna, Austria, por mí. Anteriormente compartida en [Europa II, Wien MMXIX](/photos/2020/01/23/europa-ii/).</em></small>
