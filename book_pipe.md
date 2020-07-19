@@ -14,10 +14,6 @@ currently_reading:
       author: Jill Lepore
       author_last: Lepore
       recommended_by: Russ Roberts, Amol Mody
-    - title: Homage to Catalonia
-      author: George Orwell
-      author_last: Orwell
-      recommended_by: Noah Smith
 
 on_deck:
     - title: For the Time Being
@@ -62,7 +58,7 @@ on_deck:
       author: Russ Jones, Coye Benson, Loftesness
       author_last: Jones
     - title: The Western Canon
-      author: Harold Bloom 
+      author: Harold Bloom
       author_last: Bloom
 
 my_recommendations:
@@ -245,7 +241,7 @@ my_recommendations:
     - title: Zero to One
       author: Peter Thiel
       author_last: Thiel
-      genre: Entrepreneurship
+      genre: Entrepreneurship/Management
       note: "[Twitter thread](https://twitter.com/avyfain/status/1255264172524351490)"
     - title: Do Androids Dream of Electric Sheep?
       author: Philip K. Dick
@@ -290,7 +286,7 @@ my_recommendations:
     - title: What's the Future and Why It's Up to Us
       author: Tim O'Reilly
       author_last: Reilly
-      genre: Entrepreneurship
+      genre: Entrepreneurship/Management
       note: "[review](/articles/2019/02/14/books#wtf?-what's-the-future-and-why-it's-up-to-us)"
     - title: Foucault's Pendulum
       author: Umberto Eco
@@ -371,13 +367,26 @@ my_recommendations:
       author_last: Graham
       note: "[review](/articles/2020/02/09/books#hackers-and-painters)"
     - title: Founders at Work
-      genre: Entrepreneurship
+      genre: Entrepreneurship/Management
       author: Jessica Livingston
       author_last: Livingston
       note: "[review](/articles/2019/02/14/books#founders-at-work)"
+    - title: The Making of a Manager
+      genre: Entrepreneurship/Management
+      author: Julie Zhuo
+      author_last: Zhuo
+    - title: Homage to Catalonia
+      genre: History
+      author: George Orwell
+      author_last: Orwell
+      recommended_by: Noah Smith
+    - title: Suite Française
+      author: Irène Némirovsky
+      author_last: Némirovsky
+      genre: Fiction
 ---
 
-Last updated: June 2020. If this gets too out of date, I'd [appreciate a reminder](/contact).
+Last updated: July 2020. If this gets too out of date, I'd [appreciate a reminder](/contact).
 
 For a full read and to be read list, [click here](https://docs.google.com/spreadsheets/d/1VkbAVV86-HRxxl0PlCTVl_beF2GjvofUYeVyuNAAQTg).
 
