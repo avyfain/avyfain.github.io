@@ -2,7 +2,7 @@
 title: San Francisco Hellscapes
 layout: photos
 category: photos
-main_image: bladerunner-sf/01.jpg
+main_image: bladerunner-sf/previews/01.jpg
 tags: [ature, california, san francisco, global warming]
 end_comment: There are tons of pictures making rounds online that are much better than mine. I particularly enjoyed [Chris Michel's](https://www.christophermichel.com/Travel/The-Day-The-Sun-Didnt-Rise/) and the [San Francisco Chronicle's photo team's](https://www.sfchronicle.com/bayarea/article/Bay-Area-awakes-to-foreboding-smoke-choked-15553731.php) work, but I'm really curious about how people took yesterday in, so please send yours [my way](/contact), too!
 photos:
