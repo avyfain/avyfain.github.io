@@ -10,10 +10,17 @@ currently_reading:
       author: Karl Marx
       author_last: Marx
       note: "[Twitter thread](https://twitter.com/avyfain/status/1248474001434763264)"
-    - title: These Truths
-      author: Jill Lepore
-      author_last: Lepore
-      recommended_by: Russ Roberts, Amol Mody
+    - title: A Paradise Built In Hell
+      author: Rebecca Solnit
+      author_last: Solnit
+    - title: The Dark Forest (Remembrance of Earth's Past)
+      author: Liu Cixin
+      author_last: Cixin
+      genre: Science Fiction
+    - title: World After Capital
+      author: Albert Wenger
+      author_last: Wenger
+      genre: Economics
 
 on_deck:
     - title: For the Time Being
@@ -22,9 +29,6 @@ on_deck:
     - title: The Manager’s Path
       author: Camille Fournier
       author_last: Fournier
-    - title: A Paradise Built In Hell
-      author: Rebecca Solnit
-      author_last: Solnit
     - title: Sovereign Individual
       author: James Dale Davidson and William Rees-Mogg
       author_last: Davidson
@@ -384,9 +388,26 @@ my_recommendations:
       author: Irène Némirovsky
       author_last: Némirovsky
       genre: Fiction
+    - title: These Truths
+      author: Jill Lepore
+      author_last: Lepore
+      recommended_by: Russ Roberts, Amol Mody
+      genre: History
+    - title: Cien Años de Soledad
+      author: Gabriel García Márquez
+      author_last: Márquez
+      genre: Fiction
+    - title: This Life
+      author: Martin Hägglund
+      author_last: Hägglund
+      genre: Philosophy
+    - title: The Mind of God
+      author: Paul Davies
+      author_last: Davies
+      genre: Science
 ---
 
-Last updated: July 2020. If this gets too out of date, I'd [appreciate a reminder](/contact).
+Last updated: October 2020. If this gets too out of date, I'd [appreciate a reminder](/contact).
 
 For a full read and to be read list, [click here](https://docs.google.com/spreadsheets/d/1VkbAVV86-HRxxl0PlCTVl_beF2GjvofUYeVyuNAAQTg).
 
