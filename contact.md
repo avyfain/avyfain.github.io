@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Contact
+i18n-link: contact
 ---
 
 I like getting feedback.

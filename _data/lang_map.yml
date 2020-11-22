@@ -1,0 +1,36 @@
+en:
+  home: Home
+  sidebar_tag: Written by
+  sidebar_desc: Where I talk about tech and econ, post my photography, and share random thoughts.
+  sidebar_titles:
+    About: About
+    Articles: Articles
+    Contact: Contact
+    Links: Links
+    Photography: Photography
+    Subscribe: Subscribe
+  newer: Newer
+  older: Older
+  subscribe: "Would you like to get content like this directly in your inbox? Sign up below:"
+  fakemail: "your_mail@mail.com"
+  related_title: Related posts
+  related_desc: "If you made it all the way to the end of this, you might be interested in these other posts:"
+
+es:
+  home: Inicio
+  sidebar_tag: Escrito por
+  sidebar_desc: Donde hablo sobre tecnología, economía, pongo mi fotografía y comparto pensamientos.
+  sidebar_titles:
+    About: Sobre Mí
+    Articles: Artículos
+    Contact: Contacto
+    Links: Links
+    Photography: Fotografía
+    Subscribe: Subscríbete
+  newer: Siguiente
+  older: Anterior
+  subscribe: "Te gustaría recibir contenido como este en tu inbox? Suscríbete acá:"
+  fakemail: "tu_mail@mail.com"
+  related_title: Artículos relacionados
+  related_desc: "Si llegaste hasta acá, tal vez estés interesado en estos otros artículos:"
+

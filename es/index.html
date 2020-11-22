@@ -1,17 +1,13 @@
 ---
 layout: default
-title: Home
+title: Inicio
 i18n-link: index
 ---
 
 
 <div class="posts">
   {% for post in paginator.posts %}
-    {% if post.skip_language %}
-      {% continue %}
-    {% else %}
-      {% include post_preview.html page=post %}
-    {% endif %}
+    {% include post_preview.html page=post %}
   {% endfor %}
 </div>
 
@@ -43,4 +39,4 @@ i18n-link: index
 </div>
 
 {{ site.data.lang_map[page.lang]['subscribe'] }}
-{% include subscribe_form.html %}
+{% include subscribe_form.html page=page %}

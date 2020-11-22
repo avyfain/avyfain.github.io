@@ -1,32 +1,82 @@
+{% assign lang_map = site.data.lang_map[page.lang] %}
+
 <div class="sidebar">
   <div class="container sidebar-sticky">
     <div class="sidebar-about">
       <h1>
-        <a href="/">
+        <a href="/{{page.lang}}">
           {{ site.title }}
         </a>
       </h1>
-      <p>Written by {{ site.author.name }}</p>
-      <p class="lead">{{ site.description }}</p>
+      <p>{{lang_map['sidebar_tag']}} {{ site.author.name }}</p>
+      <p class="lead">{{lang_map['sidebar_desc']}}</p>
     </div>
 
     <nav class="sidebar-nav">
-      <a class="sidebar-nav-item{% if page.url == '/' %} active{% endif %}" href="{{ '/' }}">Home</a>
+      {% if page.lang != 'en' %}
+          {% assign langd_url = '/' | append: page.lang | append: '/' %}
+      {% else %}
+          {% assign langd_url = '/' %}
+      {% endif %}
+      <a href="{{langd_url}}"
+         class="sidebar-nav-item
+         {% if page.url == {{langd_url}} %}
+           active
+         {% endif %}">
+        {{lang_map['home']}}
+      </a>
 
       {% assign pages_list = site.pages %}
       {% for node in pages_list %}
         {% if node.show != 0 %}
           {% if node.layout == "page" %}
-            <a class="sidebar-nav-item{% if page.url == node.url %} active {% endif %}" href="{{ node.url }}">
+            {% if page.lang != 'en' %}
+                {% assign langd_url = '/' | append: page.lang | append: node.url %}
+            {% else %}
+                {% assign langd_url = node.url %}
+            {% endif %}
+            <a href="{{ langd_url }}"
+               class="sidebar-nav-item
+                      {% if page.url == langd_url %}
+                        active
+                      {% endif %}">
               {% if node.sidebar_title %}
-                {{ node.sidebar_title }}
+                {{ lang_map['sidebar_titles'][node.sidebar_title] }}
               {% else %}
-                {{ node.title }}
+                {{ lang_map['sidebar_titles'][node.title] }}
               {% endif %}
             </a>
           {% endif %}
         {% endif %}
       {% endfor %}
     </nav>
+
+    <div class="sidebar-lang">
+      {% assign items=site.posts | where:"i18n-link", page.i18n-link | sort: 'lang' %}
+
+      {% if items.size == 0 %}
+        {% assign items=site.pages | where:"i18n-link", page.i18n-link | sort: 'lang' %}
+      {% endif %}
+
+      {% assign x=[] %}
+      {% if page.i18n-link == 'index' %}
+        {% for item in items %}
+          {% unless item.url contains 'page' %}
+            {% assign x=x | push: item %}
+          {% endunless %}
+        {% endfor %}
+        {% assign items=x %}
+      {% endif %}
+
+      {% if items.size > 1 %}
+        {% for item in items %}
+          <span><a class="{% if item.lang == page.lang %}
+                            active
+                          {% endif %}"
+                   href="{{ site.base-url }}{{ item.url }}">{{ item.lang }}</a></span>
+          {% unless forloop.last %} {{"|"}} {% endunless %}
+        {% endfor %}
+      {% endif %}
+    </div>
   </div>
 </div>

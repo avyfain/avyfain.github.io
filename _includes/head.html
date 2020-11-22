@@ -14,7 +14,7 @@
   <!-- Enable responsiveness on mobile devices-->
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1">
 
-  {% if page.title == "Home" %}
+  {% if page.title == {{site.data.lang_map[page.lang]['home']}} %}
     <meta name="google-site-verification" content="Xx0yQS3F0UypEVtHIuI_4NZbCs_MLtogDyWvk2ehycg" />
   {% endif %}
 
@@ -36,7 +36,7 @@
 
 
   <title>
-    {% if page.title == "Home" %}
+    {% if page.title == {{site.data.lang_map[page.lang]['home']}} %}
       {{ site.initials }} &middot; {{ site.author.name }}
     {% else %}
       {{ page.title }} &middot; {{ site.initials }}
