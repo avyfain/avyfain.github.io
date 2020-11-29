@@ -10,13 +10,14 @@ currently_reading:
       author: Karl Marx
       author_last: Marx
       note: "[Twitter thread](https://twitter.com/avyfain/status/1248474001434763264)"
-    - title: A Paradise Built In Hell
-      author: Rebecca Solnit
-      author_last: Solnit
-    - title: The Dark Forest (Remembrance of Earth's Past)
-      author: Liu Cixin
-      author_last: Cixin
-      genre: Science Fiction
+    - title: Waiting for the Barbarians
+      author: J. M. Coetzee
+      author_last: Coetzee
+      genre: Fiction
+    - title: Drive Your Plow Over the Bones of the Dead
+      author: Olga Tokarczuk
+      author_last: Tokarczuk
+      genre: Fiction
     - title: World After Capital
       author: Albert Wenger
       author_last: Wenger
@@ -405,9 +406,13 @@ my_recommendations:
       author: Paul Davies
       author_last: Davies
       genre: Science
+    - title: A Paradise Built In Hell
+      author: Rebecca Solnit
+      author_last: Solnit
+      genre: History
 ---
 
-Last updated: October 2020. If this gets too out of date, I'd [appreciate a reminder](/contact).
+Last updated: November 2020. If this gets too out of date, I'd [appreciate a reminder](/contact).
 
 For a full read and to be read list, [click here](https://docs.google.com/spreadsheets/d/1VkbAVV86-HRxxl0PlCTVl_beF2GjvofUYeVyuNAAQTg).
 
