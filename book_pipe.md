@@ -14,16 +14,22 @@ currently_reading:
       author: J. M. Coetzee
       author_last: Coetzee
       genre: Fiction
-    - title: Drive Your Plow Over the Bones of the Dead
-      author: Olga Tokarczuk
-      author_last: Tokarczuk
-      genre: Fiction
     - title: World After Capital
       author: Albert Wenger
       author_last: Wenger
       genre: Economics
+    - title: La rebelión de las masas
+      author: José Ortega y Gasset
+      author_last: Ortega
+      genre: Politics
 
 on_deck:
+    - title: 36 Arguments for the Existence of God
+      author: Rebecca Goldstein
+      author_last: Goldstein
+    - title: Someone Who Will Love You in All Your Damaged Glory
+      author: Raphael Bob-Waksberg
+      author_last: Bob-Waksberg
     - title: For the Time Being
       author: Annie Dillard
       author_last: Dillard
@@ -412,7 +418,7 @@ my_recommendations:
       genre: History
 ---
 
-Last updated: November 2020. If this gets too out of date, I'd [appreciate a reminder](/contact).
+Last updated: December 2020. If this gets too out of date, I'd [appreciate a reminder](/contact).
 
 For a full read and to be read list, [click here](https://docs.google.com/spreadsheets/d/1VkbAVV86-HRxxl0PlCTVl_beF2GjvofUYeVyuNAAQTg).
 
