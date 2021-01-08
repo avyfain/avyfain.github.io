@@ -3,30 +3,19 @@ title: Book Pipeline
 layout: page
 show: 0
 currently_reading:
-    - title: Exile, Statelessness, and Migration
-      author: Seyla Benhabib
-      author_last: Benhabib
     - title: Das Kapital
       author: Karl Marx
       author_last: Marx
       note: "[Twitter thread](https://twitter.com/avyfain/status/1248474001434763264)"
-    - title: Waiting for the Barbarians
-      author: J. M. Coetzee
-      author_last: Coetzee
+    - title: Severance
+      author: Ling Ma
+      author_last: Ma
       genre: Fiction
-    - title: World After Capital
-      author: Albert Wenger
-      author_last: Wenger
-      genre: Economics
-    - title: La rebelión de las masas
-      author: José Ortega y Gasset
-      author_last: Ortega
-      genre: Politics
 
 on_deck:
-    - title: 36 Arguments for the Existence of God
-      author: Rebecca Goldstein
-      author_last: Goldstein
+    - title: Order without Design
+      author: Alain Bertaud
+      author_last: Bertaud
     - title: Someone Who Will Love You in All Your Damaged Glory
       author: Raphael Bob-Waksberg
       author_last: Bob-Waksberg
@@ -44,9 +33,10 @@ on_deck:
       author: Peter Frankopan
       author_last: Frankopan
       recommended_by: Alvaro Videla
-    - title: Bowling Alone
-      author: Robert Putnam
-      author_last: Putnam
+    - title: Los Palimpsestos
+      author: Aleksandra Lun
+      author_last: Lun
+      recommended_by: Alvaro Videla
     - title: The New Jim Crow
       author: Michelle Alexander
       author_last: Alexander
@@ -66,13 +56,20 @@ on_deck:
       author: Edward Glaeser
       author_last: Glaeser
     - title: Payments Systems in the U.S
-      author: Russ Jones, Coye Benson, Loftesness
+      author: Russ Jones, Carol Coye Benson, Scott Loftesness
       author_last: Jones
     - title: The Western Canon
       author: Harold Bloom
       author_last: Bloom
+    - title: Lombard Street
+      author: Walter Bagehot
+      author_last: Bagehot
 
 my_recommendations:
+    - title: 36 Arguments for the Existence of God
+      author: Rebecca Goldstein
+      author_last: Goldstein
+      genre: Fiction
     - title: In The First Circle
       author: Aleksandr Solzhenitsyn
       author_last: Solzhenitsyn
@@ -418,9 +415,12 @@ my_recommendations:
       genre: History
 ---
 
-Last updated: December 2020. If this gets too out of date, I'd [appreciate a reminder](/contact).
+Last updated: January 2021. If this gets too out of date, I'd [appreciate a reminder](/contact).
 
 For a full read and to be read list, [click here](https://docs.google.com/spreadsheets/d/1VkbAVV86-HRxxl0PlCTVl_beF2GjvofUYeVyuNAAQTg).
+
+### Books read and reviewed, by year
+[2020](/articles/2021/01/08/books/), [2019](/articles/2020/02/09/books/), [2018](/articles/2019/02/14/books/), [2017](/articles/2018/01/07/books/), [2016](/articles/2017/01/06/books/)
 
 ### Currently Reading / Unfinished
 {% include book_list.html collection=page.currently_reading %}
@@ -428,8 +428,3 @@ For a full read and to be read list, [click here](https://docs.google.com/spread
 {% include book_list.html collection=page.on_deck %}
 ### My Recommendations
 {% include book_list.html collection=page.my_recommendations group_by_genre=true %}
-### Books read and reviewed, by year
-* [2019](/articles/2020/02/09/books/)
-* [2018](/articles/2019/02/14/books/)
-* [2017](/articles/2018/01/07/books/)
-* [2016](/articles/2017/01/06/books/)
