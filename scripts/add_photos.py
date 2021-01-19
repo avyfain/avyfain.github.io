@@ -30,7 +30,7 @@ PHOTO_STRING = ("  - url: {}/{}.jpeg\n"
 
 
 def check_dir():
-    assert os.getcwd().endswith('avyfain.github.io')
+    assert os.getcwd().endswith('blog')
 
 
 def parse_args():

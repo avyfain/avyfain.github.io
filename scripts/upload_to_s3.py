@@ -43,7 +43,12 @@ def file_yielder(root_path):
 @retry(Exception)
 def upload_file(full_path, key_id):
     logger.info("starting upload for %s", key_id)
-    response = s3.upload_file(full_path, BUCKET, key_id, ExtraArgs={"ContentType": "image/jpeg"})
+    if key_id.endswith('png'):
+        content_type = "image/png"
+    else:
+        content_type = "image/jpeg"
+
+    response = s3.upload_file(full_path, BUCKET, key_id, ExtraArgs={"ContentType": content_type})
     logger.info("Successfully uploaded %s", key_id)
     return response
 

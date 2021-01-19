@@ -6,3 +6,5 @@ _site
 .env
 .jekyll-metadata
 Gemfile.lock
+img/*
+.ruby-version
