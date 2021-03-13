@@ -3,7 +3,7 @@ title: San Francisco Hellscapes
 layout: photos
 category: photos
 main_image: bladerunner-sf/previews/01.jpg
-tags: [ature, california, san francisco, global warming]
+tags: [nature, california, san francisco, global warming]
 end_comment: There are tons of pictures making rounds online that are much better than mine. I particularly enjoyed [Chris Michel's](https://www.christophermichel.com/Travel/The-Day-The-Sun-Didnt-Rise/) and the [San Francisco Chronicle's photo team's](https://www.sfchronicle.com/bayarea/article/Bay-Area-awakes-to-foreboding-smoke-choked-15553731.php) work, but I'm really curious about how people took yesterday in, so please send yours [my way](/contact), too!
 photos:
   - caption: Waking up to this view out of my window was extremely odd. The day got darker as the sun approached its zenith, and started to get brighter later in the day. The whole thing seemed backwards.
