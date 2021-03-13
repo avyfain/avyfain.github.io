@@ -7,15 +7,22 @@ currently_reading:
       author: Karl Marx
       author_last: Marx
       note: "[Twitter thread](https://twitter.com/avyfain/status/1248474001434763264)"
-    - title: Severance
-      author: Ling Ma
-      author_last: Ma
-      genre: Fiction
-
-on_deck:
     - title: Order without Design
       author: Alain Bertaud
       author_last: Bertaud
+    - title: Lombard Street
+      author: Walter Bagehot
+      author_last: Bagehot
+    - title: Death's End
+      author: Liu Cixin
+      author_last: Cixin
+      genre: Science Fiction
+    - title: Against The Gods
+      author: Peter L. Bernstein
+      author_last: Bernstein
+      genre: History
+
+on_deck:
     - title: Someone Who Will Love You in All Your Damaged Glory
       author: Raphael Bob-Waksberg
       author_last: Bob-Waksberg
@@ -32,10 +39,6 @@ on_deck:
     - title: Silk Roads
       author: Peter Frankopan
       author_last: Frankopan
-      recommended_by: Alvaro Videla
-    - title: Los Palimpsestos
-      author: Aleksandra Lun
-      author_last: Lun
       recommended_by: Alvaro Videla
     - title: The New Jim Crow
       author: Michelle Alexander
@@ -55,15 +58,9 @@ on_deck:
     - title: Triumph of the City
       author: Edward Glaeser
       author_last: Glaeser
-    - title: Payments Systems in the U.S
-      author: Russ Jones, Carol Coye Benson, Scott Loftesness
-      author_last: Jones
     - title: The Western Canon
       author: Harold Bloom
       author_last: Bloom
-    - title: Lombard Street
-      author: Walter Bagehot
-      author_last: Bagehot
 
 my_recommendations:
     - title: 36 Arguments for the Existence of God
@@ -413,9 +410,22 @@ my_recommendations:
       author: Rebecca Solnit
       author_last: Solnit
       genre: History
+    - title: Severance
+      author: Ling Ma
+      author_last: Ma
+      genre: Fiction
+    - title: What Tech Calls Thinking
+      author: Adrian Daub
+      author_last: Daub
+      genre: Culture
+    - title: Los Palimpsestos
+      author: Aleksandra Lun
+      author_last: Lun
+      recommended_by: Alvaro Videla
+      genre: Fiction
 ---
 
-Last updated: January 2021. If this gets too out of date, I'd [appreciate a reminder](/contact).
+Last updated: March 2021. If this gets too out of date, I'd [appreciate a reminder](/contact).
 
 For a full read and to be read list, [click here](https://docs.google.com/spreadsheets/d/1VkbAVV86-HRxxl0PlCTVl_beF2GjvofUYeVyuNAAQTg).
 
