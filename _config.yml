@@ -18,6 +18,7 @@ baseurl:          /
 author:
   name:           'Avy Faingezicht'
   url:            https://twitter.com/avyfain
+  email:          avy@faingezicht.com
 
 kramdown:
   footnote_location: 'my_footnotes'
