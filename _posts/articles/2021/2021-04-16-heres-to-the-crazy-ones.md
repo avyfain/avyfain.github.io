@@ -6,6 +6,8 @@ main_image: crazy-ones/previews/SJT.jpeg
 description: After nearly six years at Apple, the time has come for me to move on. Today is my last day, so I wanted to share a bit about my journey and some of the ways my time with the company shaped me and the way I see the world.
 ---
 
+<small><em>Este ensayo también está disponible [en español](/2021/04/16/heres-to-the-crazy-ones-es/).</em></small>
+
 After nearly six years at Apple, the time has come for me to move on. Today is my last day, so I wanted to share a bit about my journey and some of the ways my time with the company shaped me and the way I see the world.
 
 I landed at Apple by sheer luck. I had my sights set on a technical role at a startup, so I leveraged my internship experiences to mask over my lack of a CS degree and posted my resume on every single place I could get some attention. My [post on HN](https://news.ycombinator.com/item?id=9128526) caught my eventual manager's eye, and instead of joining a team of five or ten people looking for product market fit I landed at the largest company in the world. Years later, having passed through Maps, Search, and Siri Data, here's a look back at what I learned on this wild ride.
