@@ -38,9 +38,15 @@
 {% endfor %}
 
 {% if related_posts != '' %}
+    {% assign url_end = page.url | slice: -4, 4 %}
     <aside class="related">
-        <h3>Related posts</h3>
-        If you made it all the way to the end of this, you might be interested in these other posts:
+        {% if url_end == "-es/" %}
+            <h3>Artículos Relacionados</h3>
+            Si leíste hasta acá, te pueden interesar estos otros artículos:
+        {% else %}
+            <h3>Related posts</h3>
+            If you made it all the way to the end of this, you might be interested in these other posts:
+        {% endif %}
         <ul class="related-posts">
             {{ related_posts }}
         </ul>
