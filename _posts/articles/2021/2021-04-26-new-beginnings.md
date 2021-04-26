@@ -62,6 +62,8 @@ One of the most important criteria for my next role was a product I believe will
 
 Hopefully I'll be able to share some of my early learnings in a future blog post. I'm sure there are plenty of exciting aspects of my new role that I haven't even realized yet.
 
+If these challenges sound amazing to you too, of course [we're hiring](https://www.vouch.us/careers).
+
 <small>_This is the second in a series I'm writing about my recent career transition out of Apple. See part one, on [things I learned in my time at Apple](/2021/04/16/heres-to-the-crazy-ones), and make sure to check back in a few days for upcoming pieces on **things to ask in interviews with startups**, **how to evaluate an offer from a startup**, and **tips on how to make your job transition as smooth as possible**, etc_.
 </small>
 

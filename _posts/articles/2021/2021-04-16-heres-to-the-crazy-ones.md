@@ -5,6 +5,7 @@ tags: [startups, jobs, technology, apple, san francisco, software engineering, p
 main_image: crazy-ones/previews/SJT.jpeg
 description: After nearly six years at Apple, the time has come for me to move on. Today is my last day, so I wanted to share a bit about my journey and some of the ways my time with the company shaped me and the way I see the world.
 category: articles
+permalink: /:year/:month/:day/:title/
 ---
 
 <small><em>Este ensayo también está disponible [en español](/2021/04/16/heres-to-the-crazy-ones-es/).</em></small>
