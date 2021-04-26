@@ -54,8 +54,7 @@ Here's to the crazy ones.
      data-src="https://cdn.faingezicht.com/crazy-ones/previews/IL1.jpeg"
      alt="Visiting Infinite Loop 1 with my parents back in 2015"/>
 
-
-<small>_This is the first in a series I'm writing about my recent career transition out of Apple. Make sure to check back in a few days for upcoming pieces on **how I picked my next role**, **things to ask in interviews with startups**, **how to evaluate an offer from a startup**, and **tips on how to make your job transition as smooth as possible**, etc_.
+<small>_This is the first in a series I'm writing about my recent career transition out of Apple. See part two, on [where I'm going and how I picked my next role](/articles/2021/04/26/new-beginnings/) and make sure to check back in a few days for upcoming pieces on **things to ask in interviews with startups**, **how to evaluate an offer from a startup**, and **tips on how to make your job transition as smooth as possible**, etc_.
 </small>
 <hr>
 <small><em>Photos: Steve Jobs theater, Apple Park. Visiting Apple's old HQ at Infinite Loop 1 with my parents back in 2015.</em></small>
