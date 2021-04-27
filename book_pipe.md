@@ -432,7 +432,7 @@ my_recommendations:
       genre: Fiction
 ---
 
-Last updated: March 2021. If this gets too out of date, I'd [appreciate a reminder](/contact).
+Last updated: April 2021. If this gets too out of date, I'd [appreciate a reminder](/contact).
 
 For a full read and to be read list, [click here](https://docs.google.com/spreadsheets/d/1VkbAVV86-HRxxl0PlCTVl_beF2GjvofUYeVyuNAAQTg).
 
