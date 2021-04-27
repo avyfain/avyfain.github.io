@@ -6,7 +6,7 @@
     {% assign sorted = (genre.items | sort: 'author_last')%}
     {% for item in sorted %}
     <li>
-      {{ item.title }}<small><em> {{item.author}}
+      {{ item.title }}<small><em>, {{item.author}}
         {% if item.recommended_by %}
         - recommended by {{item.recommended_by}}
         {% endif %}
@@ -24,7 +24,7 @@
     {% assign sorted = (include.collection | sort: 'author_last')%}
     {% for item in sorted %}
     <li>
-      {{ item.title }}<small><em> {{item.author}}
+      {{ item.title }}<small><em>, {{item.author}}
         {% if item.recommended_by %}
         - recommended by {{item.recommended_by}}
         {% endif %}

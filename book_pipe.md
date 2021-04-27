@@ -13,14 +13,9 @@ currently_reading:
     - title: Lombard Street
       author: Walter Bagehot
       author_last: Bagehot
-    - title: Death's End
-      author: Liu Cixin
-      author_last: Cixin
-      genre: Science Fiction
-    - title: Against The Gods
-      author: Peter L. Bernstein
-      author_last: Bernstein
-      genre: History
+    - title: Telex From Cuba
+      author: Rachel Kushner
+      author_last: Kushner
 
 on_deck:
     - title: Someone Who Will Love You in All Your Damaged Glory
@@ -61,8 +56,19 @@ on_deck:
     - title: The Western Canon
       author: Harold Bloom
       author_last: Bloom
+    - title: La Ciudad y Los Perros
+      author: Mario Vargas Llosa
+      author_last: Vargas
+    - title: Unlocking Leadership Mindtraps
+      author: Jennifer Garvey Berger
+      author_last: Garvey
+      recommended_by: Michael Hartmann
 
 my_recommendations:
+    - title: Against The Gods
+      author: Peter L. Bernstein
+      author_last: Bernstein
+      genre: History
     - title: 36 Arguments for the Existence of God
       author: Rebecca Goldstein
       author_last: Goldstein
@@ -343,6 +349,7 @@ my_recommendations:
       author: Liu Cixin
       author_last: Cixin
       genre: Science Fiction
+      note: This is a trilogy, where I'd rate the books as 3 > 1 > 2.
     - title: Pachinko
       author: Min Jin Lee
       author_last: Lee
