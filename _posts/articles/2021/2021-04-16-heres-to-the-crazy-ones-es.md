@@ -57,7 +57,7 @@ _Here's to the crazy ones._
      alt="Visiting Infinite Loop 1 with my parents back in 2015"/>
 
 
-<small>_Este artículo es el primero en una serie que estoy escribiendo sobre mi reciente transición al salir de Apple. Vuelve en unos días para otros ensayos sobre **cómo escogí mi próximo rol**, **preguntas para hacer en entrevistas con startups**, **cómo evaluar una oferta en un startup**, **tips sobre cómo hacer que la transición entre trabajos sea lo mejor posible**, etc._</small>
+<small>_Este artículo es el primero en una serie que estoy escribiendo sobre mi reciente transición al salir de Apple. Puedes ver la parte dos, sobre [dónde voy y cómo escogí mi próximo rol](/articles/2021/04/26/new-beginnings/)  y vuelve en unos días para otros ensayos sobre **preguntas para hacer en entrevistas con startups**, **cómo evaluar una oferta en un startup**, **tips sobre cómo hacer que la transición entre trabajos sea lo mejor posible**, etc._</small>
 
 <hr>
 <small><em>Fotos: Teatro Steve Jobs, Apple Park. Visitando las oficinas centrales de Apple en Infinite Loop 1 con mis papás en el 2015.</em></small>

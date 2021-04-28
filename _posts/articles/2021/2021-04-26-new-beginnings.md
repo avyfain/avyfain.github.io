@@ -1,10 +1,12 @@
 ---
-title: New beginnings
+title: New Beginnings
 layout: post
 tags: [startups, jobs, tech, san francisco]
 main_image: europa/previews/612.jpeg
 category: articles
+description: As you may have heard from my previous post, [I've left Apple](/2021/04/16/heres-to-the-crazy-ones/). Part of my decision to leave was motivated by the fact that even before joining Apple, I knew I wanted to work at a startup.
 ---
+<small><em>Este ensayo también está disponible [en español](/articles/2021/04/26/new-beginnings-es/).</em></small>
 
 As you may have heard from my previous post, [I've left Apple](/2021/04/16/heres-to-the-crazy-ones/). Part of my decision to leave was motivated by the fact that even before joining Apple, I knew I wanted to work at a startup.
 
