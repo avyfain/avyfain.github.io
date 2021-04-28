@@ -5,6 +5,7 @@ tags: [startups, jobs, tech, san francisco]
 main_image: europa/previews/612.jpeg
 category: articles
 skip_language: true
+description: Como pueden haber escuchado en mi última publicación, [me fui de Apple](/2021/04/16/heres-to-the-crazy-ones-es/). Parte de mi decisión fue motivada por el hecho de que incluso antes de entrar en Apple, ya sabía que quería trabajar en un startup.
 ---
 
 <small><em>This essay is also available [in English](/articles/2021/04/26/new-beginnings/).</em></small>
