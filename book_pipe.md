@@ -10,20 +10,17 @@ currently_reading:
     - title: Order without Design
       author: Alain Bertaud
       author_last: Bertaud
-    - title: Lombard Street
-      author: Walter Bagehot
-      author_last: Bagehot
     - title: Telex From Cuba
       author: Rachel Kushner
       author_last: Kushner
+    - title: The Ascent of Money
+      author: Niall Ferguson
+      author_last: Ferguson
 
 on_deck:
     - title: Someone Who Will Love You in All Your Damaged Glory
       author: Raphael Bob-Waksberg
       author_last: Bob-Waksberg
-    - title: For the Time Being
-      author: Annie Dillard
-      author_last: Dillard
     - title: The Manager’s Path
       author: Camille Fournier
       author_last: Fournier
@@ -56,15 +53,24 @@ on_deck:
     - title: The Western Canon
       author: Harold Bloom
       author_last: Bloom
-    - title: La Ciudad y Los Perros
-      author: Mario Vargas Llosa
-      author_last: Vargas
     - title: Unlocking Leadership Mindtraps
       author: Jennifer Garvey Berger
       author_last: Garvey
       recommended_by: Michael Hartmann
 
 my_recommendations:
+    - title: La Ciudad y Los Perros
+      author: Mario Vargas Llosa
+      author_last: Vargas
+      genre: Fiction
+    - title: For the Time Being
+      author: Annie Dillard
+      author_last: Dillard
+      genre: Philosophy
+    - title: Lombard Street
+      author: Walter Bagehot
+      author_last: Bagehot
+      genre: Economics
     - title: Against The Gods
       author: Peter L. Bernstein
       author_last: Bernstein
@@ -432,7 +438,7 @@ my_recommendations:
       genre: Fiction
 ---
 
-Last updated: April 2021. If this gets too out of date, I'd [appreciate a reminder](/contact).
+Last updated: June 2021. If this gets too out of date, I'd [appreciate a reminder](/contact).
 
 For a full read and to be read list, [click here](https://docs.google.com/spreadsheets/d/1VkbAVV86-HRxxl0PlCTVl_beF2GjvofUYeVyuNAAQTg).
 
