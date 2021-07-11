@@ -110,9 +110,6 @@ photos:
     preview_url: vaxd-travel/previews/43.jpeg
   - url: vaxd-travel/44.jpeg
     preview_url: vaxd-travel/previews/44.jpeg
-  - url: vaxd-travel/45.jpeg
-    preview_url: vaxd-travel/previews/45.jpeg
-    caption: Hannah probably wouldn't have enjoyed the trip half as much if Rollo hadn't been there, too.
   - url: vaxd-travel/46.jpeg
     preview_url: vaxd-travel/previews/46.jpeg
   - url: vaxd-travel/47.jpeg
