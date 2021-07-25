@@ -13,14 +13,14 @@ currently_reading:
     - title: Telex From Cuba
       author: Rachel Kushner
       author_last: Kushner
-    - title: The Ascent of Money
-      author: Niall Ferguson
-      author_last: Ferguson
-
-on_deck:
+    - title: Black Mass
+      author: John Gray
+      author_last: Gray
     - title: Someone Who Will Love You in All Your Damaged Glory
       author: Raphael Bob-Waksberg
       author_last: Bob-Waksberg
+
+on_deck:
     - title: The Manager’s Path
       author: Camille Fournier
       author_last: Fournier
@@ -53,12 +53,16 @@ on_deck:
     - title: The Western Canon
       author: Harold Bloom
       author_last: Bloom
-    - title: Unlocking Leadership Mindtraps
-      author: Jennifer Garvey Berger
-      author_last: Garvey
-      recommended_by: Michael Hartmann
 
 my_recommendations:
+    - title: The Ascent of Money
+      author: Niall Ferguson
+      author_last: Ferguson
+      genre: History
+    - title: Slouching Towards Bethlehem
+      author: Joan Didion
+      author_last: Didion
+      genre: Culture
     - title: La Ciudad y Los Perros
       author: Mario Vargas Llosa
       author_last: Vargas
@@ -438,7 +442,7 @@ my_recommendations:
       genre: Fiction
 ---
 
-Last updated: June 2021. If this gets too out of date, I'd [appreciate a reminder](/contact).
+Last updated: July 2021. If this gets too out of date, I'd [appreciate a reminder](/contact).
 
 For a full read and to be read list, [click here](https://docs.google.com/spreadsheets/d/1VkbAVV86-HRxxl0PlCTVl_beF2GjvofUYeVyuNAAQTg).
 
