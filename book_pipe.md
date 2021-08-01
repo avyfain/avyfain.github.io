@@ -16,9 +16,12 @@ currently_reading:
     - title: Black Mass
       author: John Gray
       author_last: Gray
-    - title: Someone Who Will Love You in All Your Damaged Glory
-      author: Raphael Bob-Waksberg
-      author_last: Bob-Waksberg
+    - title: The Dispossessed
+      author: Ursula K. Le Guin
+      author_last: Le Guin
+    - title: The Deficit Myth
+      author: Stephanie Kelton
+      author_last: Kelton
 
 on_deck:
     - title: The Manager’s Path
@@ -55,6 +58,10 @@ on_deck:
       author_last: Bloom
 
 my_recommendations:
+    - title: Someone Who Will Love You in All Your Damaged Glory
+      author: Raphael Bob-Waksberg
+      author_last: Bob-Waksberg
+      genre: Fiction
     - title: The Ascent of Money
       author: Niall Ferguson
       author_last: Ferguson
@@ -359,7 +366,7 @@ my_recommendations:
       author: Liu Cixin
       author_last: Cixin
       genre: Science Fiction
-      note: This is a trilogy, where I'd rate the books as 3 > 1 > 2.
+      note: This is a trilogy, where I'd rate the books as 3 > 1 > 2, [review](/articles/2021/01/08/books#three-body-problem), [review](/articles/2021/01/08/books#the-dark-forest).
     - title: Pachinko
       author: Min Jin Lee
       author_last: Lee
@@ -442,7 +449,7 @@ my_recommendations:
       genre: Fiction
 ---
 
-Last updated: July 2021. If this gets too out of date, I'd [appreciate a reminder](/contact).
+Last updated: August 2021. If this gets too out of date, I'd [appreciate a reminder](/contact).
 
 For a full read and to be read list, [click here](https://docs.google.com/spreadsheets/d/1VkbAVV86-HRxxl0PlCTVl_beF2GjvofUYeVyuNAAQTg).
 
