@@ -9,7 +9,7 @@ time_tag = 36868
 
 vals = {}
 
-for f in os.listdir():
+for idx, f in enumerate(sorted(os.listdir())):
     if not f.endswith(('.jpg', '.jpeg')):
         continue
     img = Image.open(f)
@@ -18,7 +18,7 @@ for f in os.listdir():
     #     for k, v in img._getexif().items()
     #     if k in ExifTags.TAGS
     # }
-    vals[f] = img.getexif()[36868]
+    vals[f] = img.getexif().get(36868, idx)
 
 file_order = sorted(vals, key=vals.get)
 
