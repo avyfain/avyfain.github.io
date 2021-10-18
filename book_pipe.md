@@ -16,12 +16,12 @@ currently_reading:
     - title: Black Mass
       author: John Gray
       author_last: Gray
-    - title: The Dispossessed
-      author: Ursula K. Le Guin
-      author_last: Le Guin
-    - title: The Deficit Myth
-      author: Stephanie Kelton
-      author_last: Kelton
+    - title: La casa de los espíritus
+      author: Isabel Allende
+      author_last: Allende
+    - title: On Grand Strategy
+      author: John Lewis Gaddis
+      author_last: Gaddis
 
 on_deck:
     - title: The Manager’s Path
@@ -58,6 +58,26 @@ on_deck:
       author_last: Bloom
 
 my_recommendations:
+    - title: The Yellow Wind
+      author: David Grossman
+      author_last: Grossman
+      genre: History
+    - title: What is Progress
+      author: Aldo Schiavone
+      author_last:  Schiavone
+      genre: History
+    - title: Alaric The Goth
+      author: Douglas Boin
+      author_last: Boin
+      genre: History
+    - title: The Dispossessed
+      author: Ursula K. Le Guin
+      author_last: Le Guin
+      genre: Fiction
+    - title: The Deficit Myth
+      author: Stephanie Kelton
+      author_last: Kelton
+      genre: Economics
     - title: Someone Who Will Love You in All Your Damaged Glory
       author: Raphael Bob-Waksberg
       author_last: Bob-Waksberg
@@ -449,7 +469,7 @@ my_recommendations:
       genre: Fiction
 ---
 
-Last updated: August 2021. If this gets too out of date, I'd [appreciate a reminder](/contact).
+Last updated: October 2021. If this gets too out of date, I'd [appreciate a reminder](/contact).
 
 For a full read and to be read list, [click here](https://docs.google.com/spreadsheets/d/1VkbAVV86-HRxxl0PlCTVl_beF2GjvofUYeVyuNAAQTg).
 
