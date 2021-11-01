@@ -1,30 +1,43 @@
+import argparse
 import os
+
+from pathlib import Path
 from PIL import Image, ExifTags
 
 # a = {v:k for k, v in ExifTags.TAGS.items()}
 # a['DateTimeDigitized']
 # > 36868
 
-time_tag = 36868
+TIME_TAG = 36868
 
-vals = {}
 
-for idx, f in enumerate(sorted(os.listdir())):
-    if not f.endswith(('.jpg', '.jpeg')):
-        continue
-    img = Image.open(f)
-    # exif = {
-    #     ExifTags.TAGS[k]: v
-    #     for k, v in img._getexif().items()
-    #     if k in ExifTags.TAGS
-    # }
-    vals[f] = img.getexif().get(36868, idx)
+def parse_args():
+    parser = argparse.ArgumentParser()
+    parser.add_argument('-i', '--input_dir', action='store', dest='input_dir', required=True)
+    return parser.parse_args()
 
-file_order = sorted(vals, key=vals.get)
 
-for idx, f in enumerate(file_order):
-    os.rename(f, f'{idx+1}_.jpeg')
+def main():
+    args = parse_args()
 
-for f in os.listdir():
-    if f.endswith(('.jpg', '.jpeg')):
-        os.rename(f, f.replace('_', ''))
+    vals = {}
+
+    p = Path(args.input_dir)
+    for idx, f in enumerate(sorted(os.listdir(p))):
+        if not f.endswith(('.jpg', '.jpeg')):
+            continue
+        img = Image.open(p / f)
+        vals[f] = img.getexif().get(TIME_TAG, idx)
+
+    file_order = sorted(vals, key=vals.get)
+
+    for idx, f in enumerate(file_order):
+        os.rename(p / f, p / f'{idx+1}_.jpeg')
+
+    for f in os.listdir(p):
+        if f.endswith(('.jpg', '.jpeg')):
+            os.rename(p / f, p / f.replace('_', ''))
+
+
+if __name__ == '__main__':
+    main()
