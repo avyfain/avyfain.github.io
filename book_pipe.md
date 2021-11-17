@@ -13,15 +13,11 @@ currently_reading:
     - title: Telex From Cuba
       author: Rachel Kushner
       author_last: Kushner
-    - title: Black Mass
-      author: John Gray
-      author_last: Gray
-    - title: La casa de los espíritus
-      author: Isabel Allende
-      author_last: Allende
-    - title: On Grand Strategy
-      author: John Lewis Gaddis
-      author_last: Gaddis
+    - title: Silk Roads
+      author: Peter Frankopan
+      author_last: Frankopan
+      recommended_by: Alvaro Videla
+
 
 on_deck:
     - title: The Manager’s Path
@@ -31,10 +27,6 @@ on_deck:
       author: James Dale Davidson and William Rees-Mogg
       author_last: Davidson
       recommended_by: Balaji Srinivasan
-    - title: Silk Roads
-      author: Peter Frankopan
-      author_last: Frankopan
-      recommended_by: Alvaro Videla
     - title: The New Jim Crow
       author: Michelle Alexander
       author_last: Alexander
@@ -58,6 +50,14 @@ on_deck:
       author_last: Bloom
 
 my_recommendations:
+    - title: Black Mass
+      author: John Gray
+      author_last: Gray
+      genre: History
+    - title: La casa de los espíritus
+      author: Isabel Allende
+      author_last: Allende
+      genre: Fiction
     - title: The Yellow Wind
       author: David Grossman
       author_last: Grossman
@@ -469,7 +469,7 @@ my_recommendations:
       genre: Fiction
 ---
 
-Last updated: October 2021. If this gets too out of date, I'd [appreciate a reminder](/contact).
+Last updated: November 2021. If this gets too out of date, I'd [appreciate a reminder](/contact).
 
 For a full read and to be read list, [click here](https://docs.google.com/spreadsheets/d/1VkbAVV86-HRxxl0PlCTVl_beF2GjvofUYeVyuNAAQTg).
 
