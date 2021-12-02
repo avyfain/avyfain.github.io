@@ -4,6 +4,7 @@ layout: photos
 category: photos
 main_image: italia-revisited/previews/14.jpeg
 tags: [holidays, summer, italy, europe, travel, friends, film]
+description: In retrospect, I should have taken a lot more film photos during our trip to Italy. I still don't fully trust myself with film, but there's something that makes these feel very special.
 photos:
   - url: italia-revisited/4.jpeg
     preview_url: italia-revisited/previews/4.jpeg
@@ -76,3 +77,5 @@ photos:
 In retrospect, I should have taken a lot more film photos during our trip to Italy. I still don't fully trust myself with film, but there's something that makes these feel very special.
 
 Below are a few more pics from our time in Positano, and then the end of the trip in Napoli.
+
+_This is the fourth in a series shared throughout Fall 2021. When you're done here, make sure to also check out parts [one](/photos/2021/10/14/umbria/), [two](/photos/2021/10/19/florence/), [three](/photos/2021/10/31/roma/), and [four](/photos/2021/11/12/positano/)._
