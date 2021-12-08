@@ -2,7 +2,7 @@
 title: Camping in the Headlands
 layout: photos
 category: photos
-main_image: headlands/previews/34.jpeg
+main_image: headlands/previews/15.jpeg
 tags: [hike, california, san francisco, nature, camping]
 photos:
   - url: headlands/1.jpeg
@@ -151,5 +151,7 @@ photos:
     preview_url: headlands/previews/55.jpeg
   - url: headlands/56.jpeg
     preview_url: headlands/previews/56.jpeg
-    caption: The sun was setting by the time we made it home.
+    caption: The sun was setting by the time we made it home. We'd backpacked 13 miles.
 ---
+
+After far too long since our last camping trip, Hannah and I decided to spontaneously book one for the upcoming weekend. There happened to be an opening at Bicentennial Campground in Marin, a tiny 3-site campsite near Point Bonita.
