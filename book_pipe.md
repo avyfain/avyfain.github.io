@@ -3,26 +3,20 @@ title: Book Pipeline
 layout: page
 show: 0
 currently_reading:
+    - title: The Manager’s Path
+      author: Camille Fournier
+      author_last: Fournier
+    - title: "Inside Out: A personal history of Pink Floyd"
+      author: Nick Mason
+      author_last: Mason
+
+eternal:
     - title: Das Kapital
       author: Karl Marx
       author_last: Marx
       note: "[Twitter thread](https://twitter.com/avyfain/status/1248474001434763264)"
-    - title: Order without Design
-      author: Alain Bertaud
-      author_last: Bertaud
-    - title: Telex From Cuba
-      author: Rachel Kushner
-      author_last: Kushner
-    - title: Silk Roads
-      author: Peter Frankopan
-      author_last: Frankopan
-      recommended_by: Alvaro Videla
-
 
 on_deck:
-    - title: The Manager’s Path
-      author: Camille Fournier
-      author_last: Fournier
     - title: Sovereign Individual
       author: James Dale Davidson and William Rees-Mogg
       author_last: Davidson
@@ -48,8 +42,29 @@ on_deck:
     - title: The Western Canon
       author: Harold Bloom
       author_last: Bloom
+    - title: How to Change
+      author: Katy Milkman
+      author_last: Milkman
 
 my_recommendations:
+    - title: The Year of Magical Thinking
+      author: Joan Didion
+      author_last: Didion
+      genre: Memoir
+    - title: Order without Design
+      author: Alain Bertaud
+      author_last: Bertaud
+      genre: Urban
+    - title: Telex From Cuba
+      author: Rachel Kushner
+      author_last: Kushner
+      recommended_by: Hannah Doherty
+      genre: Fiction
+    - title: Silk Roads
+      author: Peter Frankopan
+      author_last: Frankopan
+      recommended_by: Alvaro Videla
+      genre: History
     - title: Black Mass
       author: John Gray
       author_last: Gray
@@ -308,12 +323,12 @@ my_recommendations:
     - title: Surely You're Joking, Mr. Feynman
       author: Richard Feynman
       author_last: Feynman
-      genre: Memoir
+      genre: Biography/Memoir
       note: "[review](/articles/2017/01/06/books#surely-you're-joking,-mr.-feynman!)"
     - title: A Primate's Memoir
       author: Robert Sapolsky
       author_last: Sapolsky
-      genre: Memoir
+      genre: Biography/Memoir
       note: "[review](/articles/2017/01/06/books#a-primate's-memoir)"
     - title: The Age of Surveilance Capitalism
       author: Shoshana Zuboff
@@ -330,7 +345,7 @@ my_recommendations:
       author: Ta-Nehisi Coates
       author_last: Coates
       note: "[review](/articles/2017/01/06/books#between-the-world-and-me)"
-      genre: Memoir
+      genre: Biography/Memoir
     - title: What's the Future and Why It's Up to Us
       author: Tim O'Reilly
       author_last: Reilly
@@ -402,7 +417,7 @@ my_recommendations:
       genre: Fiction
     - title: Zealot
       author: Reza Azlan
-      genre: History
+      genre: Biography/Memoir
       author_last: Azlan
       note: "[review](/articles/2017/01/06/books#zealot)"
     - title: The Design of Everyday Things
@@ -454,6 +469,7 @@ my_recommendations:
       author: Rebecca Solnit
       author_last: Solnit
       genre: History
+      note: "[review](/articles/2021/01/08/books/#a-paradise-built-in-hell)" 
     - title: Severance
       author: Ling Ma
       author_last: Ma
@@ -467,18 +483,28 @@ my_recommendations:
       author_last: Lun
       recommended_by: Alvaro Videla
       genre: Fiction
+    - title: In Other Words
+      author: Jumpha Lahiri
+      author_last: Lahiri
+      genre: Biography/Memoir
+    - title: Bonfire of the Vanities
+      author: Tom Wolfe
+      author_last: Wolfe
+      genre: Fiction
 ---
 
-Last updated: November 2021. If this gets too out of date, I'd [appreciate a reminder](/contact).
+Last updated: February 2022. If this gets too out of date, I'd [appreciate a reminder](/contact).
 
 For a full read and to be read list, [click here](https://docs.google.com/spreadsheets/d/1VkbAVV86-HRxxl0PlCTVl_beF2GjvofUYeVyuNAAQTg).
 
 ### Books read and reviewed, by year
 [2020](/articles/2021/01/08/books/), [2019](/articles/2020/02/09/books/), [2018](/articles/2019/02/14/books/), [2017](/articles/2018/01/07/books/), [2016](/articles/2017/01/06/books/)
 
-### Currently Reading / Unfinished
+### Currently Reading
 {% include book_list.html collection=page.currently_reading %}
 ### On Deck / Hoping To Read Soon
 {% include book_list.html collection=page.on_deck %}
+### Eternally Reading / Unfinished
+{% include book_list.html collection=page.eternal %}
 ### My Recommendations
 {% include book_list.html collection=page.my_recommendations group_by_genre=true %}
