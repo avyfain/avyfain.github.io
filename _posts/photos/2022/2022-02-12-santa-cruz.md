@@ -2,7 +2,7 @@
 title: Santa Cruz
 layout: photos
 category: photos
-main_image: santa-cruz/previews/33.jpeg
+main_image: santa-cruz/previews/bw30.jpeg
 tags: [Santa Cruz, California, street, travel, nature]
 photos:
   - url: santa-cruz/bw1.jpg
