@@ -3,6 +3,7 @@ title: Time Travel Variety Pack
 layout: photos
 category: photos
 main_image: time-travel-variety-pack/previews/56.jpeg
+description: One of the curious things about shooting film is that it's warped the way I think about time and place.
 tags: [san francisco, Mexico, travel, friends, San Diego, California, nature, New York, street, travel, family]
 photos:
   - url: time-travel-variety-pack/01.jpeg
