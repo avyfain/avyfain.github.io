@@ -3,12 +3,17 @@ title: Book Pipeline
 layout: page
 show: 0
 currently_reading:
-    - title: The Manager’s Path
-      author: Camille Fournier
-      author_last: Fournier
-    - title: "Inside Out: A personal history of Pink Floyd"
-      author: Nick Mason
-      author_last: Mason
+    - title: Anarchy, State, and Utopia
+      author: Robert Nozick
+      author_last: Nozick
+    - title: "Life: A User's Manual"
+      author: Georges Perec
+      author_last: Perec
+    - title: Nation, State and Empire
+      author: Kurt Almqvist
+      author_last: Almqvist
+    - title: The Iliad
+      author: Homer
 
 eternal:
     - title: Das Kapital
@@ -17,17 +22,10 @@ eternal:
       note: "[Twitter thread](https://twitter.com/avyfain/status/1248474001434763264)"
 
 on_deck:
-    - title: Sovereign Individual
-      author: James Dale Davidson and William Rees-Mogg
-      author_last: Davidson
-      recommended_by: Balaji Srinivasan
     - title: The New Jim Crow
       author: Michelle Alexander
       author_last: Alexander
       recommended_by: Hannah Doherty
-    - title: Anarchy, State, and Utopia
-      author: Robert Nozick
-      author_last: Nozick
     - title: Code and Other Laws of Cyberspace
       author: Lawrence Lessig
       author_last: Lessig
@@ -42,15 +40,25 @@ on_deck:
     - title: The Western Canon
       author: Harold Bloom
       author_last: Bloom
-    - title: How to Change
-      author: Katy Milkman
-      author_last: Milkman
+    - title: Mutual Aid
+      author: Peter Kropotkin
+      author_last: Kropotkin
+    - title: Wild Problems
+      author: Russ Roberts
+      author_last: Roberts
+    - title: The Odyssey
+      author: Homer
 
 my_recommendations:
+    - title: Family Lexicon
+      author: Natalia Ginzburg
+      author_last: Ginzburg
+      genre: Fiction
+      recommended_by: Hannah Doherty
     - title: The Year of Magical Thinking
       author: Joan Didion
       author_last: Didion
-      genre: Memoir
+      genre: Biography/Memoir
     - title: Order without Design
       author: Alain Bertaud
       author_last: Bertaud
@@ -85,10 +93,6 @@ my_recommendations:
       author: Douglas Boin
       author_last: Boin
       genre: History
-    - title: The Dispossessed
-      author: Ursula K. Le Guin
-      author_last: Le Guin
-      genre: Fiction
     - title: The Deficit Myth
       author: Stephanie Kelton
       author_last: Kelton
@@ -124,6 +128,10 @@ my_recommendations:
     - title: 36 Arguments for the Existence of God
       author: Rebecca Goldstein
       author_last: Goldstein
+      genre: Fiction
+    - title: One Day in the Life of Ivan Denisovich
+      author: Aleksandr Solzhenitsyn
+      author_last: Solzhenitsyn
       genre: Fiction
     - title: In The First Circle
       author: Aleksandr Solzhenitsyn
@@ -301,6 +309,10 @@ my_recommendations:
       author_last: Seabright
       genre: Economics
       recommended_by: Richard Walker
+    - title: The Power Law
+      author: Sebastian Mallaby
+      author_last: Mallaby
+      genre: Entrepreneurship/Management
     - title: Zero to One
       author: Peter Thiel
       author_last: Thiel
@@ -351,6 +363,10 @@ my_recommendations:
       author_last: Reilly
       genre: Entrepreneurship/Management
       note: "[review](/articles/2019/02/14/books#wtf?-what's-the-future-and-why-it's-up-to-us)"
+    - title: The Overstory
+      author: Richard Powers
+      author_last: Powers
+      genre: Fiction
     - title: Foucault's Pendulum
       author: Umberto Eco
       author_last: Eco
@@ -491,9 +507,17 @@ my_recommendations:
       author: Tom Wolfe
       author_last: Wolfe
       genre: Fiction
+    - title: The Manager’s Path
+      author: Camille Fournier
+      author_last: Fournier
+      genre: Entrepreneurship/Management
+    - title: "Inside Out: A personal history of Pink Floyd"
+      author: Nick Mason
+      author_last: Mason
+      genre: Biography/Memoir
 ---
 
-Last updated: February 2022. If this gets too out of date, I'd [appreciate a reminder](/contact).
+Last updated: September 2022. If this gets too out of date, I'd [appreciate a reminder](/contact).
 
 For a full read and to be read list, [click here](https://docs.google.com/spreadsheets/d/1VkbAVV86-HRxxl0PlCTVl_beF2GjvofUYeVyuNAAQTg).
 
