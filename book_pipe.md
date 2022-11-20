@@ -6,14 +6,17 @@ currently_reading:
     - title: Anarchy, State, and Utopia
       author: Robert Nozick
       author_last: Nozick
-    - title: "Life: A User's Manual"
-      author: Georges Perec
-      author_last: Perec
     - title: Nation, State and Empire
       author: Kurt Almqvist
       author_last: Almqvist
-    - title: The Iliad
+    - title: The Odyssey
       author: Homer
+    - title: Tribal Leadership
+      author: David Logan, John King, Halee Fischer-Wright
+      author_last: Logan
+    - title: My Brilliant Friend
+      author: Elena Ferrante
+      author_last: Ferrante
 
 eternal:
     - title: Das Kapital
@@ -33,7 +36,6 @@ on_deck:
     - title: Open Society
       author: Karl Popper
       author_last: Popper
-      recommended_by: Nassim Nicholas Taleb
     - title: Triumph of the City
       author: Edward Glaeser
       author_last: Glaeser
@@ -43,13 +45,38 @@ on_deck:
     - title: Mutual Aid
       author: Peter Kropotkin
       author_last: Kropotkin
+    - title: Works and Days and Theogony
+      author: Hesiod
+      recommended_by: Stephen Pimentel
+    - title: Metaphors We Live By
+      author: George Lakoff, Mark Johnson
+      author_last: Lakoff
+    - title: Skin in the Game
+      author: Nassim Nicholas Taleb
+      author_last: Taleb
+    - title: Capitalism, Alone
+      author: Branko Milanovic
+      author_last: Milanovic
+    - title: The Book of the New Sun
+      author: Gene Wolfe
+      author_last: Wolfe
+      recommended_by: Stephen Pimentel
+    - title: The Need for Roots
+      author: Simone Weil
+      author_last: Weil
+    - title: The Phoenix Project
+      author: Gene Kim
+      author_last: Kim
+
+my_recommendations:
     - title: Wild Problems
       author: Russ Roberts
       author_last: Roberts
-    - title: The Odyssey
-      author: Homer
-
-my_recommendations:
+      genre: Philosophy
+    - title: "Life: A User's Manual"
+      author: Georges Perec
+      author_last: Perec
+      genre: Fiction
     - title: Family Lexicon
       author: Natalia Ginzburg
       author_last: Ginzburg
@@ -63,68 +90,74 @@ my_recommendations:
       author: Alain Bertaud
       author_last: Bertaud
       genre: Urban
+      note: "[review](https://faingezicht.com/articles/2022/11/20/books/#order-without-design)"
     - title: Telex From Cuba
       author: Rachel Kushner
       author_last: Kushner
       recommended_by: Hannah Doherty
+      note: "[review](https://faingezicht.com/articles/2022/11/20/books/#telex-from-cuba)"
       genre: Fiction
     - title: Silk Roads
       author: Peter Frankopan
       author_last: Frankopan
       recommended_by: Alvaro Videla
+      note: "[review](https://faingezicht.com/articles/2022/11/20/books/#the-silk-roads)"
       genre: History
     - title: Black Mass
       author: John Gray
       author_last: Gray
       genre: History
+      note: "[review](https://faingezicht.com/articles/2022/11/20/books/#black-mass)"
     - title: La casa de los espíritus
       author: Isabel Allende
       author_last: Allende
       genre: Fiction
+      note: "[review](https://faingezicht.com/articles/2022/11/20/books/#la-casa-de-los-espíritus)"
     - title: The Yellow Wind
       author: David Grossman
       author_last: Grossman
       genre: History
+      note: "[review](https://faingezicht.com/articles/2022/11/20/books/#the-yellow-wind)"
     - title: What is Progress
       author: Aldo Schiavone
       author_last:  Schiavone
       genre: History
+      note: "[review](https://faingezicht.com/articles/2022/11/20/books/#what-is-progress)"
     - title: Alaric The Goth
       author: Douglas Boin
       author_last: Boin
       genre: History
-    - title: The Deficit Myth
-      author: Stephanie Kelton
-      author_last: Kelton
-      genre: Economics
+      note: "[review](https://faingezicht.com/articles/2022/11/20/books/#alaric-the-goth)"
     - title: Someone Who Will Love You in All Your Damaged Glory
       author: Raphael Bob-Waksberg
       author_last: Bob-Waksberg
       genre: Fiction
+      note: "[review](https://faingezicht.com/articles/2022/11/20/books/#someone-who-will-love-you-in-all-your-damaged-glory)"
     - title: The Ascent of Money
       author: Niall Ferguson
       author_last: Ferguson
       genre: History
+      note: "[review](https://faingezicht.com/articles/2022/11/20/books/#the-ascent-of-money)"
     - title: Slouching Towards Bethlehem
       author: Joan Didion
       author_last: Didion
       genre: Culture
+      note: "[review](https://faingezicht.com/articles/2022/11/20/books/#slouching-towards-bethlehem)"
     - title: La Ciudad y Los Perros
       author: Mario Vargas Llosa
       author_last: Vargas
       genre: Fiction
+      note: "[review](https://faingezicht.com/articles/2022/11/20/books/#la-ciudad-y-los-perros)"
     - title: For the Time Being
       author: Annie Dillard
       author_last: Dillard
       genre: Philosophy
-    - title: Lombard Street
-      author: Walter Bagehot
-      author_last: Bagehot
-      genre: Economics
+      note: "[review](https://faingezicht.com/articles/2022/11/20/books/#for-the-time-being)"
     - title: Against The Gods
       author: Peter L. Bernstein
       author_last: Bernstein
       genre: History
+      note: "[review](https://faingezicht.com/articles/2022/11/20/books/#against-the-gods)"
     - title: 36 Arguments for the Existence of God
       author: Rebecca Goldstein
       author_last: Goldstein
@@ -490,19 +523,28 @@ my_recommendations:
       author: Ling Ma
       author_last: Ma
       genre: Fiction
+      note: "[review](https://faingezicht.com/articles/2022/11/20/books/#severance)"
     - title: What Tech Calls Thinking
       author: Adrian Daub
       author_last: Daub
       genre: Culture
+      note: "[review](https://faingezicht.com/articles/2022/11/20/books/#what-tech-calls-thinking)"
     - title: Los Palimpsestos
       author: Aleksandra Lun
       author_last: Lun
       recommended_by: Alvaro Videla
+      note: "[review](https://faingezicht.com/articles/2022/11/20/books/#los-palimpsestos)"
       genre: Fiction
+    - title: The Namesake
+      author: Jumpha Lahiri
+      author_last: Lahiri
+      genre: Fiction
+      note: "[review](https://faingezicht.com/articles/2019/02/14/books/#namesake)"
     - title: In Other Words
       author: Jumpha Lahiri
       author_last: Lahiri
       genre: Biography/Memoir
+      note: "[review](https://faingezicht.com/articles/2022/11/20/books/#in-other-words)"
     - title: Bonfire of the Vanities
       author: Tom Wolfe
       author_last: Wolfe
@@ -517,7 +559,7 @@ my_recommendations:
       genre: Biography/Memoir
 ---
 
-Last updated: September 2022. If this gets too out of date, I'd [appreciate a reminder](/contact).
+Last updated: November 2022. If this gets too out of date, I'd [appreciate a reminder](/contact).
 
 For a full read and to be read list, [click here](https://docs.google.com/spreadsheets/d/1VkbAVV86-HRxxl0PlCTVl_beF2GjvofUYeVyuNAAQTg).
 
