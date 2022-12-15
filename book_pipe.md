@@ -3,20 +3,15 @@ title: Book Pipeline
 layout: page
 show: 0
 currently_reading:
-    - title: Anarchy, State, and Utopia
-      author: Robert Nozick
-      author_last: Nozick
     - title: Nation, State and Empire
       author: Kurt Almqvist
       author_last: Almqvist
-    - title: The Odyssey
-      author: Homer
-    - title: Tribal Leadership
-      author: David Logan, John King, Halee Fischer-Wright
-      author_last: Logan
     - title: My Brilliant Friend
       author: Elena Ferrante
       author_last: Ferrante
+    - title: Triumph of the City
+      author: Edward Glaeser
+      author_last: Glaeser
 
 eternal:
     - title: Das Kapital
@@ -36,9 +31,6 @@ on_deck:
     - title: Open Society
       author: Karl Popper
       author_last: Popper
-    - title: Triumph of the City
-      author: Edward Glaeser
-      author_last: Glaeser
     - title: The Western Canon
       author: Harold Bloom
       author_last: Bloom
@@ -120,8 +112,8 @@ my_recommendations:
       note: "[review](https://faingezicht.com/articles/2022/11/20/books/#the-yellow-wind)"
     - title: What is Progress
       author: Aldo Schiavone
-      author_last:  Schiavone
-      genre: History
+      author_last: Schiavone
+      genre: Political Science
       note: "[review](https://faingezicht.com/articles/2022/11/20/books/#what-is-progress)"
     - title: Alaric The Goth
       author: Douglas Boin
@@ -557,14 +549,18 @@ my_recommendations:
       author: Nick Mason
       author_last: Mason
       genre: Biography/Memoir
+    - title: Anarchy, State, and Utopia
+      author: Robert Nozick
+      author_last: Nozick
+      genre: Political Science
 ---
 
-Last updated: November 2022. If this gets too out of date, I'd [appreciate a reminder](/contact).
+Last updated: December 2022. If this gets too out of date, I'd [appreciate a reminder](/contact).
 
 For a full read and to be read list, [click here](https://docs.google.com/spreadsheets/d/1VkbAVV86-HRxxl0PlCTVl_beF2GjvofUYeVyuNAAQTg).
 
 ### Books read and reviewed, by year
-[2020](/articles/2021/01/08/books/), [2019](/articles/2020/02/09/books/), [2018](/articles/2019/02/14/books/), [2017](/articles/2018/01/07/books/), [2016](/articles/2017/01/06/books/)
+[2021](/articles/2022/11/20/books/), [2020](/articles/2021/01/08/books/), [2019](/articles/2020/02/09/books/), [2018](/articles/2019/02/14/books/), [2017](/articles/2018/01/07/books/), [2016](/articles/2017/01/06/books/)
 
 ### Currently Reading
 {% include book_list.html collection=page.currently_reading %}
