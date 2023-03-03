@@ -22,6 +22,9 @@ As Wolfram implies, building "one model to rule them all" is a stupid goal, so w
 
 _Thanks to Hannah Doherty, Max Faingezicht, Pete Huang and Perry Wang for their feedback on early drafts of this post._
 
+<hr>
+<small><em>Photo: Clay Ornaments, by me. Previously posted on [Oaxaca](/photos/2023/02/13/oaxaca/).</em></small>
+
 [^1]: Of course, I asked ChatGPT to write this for me. Enjoy:
 
 	> In a small town nestled among rolling hills and misty moors, there existed a pack of corgis that captivated the imagination of all who beheld them. Some whispered that the corgis were descendants of a long-lost tribe, while others speculated that they were a product of some peculiar experiment gone awry.
