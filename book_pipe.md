@@ -3,15 +3,15 @@ title: Book Pipeline
 layout: page
 show: 0
 currently_reading:
-    - title: Nation, State and Empire
-      author: Kurt Almqvist
-      author_last: Almqvist
-    - title: My Brilliant Friend
-      author: Elena Ferrante
-      author_last: Ferrante
-    - title: Triumph of the City
-      author: Edward Glaeser
-      author_last: Glaeser
+    - title: Slouching Towards Utopia
+      author: J. Bradford DeLong
+      author_last: DeLong
+    - title: A Tale of Love and Darkness
+      author: Amos Oz
+      author_last: Oz
+    - title: The Storyteller
+      author: Dave Grohl
+      author_last: Grohl
 
 eternal:
     - title: Das Kapital
@@ -43,16 +43,9 @@ on_deck:
     - title: Metaphors We Live By
       author: George Lakoff, Mark Johnson
       author_last: Lakoff
-    - title: Skin in the Game
-      author: Nassim Nicholas Taleb
-      author_last: Taleb
     - title: Capitalism, Alone
       author: Branko Milanovic
       author_last: Milanovic
-    - title: The Book of the New Sun
-      author: Gene Wolfe
-      author_last: Wolfe
-      recommended_by: Stephen Pimentel
     - title: The Need for Roots
       author: Simone Weil
       author_last: Weil
@@ -61,6 +54,18 @@ on_deck:
       author_last: Kim
 
 my_recommendations:
+    - title: My Brilliant Friend (Series)
+      author: Elena Ferrante
+      author_last: Ferrante
+      genre: Fiction
+    - title: Skin in the Game
+      author: Nassim Nicholas Taleb
+      author_last: Taleb
+      genre: Philosophy
+    - title: Triumph of the City
+      author: Edward Glaeser
+      author_last: Glaeser
+      genre: Urban
     - title: Wild Problems
       author: Russ Roberts
       author_last: Roberts
@@ -553,9 +558,13 @@ my_recommendations:
       author: Robert Nozick
       author_last: Nozick
       genre: Political Science
+    - title: Acid for the Children
+      author: Flea
+      author_last: Flea
+      genre: Biography/Memoir
 ---
 
-Last updated: December 2022. If this gets too out of date, I'd [appreciate a reminder](/contact).
+Last updated: July 2023. If this gets too out of date, I'd [appreciate a reminder](/contact).
 
 For a full read and to be read list, [click here](https://docs.google.com/spreadsheets/d/1VkbAVV86-HRxxl0PlCTVl_beF2GjvofUYeVyuNAAQTg).
 
