@@ -3,15 +3,15 @@ title: Book Pipeline
 layout: page
 show: 0
 currently_reading:
-    - title: Slouching Towards Utopia
-      author: J. Bradford DeLong
-      author_last: DeLong
     - title: A Tale of Love and Darkness
       author: Amos Oz
       author_last: Oz
-    - title: The Storyteller
-      author: Dave Grohl
-      author_last: Grohl
+    - title: Kitchen Confidential
+      author: Anthony Bourdain
+      author_last: Bourdain
+    - title: The Founder's Dilemmas
+      author: Noam Wasserman
+      author_last: Wasserman
 
 eternal:
     - title: Das Kapital
@@ -54,6 +54,14 @@ on_deck:
       author_last: Kim
 
 my_recommendations:
+    - title: Slouching Towards Utopia
+      author: J. Bradford DeLong
+      author_last: DeLong
+      genre: History
+    - title: The Storyteller
+      author: Dave Grohl
+      author_last: Grohl
+      genre: Biography/Memoir
     - title: My Brilliant Friend (Series)
       author: Elena Ferrante
       author_last: Ferrante
