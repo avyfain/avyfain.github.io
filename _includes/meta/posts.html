@@ -3,4 +3,5 @@
 <meta property="og:title"        content="{{ page.title }}">
 
 <meta name="twitter:description" content="{{ page.description | default: page.excerpt | markdownify | strip_html }}">
-<meta property="og:description"  content="{{ page.description | default: page.excerpt | markdownify | strip_html }}"/>
+<meta property="og:description" content="{{ page.description | default: page.excerpt | markdownify | strip_html }}"/>
+<meta name="description" content="{{ page.description | default: page.excerpt | markdownify | strip_html }}"/>
