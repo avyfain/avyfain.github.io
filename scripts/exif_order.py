@@ -32,7 +32,7 @@ def main():
     file_order = sorted(vals, key=vals.get)
 
     for idx, f in enumerate(file_order):
-        os.rename(p / f, p / f'{idx+1}_.jpeg')
+        os.rename(p / f, p / f'{idx+1}_.jpg')
 
     for f in os.listdir(p):
         if f.endswith(('.jpg', '.jpeg')):
