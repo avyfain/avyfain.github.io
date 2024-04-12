@@ -8,7 +8,7 @@ layout: compress
   {% include head.html %}
 
   <body>
-    {% include sidebar.html %}
+    {% include_cached sidebar.html %}
     <div class="content container">
       {{ content }}
     </div>
@@ -25,5 +25,5 @@ layout: compress
     </script>
   </body>
 
-  {% include foot.html %}
+  {% include_cached foot.html %}
 </html>

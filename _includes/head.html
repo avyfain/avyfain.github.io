@@ -1,10 +1,5 @@
 <head>
-  <style type="text/css">
-    {% capture include_to_scssify %}
-      {% include main.scss %}
-    {% endcapture %}
-    {{ include_to_scssify | scssify }}
-  </style>
+  {% include_cached style.html %}
 
   <link href="http://gmpg.org/xfn/11" rel="profile">
   <meta name="referrer" content="no-referrer">
@@ -24,14 +19,14 @@
   <meta name="theme-color" content="#000000">
 
   <!-- Meta Open Graph and Twitter tags -->
-  {% include meta/common.html page=page %}
+  {% include_cached meta/common.html page=page %}
 
   {% if layout.meta == "links" %}
-    {% include meta/links.html page=page %}
+    {% include_cached meta/links.html page=page %}
   {% elsif layout.meta == "photos" %}
-    {% include meta/photos.html page=page %}
+    {% include_cached meta/photos.html page=page %}
   {% else %}
-    {% include meta/posts.html page=page %}
+    {% include_cached meta/posts.html page=page %}
   {% endif %}
 
 
