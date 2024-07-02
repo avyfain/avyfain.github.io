@@ -3,31 +3,30 @@ title: Book Pipeline
 layout: page
 show: 0
 currently_reading:
-    - title: A Tale of Love and Darkness
-      author: Amos Oz
-      author_last: Oz
-    - title: Kitchen Confidential
-      author: Anthony Bourdain
-      author_last: Bourdain
-    - title: The Founder's Dilemmas
-      author: Noam Wasserman
-      author_last: Wasserman
-
-eternal:
-    - title: Das Kapital
-      author: Karl Marx
-      author_last: Marx
-      note: "[Twitter thread](https://twitter.com/avyfain/status/1248474001434763264)"
+    - title: Zionism and the Fin de Siècle
+      author: Michael Stanislawski
+      author_last: Stanislawski
+      genre: History
+    - title: Hamilton
+      author: Ron Chernow 
+      author_last: Chernow
+      genre: Biography/Memoir
+    - title: Dialectic of Enlightenment
+      author: Theodor Adorno, Max Horkheimer
+      author_last: Adorno
+      genre: Philosophy
+    - title: Dune
+      author: Frank Herbert
+      author_last: Herbert
+      genre: Science Fiction
 
 on_deck:
-    - title: The New Jim Crow
-      author: Michelle Alexander
-      author_last: Alexander
-      recommended_by: Hannah Doherty
-    - title: Code and Other Laws of Cyberspace
-      author: Lawrence Lessig
-      author_last: Lessig
-      recommended_by: Felipe Echandi
+    - title: Berlin Alexanderplatz
+      author: Alfred Döblin
+      author_last: Döblin
+    - title: Notes On Complexity
+      author: Neil Theise
+      author_last: Theise
     - title: Open Society
       author: Karl Popper
       author_last: Popper
@@ -78,91 +77,95 @@ my_recommendations:
       author: Russ Roberts
       author_last: Roberts
       genre: Philosophy
+      note: "[review](/articles/2024/07/01/books/#wild-problems)"
     - title: "Life: A User's Manual"
       author: Georges Perec
       author_last: Perec
+      note: "[review](/articles/2024/07/01/books/#life,-a-user's-manual)"
       genre: Fiction
     - title: Family Lexicon
       author: Natalia Ginzburg
       author_last: Ginzburg
       genre: Fiction
       recommended_by: Hannah Doherty
+      note: "[review](/articles/2024/07/01/books/#the-year-of-magical-thinking)"
     - title: The Year of Magical Thinking
       author: Joan Didion
       author_last: Didion
       genre: Biography/Memoir
+      note: "[review](/articles/2024/07/01/books/#the-year-of-magical-thinking)"
     - title: Order without Design
       author: Alain Bertaud
       author_last: Bertaud
       genre: Urban
-      note: "[review](https://faingezicht.com/articles/2022/11/20/books/#order-without-design)"
+      note: "[review](/articles/2022/11/20/books/#order-without-design)"
     - title: Telex From Cuba
       author: Rachel Kushner
       author_last: Kushner
       recommended_by: Hannah Doherty
-      note: "[review](https://faingezicht.com/articles/2022/11/20/books/#telex-from-cuba)"
+      note: "[review](/articles/2022/11/20/books/#telex-from-cuba)"
       genre: Fiction
     - title: Silk Roads
       author: Peter Frankopan
       author_last: Frankopan
       recommended_by: Alvaro Videla
-      note: "[review](https://faingezicht.com/articles/2022/11/20/books/#the-silk-roads)"
+      note: "[review](/articles/2022/11/20/books/#the-silk-roads)"
       genre: History
     - title: Black Mass
       author: John Gray
       author_last: Gray
       genre: History
-      note: "[review](https://faingezicht.com/articles/2022/11/20/books/#black-mass)"
+      note: "[review](/articles/2022/11/20/books/#black-mass)"
     - title: La casa de los espíritus
       author: Isabel Allende
       author_last: Allende
       genre: Fiction
-      note: "[review](https://faingezicht.com/articles/2022/11/20/books/#la-casa-de-los-espíritus)"
+      note: "[review](/articles/2022/11/20/books/#la-casa-de-los-espíritus)"
     - title: The Yellow Wind
       author: David Grossman
       author_last: Grossman
       genre: History
-      note: "[review](https://faingezicht.com/articles/2022/11/20/books/#the-yellow-wind)"
+      note: "[review](/articles/2022/11/20/books/#the-yellow-wind)"
     - title: What is Progress
       author: Aldo Schiavone
       author_last: Schiavone
       genre: Political Science
-      note: "[review](https://faingezicht.com/articles/2022/11/20/books/#what-is-progress)"
+      note: "[review](/articles/2022/11/20/books/#what-is-progress)"
     - title: Alaric The Goth
       author: Douglas Boin
       author_last: Boin
       genre: History
-      note: "[review](https://faingezicht.com/articles/2022/11/20/books/#alaric-the-goth)"
+      note: "[review](/articles/2022/11/20/books/#alaric-the-goth)"
     - title: Someone Who Will Love You in All Your Damaged Glory
       author: Raphael Bob-Waksberg
       author_last: Bob-Waksberg
       genre: Fiction
-      note: "[review](https://faingezicht.com/articles/2022/11/20/books/#someone-who-will-love-you-in-all-your-damaged-glory)"
+      note: "[review](/articles/2022/11/20/books/#someone-who-will-love-you-in-all-your-damaged-glory)"
     - title: The Ascent of Money
       author: Niall Ferguson
       author_last: Ferguson
       genre: History
-      note: "[review](https://faingezicht.com/articles/2022/11/20/books/#the-ascent-of-money)"
+      note: "[review](/articles/2022/11/20/books/#the-ascent-of-money)"
     - title: Slouching Towards Bethlehem
       author: Joan Didion
       author_last: Didion
       genre: Culture
-      note: "[review](https://faingezicht.com/articles/2022/11/20/books/#slouching-towards-bethlehem)"
+      note: "[review](/articles/2022/11/20/books/#slouching-towards-bethlehem)"
     - title: La Ciudad y Los Perros
       author: Mario Vargas Llosa
       author_last: Vargas
       genre: Fiction
-      note: "[review](https://faingezicht.com/articles/2022/11/20/books/#la-ciudad-y-los-perros)"
+      note: "[review](/articles/2022/11/20/books/#la-ciudad-y-los-perros)"
     - title: For the Time Being
       author: Annie Dillard
       author_last: Dillard
       genre: Philosophy
-      note: "[review](https://faingezicht.com/articles/2022/11/20/books/#for-the-time-being)"
+      note: "[review](/articles/2022/11/20/books/#for-the-time-being)"
     - title: Against The Gods
       author: Peter L. Bernstein
       author_last: Bernstein
       genre: History
-      note: "[review](https://faingezicht.com/articles/2022/11/20/books/#against-the-gods)"
+      note: "[review](/articles/2022/11/20/books/#against-the-gods)"
     - title: 36 Arguments for the Existence of God
       author: Rebecca Goldstein
       author_last: Goldstein
@@ -171,6 +174,7 @@ my_recommendations:
       author: Aleksandr Solzhenitsyn
       author_last: Solzhenitsyn
       genre: Fiction
+      note: "[review](/articles/2022/11/20/books/#one-day-in-the-life-of-ivan-denisovich)"
     - title: In The First Circle
       author: Aleksandr Solzhenitsyn
       author_last: Solzhenitsyn
@@ -351,6 +355,7 @@ my_recommendations:
       author: Sebastian Mallaby
       author_last: Mallaby
       genre: Entrepreneurship/Management
+      note: "[review](/articles/2024/07/01/books/#the-power-law)"
     - title: Zero to One
       author: Peter Thiel
       author_last: Thiel
@@ -402,6 +407,7 @@ my_recommendations:
       genre: Entrepreneurship/Management
       note: "[review](/articles/2019/02/14/books#wtf?-what's-the-future-and-why-it's-up-to-us)"
     - title: The Overstory
+      note: "[review](/articles/2024/07/01/books/#the-overstory)"
       author: Richard Powers
       author_last: Powers
       genre: Fiction
@@ -493,6 +499,7 @@ my_recommendations:
       genre: Entrepreneurship/Management
       author: Julie Zhuo
       author_last: Zhuo
+      note: "[review](/articles/2020/08/24/making-a-manager/)"
     - title: Homage to Catalonia
       genre: History
       author: George Orwell
@@ -507,14 +514,17 @@ my_recommendations:
       author_last: Lepore
       recommended_by: Russ Roberts, Amol Mody
       genre: History
+      note: "[review](/articles/2021/01/08/books#these-truths)"
     - title: Cien Años de Soledad
       author: Gabriel García Márquez
       author_last: Márquez
       genre: Fiction
+      note: "[review](/articles/2021/01/08/books#cien-años-de-soledad)"
     - title: This Life
       author: Martin Hägglund
       author_last: Hägglund
       genre: Philosophy
+      note: "[review](/articles/2021/01/08/books#this-life)"
     - title: The Mind of God
       author: Paul Davies
       author_last: Davies
@@ -528,29 +538,30 @@ my_recommendations:
       author: Ling Ma
       author_last: Ma
       genre: Fiction
-      note: "[review](https://faingezicht.com/articles/2022/11/20/books/#severance)"
+      note: "[review](/articles/2022/11/20/books/#severance)"
     - title: What Tech Calls Thinking
       author: Adrian Daub
       author_last: Daub
       genre: Culture
-      note: "[review](https://faingezicht.com/articles/2022/11/20/books/#what-tech-calls-thinking)"
+      note: "[review](/articles/2022/11/20/books/#what-tech-calls-thinking)"
     - title: Los Palimpsestos
       author: Aleksandra Lun
       author_last: Lun
       recommended_by: Alvaro Videla
-      note: "[review](https://faingezicht.com/articles/2022/11/20/books/#los-palimpsestos)"
+      note: "[review](/articles/2022/11/20/books/#los-palimpsestos)"
       genre: Fiction
     - title: The Namesake
       author: Jumpha Lahiri
       author_last: Lahiri
       genre: Fiction
-      note: "[review](https://faingezicht.com/articles/2019/02/14/books/#namesake)"
+      note: "[review](/articles/2019/02/14/books/#namesake)"
     - title: In Other Words
       author: Jumpha Lahiri
       author_last: Lahiri
       genre: Biography/Memoir
-      note: "[review](https://faingezicht.com/articles/2022/11/20/books/#in-other-words)"
+      note: "[review](/articles/2022/11/20/books/#in-other-words)"
     - title: Bonfire of the Vanities
+      note: "[review](/articles/2024/07/01/books/#the-bonfire-of-the-vanities)"
       author: Tom Wolfe
       author_last: Wolfe
       genre: Fiction
@@ -558,32 +569,79 @@ my_recommendations:
       author: Camille Fournier
       author_last: Fournier
       genre: Entrepreneurship/Management
+      note: "[review](/articles/2024/07/01/books/#the-manager's-path)"
     - title: "Inside Out: A personal history of Pink Floyd"
       author: Nick Mason
       author_last: Mason
       genre: Biography/Memoir
+      note: "[review](/articles/2024/07/01/books/#inside-out)"
     - title: Anarchy, State, and Utopia
       author: Robert Nozick
+      note: "[review](/articles/2024/07/01/books/#anarchy-state-utopia)"
       author_last: Nozick
       genre: Political Science
     - title: Acid for the Children
       author: Flea
       author_last: Flea
       genre: Biography/Memoir
+    - title: A Tale of Love and Darkness
+      author: Amos Oz
+      author_last: Oz
+      genre: Biography/Memoir
+    - title: Kitchen Confidential
+      author: Anthony Bourdain
+      author_last: Bourdain
+      genre: Biography/Memoir
+    - title: The Founder's Dilemmas
+      author: Noam Wasserman
+      author_last: Wasserman
+      genre: Entrepreneurship/Management
+      recommended_by: Leo Polovets
+    - title: La invención de Morel
+      author: Adolfo Bioy Casares
+      author_last: Casares
+      genre: Fiction
+    - title: Founder vs Investor
+      author: Elizabeth Zalman and Jerry Neumann
+      author_last: Zalman
+      genre: Entrepreneurship/Management
+    - title: Blindness
+      author: José Saramago
+      author_last: Saramago
+      genre: Fiction
+    - title: Lords of Finance
+      author: Liaquat Ahamed
+      author_last: Ahamed
+      genre: History
+    - title: Un Verdor Terrible
+      author: Benjamín Labatut
+      author_last: Labatut
+      genre: Fiction
+    - title: Permutation City
+      author: Greg Egan
+      author_last: Egan
+      genre: Science Fiction
+      reccomended_by: Noah Smith
+    - title: Hamilton
+      author: Ron Chernow
+      author_last: Chernow
+      genre: Biography/Memoir
+    - title: "Milton Friedman: The Last Conservative"
+      author: Jennifer Burns
+      author_last: Burns
+      genre: Biography/Memoir
 ---
 
-Last updated: July 2023. If this gets too out of date, I'd [appreciate a reminder](/contact).
+Last updated: July 2024. If this gets too out of date, I'd [appreciate a reminder](/contact).
 
 For a full read and to be read list, [click here](https://docs.google.com/spreadsheets/d/1VkbAVV86-HRxxl0PlCTVl_beF2GjvofUYeVyuNAAQTg).
 
 ### Books read and reviewed, by year
-[2021](/articles/2022/11/20/books/), [2020](/articles/2021/01/08/books/), [2019](/articles/2020/02/09/books/), [2018](/articles/2019/02/14/books/), [2017](/articles/2018/01/07/books/), [2016](/articles/2017/01/06/books/)
+[2022](/articles/2024/07/01/books/), [2021](/articles/2022/11/20/books/), [2020](/articles/2021/01/08/books/), [2019](/articles/2020/02/09/books/), [2018](/articles/2019/02/14/books/), [2017](/articles/2018/01/07/books/), [2016](/articles/2017/01/06/books/)
 
 ### Currently Reading
 {% include book_list.html collection=page.currently_reading %}
 ### On Deck / Hoping To Read Soon
 {% include book_list.html collection=page.on_deck %}
-### Eternally Reading / Unfinished
-{% include book_list.html collection=page.eternal %}
 ### My Recommendations
 {% include book_list.html collection=page.my_recommendations group_by_genre=true %}
