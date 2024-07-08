@@ -9,6 +9,9 @@
 
 {% for post in site.posts %}
     {% assign same_tag_count = 0 %}
+    {% if post.skip_language %}
+        {% continue %}
+    {% endif %}
     {% for tag in post.tags %}
         {% if post.url != page.url %}
             {% if post.category == page.category %}
