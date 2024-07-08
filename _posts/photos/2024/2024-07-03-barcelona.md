@@ -4,6 +4,7 @@ layout: photos
 category: photos
 main_image: barcelona/previews/15.jpeg
 tags: [spain, barcelona, street, travel, nature, friends]
+description: To celebrate their birthdays last March, Hannah and Amol concocted a trip to Spain with our friends. Suprisingly, this was my first time in the country, and it was a great excuse (and impeccable timing) to reconnect with this crew.
 photos:
   - url: barcelona/1.jpeg
     preview_url: barcelona/previews/1.jpeg
@@ -174,4 +175,4 @@ photos:
     preview_url: barcelona/previews/61.jpeg
 ---
 
-To celebrate their birthdays last March, Hannah and Amol concocted a trip to Spain with our friends. Suprisingly, this was my first time in the country, and it was a great excuse (and impeccable timing) to reconnect with this crew. We started out in Barcelona and continued on to San Sebastian. This is the first of two posts about the trip.
+To celebrate their birthdays last March, Hannah and Amol concocted a trip to Spain with our friends. Suprisingly, this was my first time in the country, and it was a great excuse (and impeccable timing) to reconnect with this crew. We started out in Barcelona and continued on to San Sebastian. This is the first of two posts about the trip. You can find part two [here](http://localhost:4000/photos/2024/07/08/san-sebastian/).
