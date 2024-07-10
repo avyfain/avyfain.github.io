@@ -7,7 +7,7 @@ tags: [management, startups, jobs, technology, software engineering, programming
 description: The pull request review process introduces a lot of friction in the development cycle but serves multiple purposes, including knowledge sharing, code quality, and team alignment. It is a worthwhile investment.
 ---
 
-<small><em>Este ensayo también está disponible [en español](/articles/2024/07/09/pull-requests-es/).</em></small>
+<small><em>Este ensayo también está disponible [en español](/articles/2024/07/10/pull-requests-es/).</em></small>
 
 The essay below is a slightly edited version of a document I wrote for my team at Vouch back in 2021 as we scaled the data engineering function. It's a guide to writing good pull requests, and how to review them constructively. The patterns are general enough that they should fit any team, not just one focused on data efforts. The pull request review process introduces a lot of friction in the development cycle but serves multiple purposes, including knowledge sharing, code quality, and team alignment. It is a worthwhile investment.
 

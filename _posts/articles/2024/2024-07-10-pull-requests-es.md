@@ -7,7 +7,7 @@ tags: [management, startups, jobs, technology, software engineering, programming
 skip_language: true
 ---
 
-<small><em>This essay is also available [in English](/articles/2024/07/09/pull-requests/).</em></small>
+<small><em>This essay is also available [in English](/articles/2024/07/10/pull-requests/).</em></small>
 
 El ensayo a continuación es una versión ligeramente editada (y traducida) de un documento que escribí para mi equipo en Vouch en el 2021 cuando escalábamos la función de ingeniería de datos. Es una guía de cómo escribir buenos pull requests y cómo revisarlos de manera constructiva. Los patrones son lo suficientemente generales como para encajar en cualquier equipo, no solo en uno enfocado en proyectos de data. El proceso de revisión de pull requests introduce mucha fricción en el ciclo de desarrollo, pero sirve para múltiples propósitos, incluyendo el intercambio de conocimiento, la calidad del código y la alineación de equipos. Vale la pena la inversión.
 
