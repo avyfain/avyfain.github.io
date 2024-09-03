@@ -35,18 +35,38 @@ Let's break down each of these steps.
 ### 1. Schema Alignment
 Like in most data problems, we start with messy data. Schema alignment is the process of mapping and standardizing data fields from different sources to a common set of attributes. For example, one of your appliance datasets might use `item_name` while another uses `model_name` - schema alignment would recognize these as equivalent and map them to a standardized field name. In some cases, a column might have to be split into multiple fields. For example, a person's name might be split into first, middle, and last names, or a manufacturer's name might be split into its legal name and its "doing business as" (DBA) name.  
 
-<img src="https://cdn.faingezicht.com/er/er1.png" alt="Schema alignment" style="width:70%;">
+<img src="https://cdn.faingezicht.com/er/er1.png" alt="Schema alignment">
 
 The idea here is to end up with a single schema into which we can aggregate every record into, covering all sources, even if there might be some holes across datasets when there isn't a perfect column overlap. In the case where you have a single dataset with duplicates, which is referred to as a "clean" ER task, this step is not necessary.
 
 ### 2. Cleaning and standardization
 Once we know which fields to compare, we need to ensure that they follow the same formats, or if they are numerical that they are in the same units of measurement. For example, the price column in one dataset might be in US Dollars while another is in Euros or, more subtly, one includes tax while another doesn't. Both of these cases require normalization. If working with dates, you want to parse them to all be in a single format (e.g., `YYYY-MM-DD`), or if working with URLs perhaps you want to cut them down to just the [fully qualified domain name](https://en.wikipedia.org/wiki/Fully_qualified_domain_name), removing subdomains and paths. Other strings might require removing punctuation, converting to lowercase, etc.  
 
-<img src="https://cdn.faingezicht.com/er/er2.png" alt="Mappings" style="width:30%;">
+#### Mappings
+
+| Source    | Column Name        | Mapped Name             |
+|-----------|--------------------|-------------------------|
+| Catalog 1 | ID                 | source_id               |
+| Catalog 1 | Manufacturer ID     | manufacturer_product_id |
+| Catalog 1 | Manufacturer        | manufacturer_name       |
+| Catalog 1 | Name               | product_name            |
+| Catalog 1 | MSRP               | price_usd               |
+| Catalog 2 | ID                 | source_id               |
+| Catalog 2 | Brand              | manufacturer_name       |
+| Catalog 2 | Product Name       | product_name            |
+| Catalog 2 | Price (Euros)      | price_usd               |
 
 Making sure data is comparable apples to apples helps with matching, in part because asserting equality is computationally much cheaper than fuzzy matching, but also because it ensures that the final dataset you generate is internally consistent.  
 
-<img src="https://cdn.faingezicht.com/er/er3.png" alt="Consolidated table" style="width:65%;">
+| Source   | source_id    | mfg_name          | product_name                          | mfg_product_id          | price_usd_cents |
+|----------|--------------|-------------------|---------------------------------------|-------------------------|-----------------|
+| Cat. 1   | 5678924      | Black & Decker    | Honeycomb™ Collection 2-Slice Toaster | TR1250WD1               | 5499            |
+| Cat. 1   | 5674678      | Black and Decker  | 2-Slice Toaster                       | TR7827-1BD              | 1999            |
+| Cat. 1   | 5678738      | Black & Decker    | 2-Slice Rapid Toaster                 | TR3501BS                | 4399            |
+| Cat. 2   | a8adfd1378b6 | BLACKANDDECKER    | Honeycomb 2-Slice Toaster             |                         | 5250            |
+| Cat. 2   | ca0b07325c8a | BLACKANDDECKER    | 2 Slice Toaster                       |                         | 1838            |
+| Cat. 2   | 021b2c3bd759 | BLACKANDDECKER    | Two Slice Rapid Toaster               |                         | 3386            |
+
 
 ### 3. Blocking
 As previously mentioned, one of the biggest problems with naive ER is the sheer number of comparisons that need to be made. This is what computer scientists would call an *N^2 problem*, where we'd compare every record to every other record. Blocking is how we reduce the search space by creating a smaller set of candidate pairs to compare. Specifically, the goal is to do a single pass on the dataset and assign each record a "blocking key" using only the information available on that record. In some cases, you might want to create a blocking key per attribute, like a company name or website, and in others, you might want to create a hybrid key that combines multiple attributes. Notice that you should not use the source of your data as a blocking key – nothing assures you that there aren't duplicate rows within a given input source.
@@ -71,7 +91,7 @@ In some cases, we can take advantage of already existing deterministic links bet
 Whether the links came from a probabilistic comparison system, or from a deterministic process, their downstream use is the same. The output of this step is a sequence of `(A, same_as, B)` triples, linking two records. In aggregate, all these links form a graph where each connected component represents N records. If our process works well we can assume, through transitivity, that each subcomponent represents a single real world entity. If you wanted to get fancy, you could assign each link a weight based on the confidence of the match, giving deterministic links a 100% confidence and get yet another threshold to tune on other links to decide if a link should be created or not.
 
 ### 5. Assigning virtual IDs
-<img src="https://cdn.faingezicht.com/er/er5.png" alt="Virtual ID clusters" style="width:30%;">
+<img src="https://cdn.faingezicht.com/er/er5.png" alt="Virtual ID clusters" style="width:400px;">
 
 At this point, we have a graph of linked records with many disconnected subgraphs. By performing a simple graph traversal, we can now assign a unique virtual identifier (VID) to each connected component. This could be a random UUID, but since a long lived system benefits from semi-stable identifiers we can do better. Hashing the attributes of the oldest record in the cluster is one such approach. If the cluster is split, the older half retains the original ID, while the newer half gets a new ID. This ensures that the ID remains stable even as the data changes.
 
