@@ -4,6 +4,7 @@ main_image: oaxaca/previews/84.jpeg
 layout: post
 category: articles
 description: As Wolfram implies, building "one model to rule them all" is a stupid goal
+tags: [data, machine learning, technology, software engineering, programming]
 ---
 
 A few weeks ago, Stephen Wolfram [wrote a piece](https://writings.stephenwolfram.com/2023/01/wolframalpha-as-the-way-to-bring-computational-knowledge-superpowers-to-chatgpt/) on the failure modes of generalized language models, focusing on ChatGPT, and contrasting them to Wolfram\|Alpha's narrow and curated computational engine. You might remember Wolfram\|Alpha as the website that helped you get through calculus more than a decade ago. Unlike ChatGPT, Wolfram's AI tool has not been featured non-stop in the news recently, but it made a splash when first launched and the technology behind it is still popular in scientific circles. Wolfram's critique was just another rant on language model [hallucination](https://en.wikipedia.org/wiki/Hallucination_(artificial_intelligence)), but there was a kernel of insight buried in his post: for a certain class of problems "if ChatGPT 'consulted' Wolfram\|Alpha it’d of course be able to get it right." Wolfram's main point is that there could be a feedback loop in which large language models (LLMs, or simply LMs) improve their performance by acting as interfaces to specialized tools like his, which lie outside of the model's understanding of the world.
