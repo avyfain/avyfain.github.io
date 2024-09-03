@@ -58,6 +58,9 @@ Once we know which fields to compare, we need to ensure that they follow the sam
 
 Making sure data is comparable apples to apples helps with matching, in part because asserting equality is computationally much cheaper than fuzzy matching, but also because it ensures that the final dataset you generate is internally consistent.  
 
+
+#### Consolidated Table
+
 | Source   | source_id    | mfg_name          | product_name                          | mfg_product_id          | price_usd_cents |
 |----------|--------------|-------------------|---------------------------------------|-------------------------|-----------------|
 | Cat. 1   | 5678924      | Black & Decker    | Honeycomb™ Collection 2-Slice Toaster | TR1250WD1               | 5499            |
