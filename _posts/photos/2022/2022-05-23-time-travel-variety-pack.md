@@ -20,7 +20,6 @@ photos:
     caption: Annabelle.
   - url: time-travel-variety-pack/05.jpeg
     preview_url: time-travel-variety-pack/previews/05.jpeg
-    caption: TBD
   - url: time-travel-variety-pack/06.jpeg
     preview_url: time-travel-variety-pack/previews/06.jpeg
     caption: Back in the Mission.
@@ -103,7 +102,6 @@ photos:
     caption: Kate.
   - url: time-travel-variety-pack/35.jpeg
     preview_url: time-travel-variety-pack/previews/35.jpeg
-    caption: TBD
   - url: time-travel-variety-pack/36.jpeg
     preview_url: time-travel-variety-pack/previews/36.jpeg
     caption: Bernal, because why not.
