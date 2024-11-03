@@ -3,27 +3,20 @@ title: Book Pipeline
 layout: page
 show: 0
 currently_reading:
-    - title: Zionism and the Fin de Siècle
-      author: Michael Stanislawski
-      author_last: Stanislawski
-      genre: History
-    - title: Hamilton
-      author: Ron Chernow 
-      author_last: Chernow
-      genre: Biography/Memoir
-    - title: Dialectic of Enlightenment
-      author: Theodor Adorno, Max Horkheimer
-      author_last: Adorno
-      genre: Philosophy
-    - title: Dune
-      author: Frank Herbert
-      author_last: Herbert
-      genre: Science Fiction
+  - title: Berlin Alexanderplatz
+    author: Alfred Döblin
+    author_last: Döblin
+  - title: Anabasis
+    author: Xenophon
+    author_last: Xenophon
+  - title: Ready Player One
+    author: Ernest Cline
+    author_last: Cline
+  - title: Demand Side Sales
+    author: Bob Moesta
+    author_last: Moesta
 
 on_deck:
-    - title: Berlin Alexanderplatz
-      author: Alfred Döblin
-      author_last: Döblin
     - title: Notes On Complexity
       author: Neil Theise
       author_last: Theise
@@ -630,9 +623,17 @@ my_recommendations:
       author: Jennifer Burns
       author_last: Burns
       genre: Biography/Memoir
+    - title: Zionism and the Fin de Siècle
+      author: Michael Stanislawski
+      author_last: Stanislawski
+      genre: History
+    - title: The Verge
+      author: Patrick Wyman
+      author_last: Wyman
+      genre: History
 ---
 
-Last updated: July 2024. If this gets too out of date, I'd [appreciate a reminder](/contact).
+Last updated: October 2024. If this gets too out of date, I'd [appreciate a reminder](/contact).
 
 For a full read and to be read list, [click here](https://docs.google.com/spreadsheets/d/1VkbAVV86-HRxxl0PlCTVl_beF2GjvofUYeVyuNAAQTg).
 
