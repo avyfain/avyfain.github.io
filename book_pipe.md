@@ -638,7 +638,7 @@ Last updated: October 2024. If this gets too out of date, I'd [appreciate a remi
 For a full read and to be read list, [click here](https://docs.google.com/spreadsheets/d/1VkbAVV86-HRxxl0PlCTVl_beF2GjvofUYeVyuNAAQTg).
 
 ### Books read and reviewed, by year
-[2022](/articles/2024/07/01/books/), [2021](/articles/2022/11/20/books/), [2020](/articles/2021/01/08/books/), [2019](/articles/2020/02/09/books/), [2018](/articles/2019/02/14/books/), [2017](/articles/2018/01/07/books/), [2016](/articles/2017/01/06/books/)
+[2023](/articles/2024/12/30/books/), [2022](/articles/2024/07/01/books/), [2021](/articles/2022/11/20/books/), [2020](/articles/2021/01/08/books/), [2019](/articles/2020/02/09/books/), [2018](/articles/2019/02/14/books/), [2017](/articles/2018/01/07/books/), [2016](/articles/2017/01/06/books/)
 
 ### Currently Reading
 {% include book_list.html collection=page.currently_reading %}
