@@ -4,7 +4,7 @@ main_image: barcelona/previews/40.jpeg
 layout: post
 category: articles
 tags: [books, review, religion, philosophy]
-description: This past Saturday, San Francisco had one of its beloved literary events. _Litcrawl_ is a series of readings and conversations held in bookstores, bars, and cafes in the Mission District, and is part of the annual Litquake festival. The first Litcrawl event I went to this year was a discussion on the _Uncanny Possibilities for AI Poetry_, 
+description: I read Augustine's _Confessions_ as part of a Catherine Project class. The book was repeatedly cited by Martin Hägglund in _This Life_, a book I had quite enjoyed reading [a few years before](/articles/2021/01/08/books#this-life), and he emphasized the nuance in understanding Augustine, so I chose to do a guided reading.  
 ---
 
 I read Augustine's _Confessions_ as part of a Catherine Project class. The book was repeatedly cited by Martin Hägglund in _This Life_, a book I had quite enjoyed reading [a few years before](/articles/2021/01/08/books#this-life), and he emphasized the nuance in understanding Augustine, so I chose to do a guided reading. 
