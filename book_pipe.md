@@ -9,7 +9,6 @@ currently_reading:
   - title: Gringo Viejo
     author: Carlos Fuentes
     author_last: Fuentes
-  - 
 
 on_deck:
     - title: Fin-De-Siecle Vienna
