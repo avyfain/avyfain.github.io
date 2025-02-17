@@ -3,20 +3,31 @@ title: Book Pipeline
 layout: page
 show: 0
 currently_reading:
-  - title: Berlin Alexanderplatz
-    author: Alfred Döblin
-    author_last: Döblin
-  - title: Anabasis
-    author: Xenophon
-    author_last: Xenophon
-  - title: Ready Player One
-    author: Ernest Cline
-    author_last: Cline
-  - title: Demand Side Sales
-    author: Bob Moesta
-    author_last: Moesta
+  - title: Les Misérables
+    author: Victor Hugo
+    author_last: Hugo
+  - title: Gringo Viejo
+    author: Carlos Fuentes
+    author_last: Fuentes
+  - 
 
 on_deck:
+    - title: Fin-De-Siecle Vienna
+      author: Carl Schorske
+      author_last: Schorske
+    - title: The world of yesterday
+      author: Stefan Zweig
+      author_last: Zweig
+    - title: Katalin Street
+      author: Magda Szabo
+      author_last: Szabo
+    - title: La Promesa
+      author: Silvina Ocampo
+      author_last: Ocampo
+      genre: Fiction
+    - title: Steppenwolf
+      author: Hermann Hesse
+      author_last: Hesse
     - title: Notes On Complexity
       author: Neil Theise
       author_last: Theise
@@ -44,24 +55,54 @@ on_deck:
     - title: The Phoenix Project
       author: Gene Kim
       author_last: Kim
+    - title: Accelerate
+      author: Nicole Forsgren, Jez Humble, Gene Kim
+      author_last: Forsgren
 
 my_recommendations:
+    - title: Story of Your Life and Others
+      author: Ted Chiang
+      author_last: Chiang
+      genre: Science Fiction
+      recommended_by: Aadik Shekhar
+    - title: Pumpkinflowers
+      author: Matti Friedman
+      author_last: Friedman
+      genre: History
+      recommended_by: Russ Roberts
+    - title: Berlin Alexanderplatz
+      author: Alfred Döblin
+      author_last: Döblin
+      genre: Fiction
+    - title: Ready Player One
+      author: Ernest Cline
+      author_last: Cline
+      genre: Science Fiction
+    - title: La Hojarasca
+      author: Gabriel García Márquez
+      author_last: Márquez
+      genre: Fiction
+      note: "[review](/articles/2024/12/30/books-23/#la-hojarasca)"
     - title: Slouching Towards Utopia
       author: J. Bradford DeLong
       author_last: DeLong
       genre: History
+      note: "[review](/articles/2024/12/30/books-23/#slouching-towards-utopia)"
     - title: The Storyteller
       author: Dave Grohl
       author_last: Grohl
       genre: Biography/Memoir
+      note: "[review](/articles/2024/12/30/books-23/#the-storyteller)"
     - title: My Brilliant Friend (Series)
       author: Elena Ferrante
       author_last: Ferrante
       genre: Fiction
+      note: "[review](/articles/2024/12/30/books-23/#my-brilliant-friend)"
     - title: Skin in the Game
       author: Nassim Nicholas Taleb
       author_last: Taleb
       genre: Philosophy
+      note: "[review](/articles/2024/12/30/books-23/#skin-in-the-game)"
     - title: Triumph of the City
       author: Edward Glaeser
       author_last: Glaeser
@@ -81,7 +122,7 @@ my_recommendations:
       author_last: Ginzburg
       genre: Fiction
       recommended_by: Hannah Doherty
-      note: "[review](/articles/2024/07/01/books/#the-year-of-magical-thinking)"
+      note: "[review](/articles/2024/07/01/books/#family-lexicon)"
     - title: The Year of Magical Thinking
       author: Joan Didion
       author_last: Didion
@@ -109,7 +150,7 @@ my_recommendations:
       author_last: Gray
       genre: History
       note: "[review](/articles/2022/11/20/books/#black-mass)"
-    - title: La casa de los espíritus
+    - title: La casa de los Espíritus
       author: Isabel Allende
       author_last: Allende
       genre: Fiction
@@ -577,14 +618,17 @@ my_recommendations:
       author: Flea
       author_last: Flea
       genre: Biography/Memoir
+      note: "[review](/articles/2024/12/30/books-23/#acid-for-the-children)"
     - title: A Tale of Love and Darkness
       author: Amos Oz
       author_last: Oz
       genre: Biography/Memoir
+      note: "[review](/articles/2024/12/30/books-23/#tale-of-love-and-darkness)"
     - title: Kitchen Confidential
       author: Anthony Bourdain
       author_last: Bourdain
       genre: Biography/Memoir
+      note: "[review](/articles/2024/12/30/books-23/#kitchen-confidential)"
     - title: The Founder's Dilemmas
       author: Noam Wasserman
       author_last: Wasserman
@@ -594,14 +638,17 @@ my_recommendations:
       author: Adolfo Bioy Casares
       author_last: Casares
       genre: Fiction
+      note: "[review](/articles/2024/12/30/books-23/#la-invención-de-morel)"
     - title: Founder vs Investor
       author: Elizabeth Zalman and Jerry Neumann
       author_last: Zalman
       genre: Entrepreneurship/Management
+      note: "[review](/articles/2024/12/30/books-23/#founder-vs-investor"
     - title: Blindness
       author: José Saramago
       author_last: Saramago
       genre: Fiction
+      note: "[review](/articles/2024/12/30/books-23/#blindness"
     - title: Lords of Finance
       author: Liaquat Ahamed
       author_last: Ahamed
@@ -631,9 +678,18 @@ my_recommendations:
       author: Patrick Wyman
       author_last: Wyman
       genre: History
+    - title: Las batallas en el desierto
+      author: José Emilio Pacheco
+      author_last: Pacheco
+      genre: Fiction
+    - title: The Beginning of Infinity
+      author: David Deutsch
+      author_last: Deutsch
+      genre: Science
+    
 ---
 
-Last updated: October 2024. If this gets too out of date, I'd [appreciate a reminder](/contact).
+Last updated: February 2025. If this gets too out of date, I'd [appreciate a reminder](/contact).
 
 For a full read and to be read list, [click here](https://docs.google.com/spreadsheets/d/1VkbAVV86-HRxxl0PlCTVl_beF2GjvofUYeVyuNAAQTg).
 
