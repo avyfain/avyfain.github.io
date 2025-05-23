@@ -1,6 +1,6 @@
 ---
 title: "Hide the model: On shallow product thinking"
-main_image: time-travel-variety-pack/previews/06.jpeg
+main_image: nyc2024/previews/36.jpeg
 layout: post
 category: articles
 tags: [data, machine learning, ai, technology, literature]
@@ -34,5 +34,5 @@ The winners won't be those that talk about agents or tool use and push the think
 <hr>
 
 <small>
-<em>Photo: House of Brakes (Stop, and think), by me. Previously posted on [Time Travel Variety Pack](/photos/2022/05/23/time-travel-variety-pack/).
+<em>Photo: Guggenheim Staircase, by me. Previously posted on [New York, 2024](/photos/2025/02/17/nyc2024/).
 </em></small>

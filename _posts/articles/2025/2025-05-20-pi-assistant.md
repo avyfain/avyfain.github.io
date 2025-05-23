@@ -27,5 +27,5 @@ I get the instinct to resist this idea. Scientists are trained to be skeptical. 
 <hr>
 
 <small>
-<em>Photo: Ideas, Reflections of Ourselves, by me.
+<em>Photo: Ideas, Reflections of Ourselves, by me. Previously posted on [CDMX, 2025](/photos/2025/05/21/cdmx25/).
 </em></small>
