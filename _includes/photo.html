@@ -19,8 +19,6 @@
         <p>{{ page.end_comment | markdownify }}</p>
         </br>
     {% endif %}
-    <p>Want to see more photos like these? Sign up below:</p>
-    {% include subscribe_form.html %}
 {% else %}
     <a href='{{include.page.url}}'>More...</a>
 {% endif %}
