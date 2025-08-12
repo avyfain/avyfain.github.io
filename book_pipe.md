@@ -3,20 +3,26 @@ title: Book Pipeline
 layout: page
 show: 0
 currently_reading:
-  - title: Les Misérables
-    author: Victor Hugo
-    author_last: Hugo
-  - title: Gringo Viejo
-    author: Carlos Fuentes
-    author_last: Fuentes
+  - title: The world of yesterday
+    author: Stefan Zweig
+    author_last: Zweig
+  - title: An Engine, not a Camera
+    author: Donald MacKenzie
+    author_last: MacKenzie
+  - title: Bowling Alone
+    author: Robert Putnam
+    author_last: Putnam
+  - title: American Pastoral
+    author: Philip Roth
+    author_last: Roth
+  - title: Financial Shenanigans
+    author: Howard Schilit
+    author_last: Schilit
 
 on_deck:
     - title: Fin-De-Siecle Vienna
       author: Carl Schorske
       author_last: Schorske
-    - title: The world of yesterday
-      author: Stefan Zweig
-      author_last: Zweig
     - title: Katalin Street
       author: Magda Szabo
       author_last: Szabo
@@ -24,9 +30,6 @@ on_deck:
       author: Silvina Ocampo
       author_last: Ocampo
       genre: Fiction
-    - title: Steppenwolf
-      author: Hermann Hesse
-      author_last: Hesse
     - title: Notes On Complexity
       author: Neil Theise
       author_last: Theise
@@ -59,24 +62,36 @@ on_deck:
       author_last: Forsgren
 
 my_recommendations:
-    - title: Story of Your Life and Others
+    - title: If on a winter's night a traveler
+      author: Italo Calvino
+      author_last: Calvino
+      genre: Fiction
+    - title: Gringo Viejo
+      author: Carlos Fuentes
+      author_last: Fuentes
+      genre: Fiction
+    - title: Stories of Your Life and Others
       author: Ted Chiang
       author_last: Chiang
       genre: Science Fiction
       recommended_by: Aadik Shekhar
+      note: "[review](/articles/2025/08/03/books-24/#stories-of-your-life-and-others)"
     - title: Pumpkinflowers
       author: Matti Friedman
       author_last: Friedman
       genre: History
       recommended_by: Russ Roberts
+      note: "[review](/articles/2025/08/03/books-24/#pumpkinflowers)"
     - title: Berlin Alexanderplatz
       author: Alfred Döblin
       author_last: Döblin
       genre: Fiction
+      note: "[review](/articles/2025/08/03/books-24/#berlin-alexanderplatz)"
     - title: Ready Player One
       author: Ernest Cline
       author_last: Cline
       genre: Science Fiction
+      note: "[review](/articles/2025/08/03/books-24/#ready-player-one)"
     - title: La Hojarasca
       author: Gabriel García Márquez
       author_last: Márquez
@@ -96,7 +111,7 @@ my_recommendations:
       author: Elena Ferrante
       author_last: Ferrante
       genre: Fiction
-      note: "[review](/articles/2024/12/30/books-23/#my-brilliant-friend)"
+      note: "[review](/articles/2025/08/12/books-24/#my-brilliant-friend)"
     - title: Skin in the Game
       author: Nassim Nicholas Taleb
       author_last: Taleb
@@ -656,27 +671,33 @@ my_recommendations:
       author: Benjamín Labatut
       author_last: Labatut
       genre: Fiction
+      note: "[review](/articles/2025/08/12/books-24/#un-verdor-terrible)"
     - title: Permutation City
       author: Greg Egan
       author_last: Egan
       genre: Science Fiction
       reccomended_by: Noah Smith
+      note: "[review](/articles/2025/08/12/books-24/#permutation-city)"
     - title: Hamilton
       author: Ron Chernow
       author_last: Chernow
       genre: Biography/Memoir
+      note: "[review](/articles/2025/08/12/books-24/#hamilton)"
     - title: "Milton Friedman: The Last Conservative"
       author: Jennifer Burns
       author_last: Burns
       genre: Biography/Memoir
+      note: "[review](/articles/2025/08/12/books-24/#milton-friedman-the-last-conservative)"
     - title: Zionism and the Fin de Siècle
       author: Michael Stanislawski
       author_last: Stanislawski
       genre: History
+      note: "[review](/articles/2025/08/12/books-24/#zionism-and-the-fin-de-siecle)"
     - title: The Verge
       author: Patrick Wyman
       author_last: Wyman
       genre: History
+      note: "[review](/articles/2025/08/12/books-24/#the-verge)"
     - title: Las batallas en el desierto
       author: José Emilio Pacheco
       author_last: Pacheco
@@ -688,7 +709,7 @@ my_recommendations:
     
 ---
 
-Last updated: February 2025. If this gets too out of date, I'd [appreciate a reminder](/contact).
+Last updated: August 2025. If this gets too out of date, I'd [appreciate a reminder](/contact).
 
 For a full read and to be read list, [click here](https://docs.google.com/spreadsheets/d/1VkbAVV86-HRxxl0PlCTVl_beF2GjvofUYeVyuNAAQTg).
 
