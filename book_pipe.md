@@ -3,12 +3,6 @@ title: Book Pipeline
 layout: page
 show: 0
 currently_reading:
-  - title: Paula
-    author: Isabel Allende
-    author_last: Allende
-  - title: An Engine, not a Camera
-    author: Donald MacKenzie
-    author_last: MacKenzie
   - title: Bowling Alone
     author: Robert Putnam
     author_last: Putnam
@@ -18,6 +12,19 @@ currently_reading:
   - title: Financial Shenanigans
     author: Howard Schilit
     author_last: Schilit
+  - title: Reminiscences of a Stock Operator
+    author: Edwin Lefèvre
+    author_last: Lefèvre
+  - title: Crime and Punishment
+    author: Fyodor Dostoevsky
+    author_last: Dostoevsky
+  - title: Complete Family Wealth
+    author: James E. Hughes Jr.
+    author_last: Hughes
+  - title: Disgrace
+    author: J. M. Coetzee
+    author_last: Coetzee
+    genre: Fiction
 
 on_deck:
     - title: Fin-De-Siecle Vienna
@@ -60,12 +67,28 @@ on_deck:
     - title: Accelerate
       author: Nicole Forsgren, Jez Humble, Gene Kim
       author_last: Forsgren
+    - title: Deep Utopia
+      author: Nick Bostrom
+      author_last: Bostrom
+      genre: Philosophy
+    - title: Diamonds, Gold, and War
+      author: Martin Meredith
+      author_last: Meredith
+      genre: History
 
 my_recommendations:
-    - title: The world of yesterday
+    - title: July's People
+      author: Nadine Gordimer
+      author_last: Gordimer
+      genre: Fiction
+    - title: The World of Yesterday
       author: Stefan Zweig
       author_last: Zweig
       genre: Biography/Memoir
+    - title: An Engine, not a Camera
+      author: Donald MacKenzie
+      author_last: MacKenzie
+      genre: Economics
     - title: If on a winter's night a traveler
       author: Italo Calvino
       author_last: Calvino
@@ -713,7 +736,7 @@ my_recommendations:
     
 ---
 
-Last updated: August 2025. If this gets too out of date, I'd [appreciate a reminder](/contact).
+Last updated: November 2025. If this gets too out of date, I'd [appreciate a reminder](/contact).
 
 For a full read and to be read list, [click here](https://docs.google.com/spreadsheets/d/1VkbAVV86-HRxxl0PlCTVl_beF2GjvofUYeVyuNAAQTg).
 
