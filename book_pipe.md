@@ -3,9 +3,9 @@ title: Book Pipeline
 layout: page
 show: 0
 currently_reading:
-  - title: The world of yesterday
-    author: Stefan Zweig
-    author_last: Zweig
+  - title: Paula
+    author: Isabel Allende
+    author_last: Allende
   - title: An Engine, not a Camera
     author: Donald MacKenzie
     author_last: MacKenzie
@@ -62,6 +62,10 @@ on_deck:
       author_last: Forsgren
 
 my_recommendations:
+    - title: The world of yesterday
+      author: Stefan Zweig
+      author_last: Zweig
+      genre: Biography/Memoir
     - title: If on a winter's night a traveler
       author: Italo Calvino
       author_last: Calvino
@@ -714,7 +718,7 @@ Last updated: August 2025. If this gets too out of date, I'd [appreciate a remin
 For a full read and to be read list, [click here](https://docs.google.com/spreadsheets/d/1VkbAVV86-HRxxl0PlCTVl_beF2GjvofUYeVyuNAAQTg).
 
 ### Books read and reviewed, by year
-[2023](/articles/2024/12/30/books/), [2022](/articles/2024/07/01/books/), [2021](/articles/2022/11/20/books/), [2020](/articles/2021/01/08/books/), [2019](/articles/2020/02/09/books/), [2018](/articles/2019/02/14/books/), [2017](/articles/2018/01/07/books/), [2016](/articles/2017/01/06/books/)
+[2024](/articles/2025/08/12/books-24/), [2023](/articles/2024/12/30/books/), [2022](/articles/2024/07/01/books/), [2021](/articles/2022/11/20/books/), [2020](/articles/2021/01/08/books/), [2019](/articles/2020/02/09/books/), [2018](/articles/2019/02/14/books/), [2017](/articles/2018/01/07/books/), [2016](/articles/2017/01/06/books/)
 
 ### Currently Reading
 {% include book_list.html collection=page.currently_reading %}
