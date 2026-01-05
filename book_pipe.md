@@ -12,27 +12,15 @@ currently_reading:
   - title: Financial Shenanigans
     author: Howard Schilit
     author_last: Schilit
-  - title: Reminiscences of a Stock Operator
-    author: Edwin Lefèvre
-    author_last: Lefèvre
-  - title: Crime and Punishment
-    author: Fyodor Dostoevsky
-    author_last: Dostoevsky
-  - title: Complete Family Wealth
-    author: James E. Hughes Jr.
-    author_last: Hughes
-  - title: Disgrace
-    author: J. M. Coetzee
-    author_last: Coetzee
+  - title: Solenoid
+    author: Mircea Cărtărescu
+    author_last: Cărtărescu
     genre: Fiction
 
 on_deck:
     - title: Fin-De-Siecle Vienna
       author: Carl Schorske
       author_last: Schorske
-    - title: Katalin Street
-      author: Magda Szabo
-      author_last: Szabo
     - title: La Promesa
       author: Silvina Ocampo
       author_last: Ocampo
@@ -75,6 +63,30 @@ on_deck:
       author: Martin Meredith
       author_last: Meredith
       genre: History
+    - title: Breakneck
+      author: Dan Wang
+      author_last: Wang
+      genre: Fiction
+    - title: Two Kinds of Time 
+      author: Graham Peck
+      author_last: Peck
+      genre: History
+    - title: Hidden Globe
+      author: Atossa Araxia Abrahamian 
+      author_last: Abrahamian
+      genre: History
+    - title: Palo Alto
+      author: Malcolm Harry
+      author_last: Harry
+      genre: History
+    - title: "Hayek: A Life, 1899–1950"
+      author: Bruce Caldwell
+      author_last: Caldwell
+      genre: Biography/Memoir
+    - title: 1929
+      author: Andrew Sorkin
+      author_last: Sorkin
+      genre: History
 
 my_recommendations:
     - title: July's People
@@ -85,18 +97,22 @@ my_recommendations:
       author: Stefan Zweig
       author_last: Zweig
       genre: Biography/Memoir
+      note: "[review](/articles/2026/01/05/books/#the-world-of-yesterday)"
     - title: An Engine, not a Camera
       author: Donald MacKenzie
       author_last: MacKenzie
       genre: Economics
+      note: "[review](/articles/2026/01/05/books/#an-engine-not-a-camera)"
     - title: If on a winter's night a traveler
       author: Italo Calvino
       author_last: Calvino
       genre: Fiction
+      note: "[review](/articles/2026/01/05/books/#if-on-a-winters-night-a-traveler)"
     - title: Gringo Viejo
       author: Carlos Fuentes
       author_last: Fuentes
       genre: Fiction
+      note: "[review](/articles/2026/01/05/books/#gringo-viejo)"
     - title: Stories of Your Life and Others
       author: Ted Chiang
       author_last: Chiang
@@ -729,19 +745,28 @@ my_recommendations:
       author: José Emilio Pacheco
       author_last: Pacheco
       genre: Fiction
+      note: "[review](/articles/2026/01/05/books/#las-batallas-en-el-desierto)"
     - title: The Beginning of Infinity
       author: David Deutsch
       author_last: Deutsch
       genre: Science
-    
+      note: "[review](/articles/2026/01/05/books/#the-beginning-of-infinity)"
+    - title: Steppenwolf
+      author: Hermann Hesse
+      author_last: Hesse
+      genre: Fiction
+      note: "[review](/articles/2026/01/05/books/#steppenwolf)"
+    - title: Katalin Street
+      author: Magda Szabo
+      author_last: Szabo
+      genre: Fiction
+      note: "[review](/articles/2026/01/05/books/#katalin-street)"
 ---
 
-Last updated: November 2025. If this gets too out of date, I'd [appreciate a reminder](/contact).
-
-For a full read and to be read list, [click here](https://docs.google.com/spreadsheets/d/1VkbAVV86-HRxxl0PlCTVl_beF2GjvofUYeVyuNAAQTg).
+Last updated: January 2026. If this gets too out of date, I'd [appreciate a reminder](/contact).
 
 ### Books read and reviewed, by year
-[2024](/articles/2025/08/12/books-24/), [2023](/articles/2024/12/30/books/), [2022](/articles/2024/07/01/books/), [2021](/articles/2022/11/20/books/), [2020](/articles/2021/01/08/books/), [2019](/articles/2020/02/09/books/), [2018](/articles/2019/02/14/books/), [2017](/articles/2018/01/07/books/), [2016](/articles/2017/01/06/books/)
+[2025](/articles/2026/01/05/books/), [2024](/articles/2025/08/12/books-24/), [2023](/articles/2024/12/30/books/), [2022](/articles/2024/07/01/books/), [2021](/articles/2022/11/20/books/), [2020](/articles/2021/01/08/books/), [2019](/articles/2020/02/09/books/), [2018](/articles/2019/02/14/books/), [2017](/articles/2018/01/07/books/), [2016](/articles/2017/01/06/books/)
 
 ### Currently Reading
 {% include book_list.html collection=page.currently_reading %}
