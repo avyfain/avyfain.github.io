@@ -8,3 +8,4 @@ _site
 Gemfile.lock
 img/*
 .ruby-version
+scratch/*
