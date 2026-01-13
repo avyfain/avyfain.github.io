@@ -9,7 +9,8 @@ then
     exit 1
 fi
 
-python scripts/exif_order.py -i $DIR
+python scripts/retitle.py -i $DIR
+# python scripts/exif_order.py -i $DIR
 python scripts/resize_photos.py -i $DIR
 /Applications/ImageOptim.app/Contents/MacOS/ImageOptim $DIR*
 python scripts/upload_to_s3.py -i $DIR --no-dryrun
