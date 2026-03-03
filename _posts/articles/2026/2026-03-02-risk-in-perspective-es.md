@@ -26,7 +26,7 @@ Se encontraron. Él armó una segunda familia pasados los cincuenta. Ya entrando
 
 Su fortaleza es inspiradora. Hace que la palabra "riesgo" se me quede chiquita, casi que pegada en la boca.
 
-Cuando pienso en lo que quiero hacer, me siento a la vez ambicioso e impaciente. Me dan ganas de empezar algo por el reto de hacer tener un impacto, no porque mi familia lo necesite para sobrevivir. Solo puedo darme ese lujo por ellos.
+Cuando pienso en lo que quiero hacer, me siento a la vez ambicioso e impaciente. Me dan ganas de empezar algo por el reto de tener un impacto, no porque mi familia lo necesite para sobrevivir. Solo puedo darme ese lujo por ellos.
 
 Pienso en Zaidi Abraham y Buba Sarah armando un faro a punta de amistad y esfuerzo.
 
