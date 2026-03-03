@@ -70,6 +70,7 @@ def main():
 
     full_path = '_posts/photos/{}/{}-{}-{}-{}.md'.format(y, y, m, d, fname)
 
+    os.makedirs(os.path.dirname(full_path), exist_ok=True)
     with open(full_path, 'w') as f:
         f.write(FRONT_MATTER.format(fname, thumbnail_idx, '\n'.join(photo_gen)))
     print("Successfully generated a post at", full_path)
