@@ -5,11 +5,12 @@ layout: post
 category: articles
 tags: [family, startups, san francisco]
 skip_language: true
+description: En mi burbuja cómoda en tech, en San Francisco en el 2026, tomar riesgos es un rasgo de personalidad. Fracasar, para la mayoría en mis círculos, es volver a un salario de seis cifras. Mis abuelos no habrían reconocido eso como un riesgo del todo.
 ---
 
 <small><em>This essay is also available [in English](/articles/2026/03/02/risk-in-perspective/).</em></small>
 
-En mi burbuja cómoda en tech, en San Francisco en el 2026, tomar riesgos es un rasgo de personalidad. Fracasar, para la mayoría en mis círculos, es volver a un salario de seis cifras. Mis abuelos no habrían reconocido eso como un riesgo. Abraham fue un pionero quien, junto a su esposa Sarah Rivka, ancló la comunidad en la que crecí. Betty, tan solo una adolescente, se convirtió en la proveedora de su familia. David fue obligado a reconstruir su vida tres veces.
+En mi burbuja cómoda en tech, en San Francisco en el 2026, tomar riesgos es un rasgo de personalidad. Fracasar, para la mayoría en mis círculos, es volver a un salario de seis cifras. Mis abuelos no habrían reconocido eso como un riesgo del todo. Abraham fue un pionero quien, junto a su esposa Sarah Rivka, ancló la comunidad en la que crecí. Betty, tan solo una adolescente, se convirtió en la proveedora de su familia. David fue obligado a reconstruir su vida tres veces.
 
 Lanzarse al vacío es más fácil cuando uno tiene menos que perder. Cuando el piso ya se está hundiendo, la opción riesgosa *es* la apuesta segura. Mis abuelos no tomaron el tipo de riesgo que la gente romantiza en San Francisco. Lo de ellos no era buscar autorrealización ni hacer carrera, sino la vida pegándoles en la cara. Nada de "fail fast," y nada de aprender en público.
 
