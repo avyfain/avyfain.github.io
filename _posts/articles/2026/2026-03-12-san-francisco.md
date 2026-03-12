@@ -49,12 +49,11 @@ The outcomes are undeniable: when housing is scarce, every other progressive goa
 
 It's easy to signal that you want immigrants here, but hard to give up a bit of your pie for others.
 
-This blog post is an extension of [a Twitter thread](https://x.com/avyfain/status/1802028720607375745) I first posted back in 2024.
-
 [^1]:  The importance of building in general, but specifically building *where jobs are,* is discussed at length by Alain Bertaud in his book [Order Without Design](https://direct.mit.edu/books/monograph/4148/Order-without-DesignHow-Markets-Shape-Cities). I [recommend it](https://faingezicht.com/articles/2022/11/20/books/#order-without-design) wholeheartedly.
 
 <hr>
-<small><em>Thanks to Hannah Doherty for her comments on early drafts of this essay.
+<small><em>Thanks to Hannah Doherty for her comments on early drafts of this essay. This blog post is an extension of [a Twitter thread](https://x.com/avyfain/status/1802028720607375745) I first posted back in 2024.
+
 <br>
 <br>
 Photo: San Francisco Contrasts, by me. Previously posted on [H1 '25 Variety Pack](/photos/2025/06/15/25-variety-pack/).
