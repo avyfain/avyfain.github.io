@@ -2,8 +2,12 @@
 <meta name="twitter:creator" content="@avyfain">
 
 {% if page.main_image and page.main_image contains 'http' %}
-    <meta name="twitter:image" content="{{ page.main_image }}">
-    <meta property="og:image"  content="{{ page.main_image }}">
+    {% assign meta_image = page.main_image %}
+    {% if page.main_image_small and page.main_image_small != '' %}
+        {% assign meta_image = page.main_image_small %}
+    {% endif %}
+    <meta name="twitter:image" content="{{ meta_image }}">
+    <meta property="og:image"  content="{{ meta_image }}">
 {% elsif page.main_image %}
     <meta name="twitter:image" content="{{ site.image_path }}{{ page.main_image }}">
     <meta property="og:image"  content="{{ site.image_path }}{{ page.main_image }}">
