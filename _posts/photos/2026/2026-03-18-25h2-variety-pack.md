@@ -126,7 +126,7 @@ photos:
     class: photo-half end
   - url: 25h2-variety-pack/45.jpeg
     preview_url: 25h2-variety-pack/previews/45.jpeg
-    caption: I went on a coffee walk or five with Joe, who I then proceeeded to force to walk with me to take this photo. He was a good sport. The photo didn't come out great, though.
+    caption: I went on a coffee walk or two with Joe. I forced him to walk around Gastown with me to take this photo. He was a good sport. The coffee was amazing, the photo didn't come out great, though.
   - url: 25h2-variety-pack/46.jpeg
     preview_url: 25h2-variety-pack/previews/46.jpeg
   - url: 25h2-variety-pack/47.jpeg
